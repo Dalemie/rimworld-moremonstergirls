@@ -3,55 +3,31 @@
   <ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsArmsTail">
     <defName>Baphomet</defName>
     <label>baphomet</label>
-    <description>A sly and cunning animal. Baphomets are most often found hunting in forestes and grasslands.</description>
+    <description>A hircine and demonic creature that is uncommonly spotted in the woods. Despite their intimidating appearance, Baphomet are herbivores. They do not trust easily, but can serve as a terrifying guardian. The females also produce a moderate amount of milk.</description>
     <statBases>
-      <MoveSpeed>5</MoveSpeed>
-      <ComfyTemperatureMin>-10</ComfyTemperatureMin>
+      <MoveSpeed>4.30</MoveSpeed>
+      <ComfyTemperatureMin>-80</ComfyTemperatureMin>
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
-      <MarketValue>450</MarketValue>
+      <MarketValue>750</MarketValue>
       <Wildness>0.65</Wildness>
     </statBases>
     <comps>
 		<li Class="CompProperties_Milkable">
 			<milkDef>BaphometMilk</milkDef>
-			<milkIntervalDays>1</milkIntervalDays>
+			<milkIntervalDays>2</milkIntervalDays>
 			<milkAmount>10</milkAmount>
 		</li>
     </comps>
     <tools>
       <li>
-        <label>left claw</label>
+        <label>horn</label>
         <capacities>
           <li>Scratch</li>
+          <li>Stab</li>
         </capacities>
-        <power>8</power>
-        <cooldownTime>1.5</cooldownTime>
-        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
-        <surpriseAttack>
-          <extraMeleeDamages>
-            <li>
-              <def>Stun</def>
-              <amount>16</amount>
-            </li>
-          </extraMeleeDamages>
-        </surpriseAttack>
-      </li>
-      <li>
-        <label>right claw</label>
-        <capacities>
-          <li>Scratch</li>
-        </capacities>
-        <power>8</power>
-        <cooldownTime>1.5</cooldownTime>
-        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
-        <surpriseAttack>
-          <extraMeleeDamages>
-            <li>
-              <def>Stun</def>
-              <amount>16</amount>
-            </li>
-          </extraMeleeDamages>
-        </surpriseAttack>
+        <power>18</power>
+        <cooldownTime>2.15</cooldownTime>
+        <linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
       </li>
       <li>
         <label>jaw</label>
@@ -93,28 +69,27 @@
       <petness>0.5</petness>
       <leatherDef>Leather_Baphomet</leatherDef>
       <meatLabel>baphomet meat</meatLabel>
-      <gestationPeriodDays>30</gestationPeriodDays>
+      <gestationPeriodDays>28</gestationPeriodDays>
       <predator>true</predator>
       <trainability>Advanced</trainability>
       <packAnimal>false</packAnimal>
-      <lifeExpectancy>60</lifeExpectancy>
+      <lifeExpectancy>57</lifeExpectancy>
       <litterSizeCurve>
         <points>
           <li>(0.5, 0)</li>
           <li>(1, 1)</li>
-          <li>(3, 1)</li>
           <li>(3.5, 0)</li>
         </points>
       </litterSizeCurve>
       <nameOnTameChance>0.1</nameOnTameChance>
       <nameOnNuzzleChance>0.35</nameOnNuzzleChance>
       <wildBiomes>
-        <Tundra>0</Tundra>
-        <IceSheet>0.1</IceSheet>
+        <Tundra>0.01</Tundra>
+        <IceSheet>0.0</IceSheet>
         <SeaIce>0</SeaIce>
         <TropicalRainforest>0</TropicalRainforest>
-        <TemperateForest>0.3</TemperateForest>
-        <BorealForest>0.2</BorealForest>
+        <TemperateForest>0.01</TemperateForest>
+        <BorealForest>0.03</BorealForest>
         <AridShrubland>0</AridShrubland>
         <Desert>0</Desert>
         <ExtremeDesert>0</ExtremeDesert>
@@ -129,11 +104,11 @@
         </li>
         <li>
           <def>AnimalJuvenile</def>
-          <minAge>0.25</minAge>
+          <minAge>0.3</minAge>
         </li>
         <li>
           <def>AnimalAdult</def>
-          <minAge>1.0</minAge>
+          <minAge>0.9</minAge>
         </li>
       </lifeStageAges>
       <nuzzleMtbHours>24</nuzzleMtbHours>
@@ -154,8 +129,8 @@
     <label>baphomet</label>
     <labelPlural>baphomets</labelPlural>
     <race>Baphomet</race>
-    <combatPower>85</combatPower>
-    <ecoSystemWeight>0.15</ecoSystemWeight>
+    <combatPower>240</combatPower>
+    <ecoSystemWeight>1.2</ecoSystemWeight>
     <wildGroupSize>
       <min>1</min>
       <max>2</max>

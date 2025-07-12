@@ -127,6 +127,13 @@
               </groups>
               <parts>
                 <li>
+                  <def>Horn</def>
+                  <coverage>0.1</coverage>
+                  <groups>
+                    <li>HornAttackTool</li>
+                  </groups>
+                </li>
+                <li>
                   <def>Skull</def>
                   <coverage>0.18</coverage>
                   <depth>Inside</depth>
