@@ -144,7 +144,7 @@
       <min>3</min>
       <max>9</max>
     </wildGroupSize>
-    <minGenerationAge>0.1</minGenerationAge>
+    <minGenerationAge>1</minGenerationAge>
     <maxGenerationAge>55</maxGenerationAge>
     <labelMale>harpyman</labelMale>
     <labelFemale>harpy</labelFemale>

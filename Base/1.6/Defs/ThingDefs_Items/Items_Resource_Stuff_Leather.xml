@@ -77,6 +77,9 @@
     <defName>Leather_Harpy</defName>
     <label>harpy leather</label>
     <description>Tanned, dried, scraped harpy skin.  Provides some protection against heat and somewhat insulates against blows</description>
+    <graphicData>
+      <color>140,80,80</color>
+    </graphicData>
     <statBases>
       <MarketValue>3.2</MarketValue>
       <StuffPower_Armor_Blunt>2</StuffPower_Armor_Blunt>
@@ -91,6 +94,9 @@
     <defName>Leather_BlackHarpy</defName>
     <label>black harpy leather</label>
     <description>Tanned, dried, scraped black harpy skin.  Provides some protection against cold and somewhat insulates against blows</description>
+    <graphicData>
+      <color>80,60,60</color>
+    </graphicData>
     <statBases>
       <MarketValue>4.2</MarketValue>
       <StuffPower_Armor_Sharp>2</StuffPower_Armor_Sharp>
@@ -106,6 +112,9 @@
     <defName>Leather_FairyForest</defName>
     <label>fairyskin</label>
     <description>Tanned, dried, scraped skin of a delicate, defenceless forest fairy... Completely average in terms of stats.  Hope you can live with yourself... You Monster!</description>
+    <graphicData>
+      <color>190,220,200</color>
+    </graphicData>
     <statBases>
       <MarketValue>4.5</MarketValue>
     </statBases>
@@ -118,6 +127,9 @@
     <defName>Leather_FairyIce</defName>
     <label>ice fairyskin</label>
     <description>Tanned, dried, scraped skin of a delicate, defenceless ice fairy... Very high cold insulation.  Hope you can live with yourself... You Monster!</description>
+    <graphicData>
+      <color>190,190,220</color>
+    </graphicData>
     <statBases>
       <MarketValue>4.5</MarketValue>
       <StuffPower_Insulation_Cold>75</StuffPower_Insulation_Cold>
@@ -131,6 +143,9 @@
     <defName>Leather_Thrumbomorph</defName>
     <label>thrumbomorph leather</label>
     <description>Tanned, dried, and scraped skin of a thrumbomorph  Good all-round insulator and damage absorber</description>
+    <graphicData>
+      <color>233,233,233</color>
+    </graphicData>
     <statBases>
       <MarketValue>7.5</MarketValue>
       <StuffPower_Armor_Sharp>2.25</StuffPower_Armor_Sharp>
@@ -147,6 +162,9 @@
     <defName>Leather_Slime</defName>
     <label>slime membrane</label>
     <description>The outer membrane of a dead slime carefully peeled off.  Quite a good insulator and damage absorber</description>
+    <graphicData>
+      <color>140,80,140</color>
+    </graphicData>
     <statBases>
       <MarketValue>5</MarketValue>
       <StuffPower_Armor_Sharp>2.2</StuffPower_Armor_Sharp>
@@ -162,6 +180,9 @@
     <defName>Leather_Imp</defName>
     <label> imp leather</label>
     <description>Tanned, dried, and scraped skin of an imp. Offers some damage and heat protection.</description>
+    <graphicData>
+      <color>254,171,151</color>
+    </graphicData>
     <statBases>
       <MarketValue>5</MarketValue>
       <StuffPower_Armor_Sharp>1.8</StuffPower_Armor_Sharp>
@@ -177,6 +198,9 @@
     <defName>Leather_Dragon</defName>
     <label>dragonskin</label>
     <description>Tanned, dried, and scraped skin of a dragonoid. Offers some damage and heat protection.</description>
+    <graphicData>
+      <color>221,161,111</color>
+    </graphicData>
     <statBases>
       <MarketValue>7</MarketValue>
       <StuffPower_Armor_Sharp>2.5</StuffPower_Armor_Sharp>
