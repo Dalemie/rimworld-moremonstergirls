@@ -6,6 +6,5 @@ Source/obj/
 Thumbs.db
 packages/
 *.dds
-*.dll
 .vs/
 obj/
