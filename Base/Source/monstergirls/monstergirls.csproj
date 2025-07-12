@@ -11,6 +11,7 @@
     <AssemblyName>monstergirlsbase</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <StartAction>None</StartAction>
     <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -34,6 +35,9 @@
   </PropertyGroup>
   <PropertyGroup>
     <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RunPostBuildEvent>Always</RunPostBuildEvent>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Assembly-CSharp">
@@ -86,5 +90,10 @@
     <PostBuildEvent>set PARENT_DIR=$(TargetDir)..
 xcopy "$(ProjectDir)..\..\Defs\ThingDefs_Items" "%25PARENT_DIR%25\Defs\ThingDefs_Items" /E /I /Y
 xcopy "$(ProjectDir)..\..\Defs\ThingDefs_Races" "%25PARENT_DIR%25\Defs\ThingDefs_Races" /E /I /Y</PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PreBuildEvent>set PARENT_DIR=$(TargetDir)..
+rmdir /S /Q "%25PARENT_DIR%25\Defs\ThingDefs_Items"
+rmdir /S /Q "%25PARENT_DIR%25\Defs\ThingDefs_Races"</PreBuildEvent>
   </PropertyGroup>
 </Project>

@@ -26,8 +26,8 @@
         <rotDestroys>true</rotDestroys>
       </li>
     </comps>
+    <thingCategories>
+      <li>AnimalProductRaw</li>
+    </thingCategories>
   </ThingDef>
-  <thingCategories>
-    <li>AnimalProductRaw</li>
-  </thingCategories>
 </Defs>

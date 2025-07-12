@@ -113,7 +113,6 @@
         <li>FairyIce</li>
       </canCrossBreedWith>
       <nameOnTameChance>0.12</nameOnTameChance>
-      <nameOnNuzzleChance>0.3</nameOnNuzzleChance>
       <wildBiomes>
         <Tundra>0</Tundra>
         <IceSheet>0</IceSheet>
