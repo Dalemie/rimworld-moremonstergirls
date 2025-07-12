@@ -3,14 +3,10 @@
    <name>More Monster Girls Enhanced Patch</name>
    <author>wagon</author>
    <supportedVersions>
-      <li>1.0</li>
-      <li>1.1</li>
-      <li>1.2</li>
-      <li>1.3</li>
-      <li>1.4</li>
+      <li>1.6</li>
    </supportedVersions>
-   <packageId>moremonstergirls.enhanced.rw</packageId>
-   <description>Enhanced version of wagon's MoreMonstergirls updated for 1.1, and patched for various mods.
+   <packageId>moremonstergirls.enhanced.daleim</packageId>
+   <description>Enhanced version of wagon's MoreMonstergirls
 
 This is the Enhanced version, a different version than the only one that has been available on steam and patched for 1.0, where monster girls that have finished their obedience training can help with some work.
 
@@ -36,8 +32,8 @@ You just need to have A Dog Said, and LBE's A Dog Said Easy Patcher mods, and it
 
 Loading order:
 - CORE
-- More Monster Girls - 1.1
-- More Monster Girls Enhanced Patch - 1.1
+- More Monster Girls
+- More Monster Girls Enhanced Patch
 
 All credit due to the original author of this mod, wagon!
 </description>
@@ -46,20 +42,17 @@ All credit due to the original author of this mod, wagon!
         <packageId>brrainz.harmony</packageId>
         <displayName>Harmony</displayName>
         <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
-        <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
     </li>
     <li>
-        <packageId>moremonstergirls.rw</packageId>
+        <packageId>moremonstergirls.daleim</packageId>
         <displayName>More Monster Girls</displayName>
-        <steamWorkshopUrl>steam://url/CommunityFilePage/2014838309</steamWorkshopUrl>
-        <downloadUrl>https://github.com/KiameV/rimworld-moremonstergirls/releases/latest</downloadUrl>
     </li>
 </modDependencies>
 <loadAfter>
 	<li>Ludeon.RimWorld</li>
 	<li>Ludeon.RimWorld.Royalty</li>
 	<li>brrainz.harmony</li>
-	<li>moremonstergirls.rw</li>
+	<li>moremonstergirls.daleim</li>
 </loadAfter>
 </ModMetaData>
 
