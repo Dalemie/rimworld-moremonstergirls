@@ -9,6 +9,7 @@
       <ComfyTemperatureMin>-10</ComfyTemperatureMin>
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <MarketValue>450</MarketValue>
+      <Wildness>0.65</Wildness>
     </statBases>
     <comps>
 		<li Class="CompProperties_Milkable">
@@ -89,7 +90,6 @@
       <baseHealthScale>0.8</baseHealthScale>
       <baseHungerRate>0.8</baseHungerRate>
       <foodType>CarnivoreAnimal</foodType>
-      <wildness>0.65</wildness>
       <petness>0.5</petness>
       <leatherDef>Leather_Baphomet</leatherDef>
       <meatLabel>baphomet meat</meatLabel>

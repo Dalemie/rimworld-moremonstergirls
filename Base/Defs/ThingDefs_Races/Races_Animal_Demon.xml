@@ -9,6 +9,7 @@
       <ComfyTemperatureMin>-15</ComfyTemperatureMin>
       <ComfyTemperatureMax>80</ComfyTemperatureMax>
       <MarketValue>300</MarketValue>
+      <Wildness>0.10</Wildness>
     </statBases>
     <comps>
       <li Class="CompProperties_Milkable">
@@ -86,7 +87,6 @@
       <leatherDef>Leather_Imp</leatherDef>
       <herdMigrationAllowed>true</herdMigrationAllowed>
       <gestationPeriodDays>20</gestationPeriodDays>
-      <wildness>0.10</wildness>
       <trainability>Advanced</trainability>
       <meatLabel>imp meat</meatLabel>
       <nuzzleMtbHours>25</nuzzleMtbHours>

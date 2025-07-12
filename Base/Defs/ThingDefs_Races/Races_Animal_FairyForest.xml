@@ -10,6 +10,7 @@
       <ComfyTemperatureMin>0</ComfyTemperatureMin>
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <MarketValue>650</MarketValue>
+      <Wildness>0.30</Wildness>
     </statBases>
     <comps>
       <li Class="CompProperties_Milkable">
@@ -90,7 +91,6 @@
       <baseHungerRate>0.35</baseHungerRate>
       <baseHealthScale>0.8</baseHealthScale>
       <petness>0.25</petness>
-      <wildness>0.30</wildness>
       <foodType>VegetarianRoughAnimal</foodType>
       <leatherDef>Leather_FairyForest</leatherDef>
       <lifeExpectancy>100</lifeExpectancy>

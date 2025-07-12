@@ -11,6 +11,7 @@
       <ComfyTemperatureMin>-12</ComfyTemperatureMin>
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <MarketValue>450</MarketValue>
+      <Wildness>0.50</Wildness>
     </statBases>
     <race>
       <body>Harpy</body>
@@ -23,7 +24,6 @@
       <foodType>OmnivoreRoughAnimal</foodType>
       <leatherDef>Leather_Harpy</leatherDef>
       <petness>0.25</petness>
-      <wildness>0.5</wildness>
       <nuzzleMtbHours>24</nuzzleMtbHours>
       <herdMigrationAllowed>true</herdMigrationAllowed>
       <packAnimal>false</packAnimal>

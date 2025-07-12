@@ -9,6 +9,7 @@
       <ComfyTemperatureMin>-20</ComfyTemperatureMin>
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <MarketValue>1100</MarketValue>
+      <Wildness>0.65</Wildness>
     </statBases>
     <comps>
       <li Class="CompProperties_Milkable">
@@ -104,7 +105,6 @@
       <baseHungerRate>0.8</baseHungerRate>
       <baseHealthScale>3.5</baseHealthScale>
       <petness>0.02</petness>
-      <wildness>0.65</wildness>
       <foodType>VegetarianRoughAnimal</foodType>
       <leatherDef>Leather_Thrumbomorph</leatherDef>
       <makesFootprints>true</makesFootprints>

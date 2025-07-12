@@ -9,6 +9,7 @@
       <ComfyTemperatureMin>-10</ComfyTemperatureMin>
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <MarketValue>888</MarketValue>
+      <Wildness>0.25</Wildness>
     </statBases>
     <tools>
       <li>
@@ -105,7 +106,6 @@
       <baseHealthScale>1.75</baseHealthScale>
       <baseHungerRate>0.8</baseHungerRate>
       <foodType>VegetarianRoughAnimal</foodType>
-      <wildness>0.25</wildness>
       <petness>0.5</petness>
       <leatherDef>Leather_Centaur</leatherDef>
       <meatLabel>centaur meat</meatLabel>

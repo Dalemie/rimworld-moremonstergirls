@@ -8,6 +8,7 @@
       <MoveSpeed>5.4</MoveSpeed>
       <ComfyTemperatureMin>-30</ComfyTemperatureMin>
       <MarketValue>950</MarketValue>
+      <Wildness>0.10</Wildness>
     </statBases>
     <tools>
       <li>
@@ -104,7 +105,6 @@
       <baseHealthScale>1.60</baseHealthScale>
       <baseHungerRate>0.7</baseHungerRate>
       <foodType>VegetarianRoughAnimal</foodType>
-      <wildness>0.10</wildness>
       <petness>0.5</petness>
       <leatherDef>Leather_Dryad</leatherDef>
       <meatLabel>dryad meat</meatLabel>
