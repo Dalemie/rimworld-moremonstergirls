@@ -179,18 +179,18 @@ namespace monstergirlsbase
             }
             y += NEW_SETTING;
 
-            Widgets.Label(new Rect(0, y, 150, 22), "MMG.Foxgirl".Translate());
+            Widgets.Label(new Rect(0, y, 150, 22), "MMG.Baphomet".Translate());
             y += NEWLINE;
             Widgets.Label(new Rect(20, y, 150, 22), "MMG.Milk".Translate());
             if (Widgets.ButtonText(new Rect(200, y, 100, 22), "Reset".Translate()))
             {
-                settings.DefaultFoxgirl();
-                SetCompProps(GetMilkCompProps("Foxgirl"), settings.FoxgirlMilk);
+                settings.DefaultBaphomet();
+                SetCompProps(GetMilkCompProps("Baphomet"), settings.BaphometMilk);
             }
             y += NEWLINE;
-            if (DrawProductionInput(ref y, settings.FoxgirlMilk))
+            if (DrawProductionInput(ref y, settings.BaphometMilk))
             {
-                SetCompProps(GetMilkCompProps("Foxgirl"), settings.FoxgirlMilk);
+                SetCompProps(GetMilkCompProps("Baphomet"), settings.BaphometMilk);
             }
             y += NEW_SETTING;
 
@@ -445,7 +445,7 @@ namespace monstergirlsbase
         public Production ForestFairyDust;
         public Production IceFairyDust;
 
-        public Production FoxgirlMilk;
+        public Production BaphometMilk;
 
         public EggProduction HarpyEggs;
         public Production HarpyFeathers;
@@ -479,7 +479,7 @@ namespace monstergirlsbase
                 Scribe_Deep.Look(ref this.DryadWool, "DryadWool", null);
                 Scribe_Deep.Look(ref this.ForestFairyDust, "ForestFairyDust", null);
                 Scribe_Deep.Look(ref this.IceFairyDust, "IceFairyDust", null);
-                Scribe_Deep.Look(ref this.FoxgirlMilk, "FoxgirlMilk", null);
+                Scribe_Deep.Look(ref this.BaphometMilk, "BaphometMilk", null);
                 Scribe_Deep.Look(ref this.HarpyEggs, "HarpyEggs", null);
                 Scribe_Deep.Look(ref this.HarpyFeathers, "HarpyFeathers", null);
                 Scribe_Deep.Look(ref this.BlackHarpyEggs, "BlackHarpyEggs", null);
@@ -522,8 +522,8 @@ namespace monstergirlsbase
             if (this.IceFairyDust == null)
                 this.DefaultFairyIce();
 
-            if (this.FoxgirlMilk == null)
-                this.DefaultFoxgirl();
+            if (this.BaphometMilk == null)
+                this.DefaultBaphomet();
 
             if (this.HarpyEggs == null)
                 this.DefaultHarpyEggs();
@@ -629,9 +629,9 @@ namespace monstergirlsbase
             };
         }
 
-        public void DefaultFoxgirl()
+        public void DefaultBaphomet()
         {
-            this.FoxgirlMilk = new Production()
+            this.BaphometMilk = new Production()
             {
                 IntervalDays = 2,
                 Amount = 6,

@@ -63,13 +63,13 @@
   <Harpy.tools.2.label>голова</Harpy.tools.2.label>
   <Harpy.race.meatLabel>мясо гарпии</Harpy.race.meatLabel>
   
-  <Foxgirl.label>лисичка</Foxgirl.label>
-  <Foxgirl.description>Хитрое и пронырливое животное. Лисички чаще всего встречаются охотящимися в лесах и лугах.</Foxgirl.description>
-  <Foxgirl.tools.0.label>левая лапа</Foxgirl.tools.0.label>
-  <Foxgirl.tools.1.label>правая лапа</Foxgirl.tools.1.label>
-  <Foxgirl.tools.2.label>зубы</Foxgirl.tools.2.label>
-  <Foxgirl.tools.3.label>голова</Foxgirl.tools.3.label>
-  <Foxgirl.race.meatLabel>мясо лисички</Foxgirl.race.meatLabel>
+  <Baphomet.label>лисичка</Baphomet.label>
+  <Baphomet.description>Хитрое и пронырливое животное. Лисички чаще всего встречаются охотящимися в лесах и лугах.</Baphomet.description>
+  <Baphomet.tools.0.label>левая лапа</Baphomet.tools.0.label>
+  <Baphomet.tools.1.label>правая лапа</Baphomet.tools.1.label>
+  <Baphomet.tools.2.label>зубы</Baphomet.tools.2.label>
+  <Baphomet.tools.3.label>голова</Baphomet.tools.3.label>
+  <Baphomet.race.meatLabel>мясо лисички</Baphomet.race.meatLabel>
   
   <FairyIce.label>ледяная фея</FairyIce.label>
   <FairyIce.description>Маленькая, неуловимая и долгоживущая травоядная фея. Ледяные феи встречаются в холодных регионах. Они способны выживать в чрезвычайно холодных условиях и редко нуждаются в еде. Их преследуют из-за их волшебной пыльцы. Хотя они немного крепче лесных фей, им следует избегать боя из-за их небольшого размера.</FairyIce.description>

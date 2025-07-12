@@ -201,30 +201,30 @@
   <FairyIce.labelFemale>ледяная фея</FairyIce.labelFemale>
   <FairyIce.labelFemalePlural>ледяные феи</FairyIce.labelFemalePlural>
   
-  <Foxgirl.label>лисичка</Foxgirl.label>
-  <Foxgirl.labelPlural>лисички</Foxgirl.labelPlural>
-  <Foxgirl.lifeStages.0.label>детёныш лисички</Foxgirl.lifeStages.0.label>
-  <Foxgirl.lifeStages.0.labelPlural>детёныши лисичек</Foxgirl.lifeStages.0.labelPlural>
-  <Foxgirl.lifeStages.0.labelMale>детёныш лисец</Foxgirl.lifeStages.0.labelMale>
-  <Foxgirl.lifeStages.0.labelMalePlural>детёныши лисцы</Foxgirl.lifeStages.0.labelMalePlural>
-  <Foxgirl.lifeStages.0.labelFemale>детёныш лисичка</Foxgirl.lifeStages.0.labelFemale>
-  <Foxgirl.lifeStages.0.labelFemalePlural>детёныши лисички</Foxgirl.lifeStages.0.labelFemalePlural>
-  <Foxgirl.lifeStages.1.label>молодая лисичка</Foxgirl.lifeStages.1.label>
-  <Foxgirl.lifeStages.1.labelPlural>молодняк лисичек</Foxgirl.lifeStages.1.labelPlural>
-  <Foxgirl.lifeStages.1.labelMale>молодой лисец</Foxgirl.lifeStages.1.labelMale>
-  <Foxgirl.lifeStages.1.labelMalePlural>молодые лисцы</Foxgirl.lifeStages.1.labelMalePlural>
-  <Foxgirl.lifeStages.1.labelFemale>молодая лисичка</Foxgirl.lifeStages.1.labelFemale>
-  <Foxgirl.lifeStages.1.labelFemalePlural>молодые лисички</Foxgirl.lifeStages.1.labelFemalePlural>
-  <Foxgirl.lifeStages.2.label>лисичка</Foxgirl.lifeStages.2.label>
-  <Foxgirl.lifeStages.2.labelPlural>лисички</Foxgirl.lifeStages.2.labelPlural>
-  <Foxgirl.lifeStages.2.labelMale>лисец</Foxgirl.lifeStages.2.labelMale>
-  <Foxgirl.lifeStages.2.labelMalePlural>лисцы</Foxgirl.lifeStages.2.labelMalePlural>
-  <Foxgirl.lifeStages.2.labelFemale>лисичка</Foxgirl.lifeStages.2.labelFemale>
-  <Foxgirl.lifeStages.2.labelFemalePlural>лисички</Foxgirl.lifeStages.2.labelFemalePlural>
-  <Foxgirl.labelMale>лисец</Foxgirl.labelMale>
-  <Foxgirl.labelMalePlural>лисцы</Foxgirl.labelMalePlural>
-  <Foxgirl.labelFemale>лисичка</Foxgirl.labelFemale>
-  <Foxgirl.labelFemalePlural>лисички</Foxgirl.labelFemalePlural>
+  <Baphomet.label>лисичка</Baphomet.label>
+  <Baphomet.labelPlural>лисички</Baphomet.labelPlural>
+  <Baphomet.lifeStages.0.label>детёныш лисички</Baphomet.lifeStages.0.label>
+  <Baphomet.lifeStages.0.labelPlural>детёныши лисичек</Baphomet.lifeStages.0.labelPlural>
+  <Baphomet.lifeStages.0.labelMale>детёныш лисец</Baphomet.lifeStages.0.labelMale>
+  <Baphomet.lifeStages.0.labelMalePlural>детёныши лисцы</Baphomet.lifeStages.0.labelMalePlural>
+  <Baphomet.lifeStages.0.labelFemale>детёныш лисичка</Baphomet.lifeStages.0.labelFemale>
+  <Baphomet.lifeStages.0.labelFemalePlural>детёныши лисички</Baphomet.lifeStages.0.labelFemalePlural>
+  <Baphomet.lifeStages.1.label>молодая лисичка</Baphomet.lifeStages.1.label>
+  <Baphomet.lifeStages.1.labelPlural>молодняк лисичек</Baphomet.lifeStages.1.labelPlural>
+  <Baphomet.lifeStages.1.labelMale>молодой лисец</Baphomet.lifeStages.1.labelMale>
+  <Baphomet.lifeStages.1.labelMalePlural>молодые лисцы</Baphomet.lifeStages.1.labelMalePlural>
+  <Baphomet.lifeStages.1.labelFemale>молодая лисичка</Baphomet.lifeStages.1.labelFemale>
+  <Baphomet.lifeStages.1.labelFemalePlural>молодые лисички</Baphomet.lifeStages.1.labelFemalePlural>
+  <Baphomet.lifeStages.2.label>лисичка</Baphomet.lifeStages.2.label>
+  <Baphomet.lifeStages.2.labelPlural>лисички</Baphomet.lifeStages.2.labelPlural>
+  <Baphomet.lifeStages.2.labelMale>лисец</Baphomet.lifeStages.2.labelMale>
+  <Baphomet.lifeStages.2.labelMalePlural>лисцы</Baphomet.lifeStages.2.labelMalePlural>
+  <Baphomet.lifeStages.2.labelFemale>лисичка</Baphomet.lifeStages.2.labelFemale>
+  <Baphomet.lifeStages.2.labelFemalePlural>лисички</Baphomet.lifeStages.2.labelFemalePlural>
+  <Baphomet.labelMale>лисец</Baphomet.labelMale>
+  <Baphomet.labelMalePlural>лисцы</Baphomet.labelMalePlural>
+  <Baphomet.labelFemale>лисичка</Baphomet.labelFemale>
+  <Baphomet.labelFemalePlural>лисички</Baphomet.labelFemalePlural>
   
   <Harpy.label>гарпия</Harpy.label>
   <Harpy.labelPlural>гарпии</Harpy.labelPlural>

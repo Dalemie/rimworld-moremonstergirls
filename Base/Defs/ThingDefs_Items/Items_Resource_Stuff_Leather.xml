@@ -19,11 +19,11 @@
     </stuffProps>
   </ThingDef>
   <ThingDef ParentName="LeatherBase">
-    <defName>Leather_Foxgirl</defName>
-    <label>foxgirl leather</label>
-    <description>Tanned, dried, scraped foxgirl skin.  You did it, didn't you?  You killed a cute, innocent foxgirl for this.  You Monster!</description>
+    <defName>Leather_Baphomet</defName>
+    <label>baphomet leather</label>
+    <description>Tanned, dried, scraped baphomet skin.  You did it, didn't you?  You killed a cute, innocent baphomet for this.  You Monster!</description>
     <graphicData>
-      <color>173,99,32</color>
+      <color>156,156,156</color>
     </graphicData>
     <statBases>
       <MarketValue>1.9</MarketValue>

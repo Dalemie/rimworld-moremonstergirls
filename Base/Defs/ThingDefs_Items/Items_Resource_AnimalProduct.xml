@@ -218,11 +218,11 @@
   </ThingDef>
   
   <ThingDef ParentName="OrganicProductBase">
-    <defName>FoxgirlMilk</defName>
-    <label>foxgirl milk</label>
-    <description>Milk from a happy foxgirl. Prized for its slight vivacious taste.</description>
+    <defName>BaphometMilk</defName>
+    <label>baphomet milk</label>
+    <description>Milk from a happy Baphomet. Prized for its slight vivacious taste.</description>
     <graphicData>
-      <texPath>Things/Item/Resource/FoxgirlMilk</texPath>
+      <texPath>Things/Item/Resource/BaphometMilk</texPath>
     </graphicData>
     <socialPropernessMatters>true</socialPropernessMatters>
     <statBases>
