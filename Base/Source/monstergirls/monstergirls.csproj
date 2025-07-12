@@ -82,4 +82,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>set PARENT_DIR=$(TargetDir)..
+xcopy "$(ProjectDir)..\..\Defs\ThingDefs_Items" "%25PARENT_DIR%25\Defs\ThingDefs_Items" /E /I /Y
+xcopy "$(ProjectDir)..\..\Defs\ThingDefs_Races" "%25PARENT_DIR%25\Defs\ThingDefs_Races" /E /I /Y</PostBuildEvent>
+  </PropertyGroup>
 </Project>
