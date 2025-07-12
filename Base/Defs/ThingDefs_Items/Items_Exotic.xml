@@ -18,6 +18,10 @@
     </statBases>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
     <stackLimit>10</stackLimit>
+    <weaponClasses>
+      <li>Melee</li>
+      <li>MeleePiercer</li>
+    </weaponClasses>
     <tools>
       <li>
         <label>point</label>
@@ -42,6 +46,7 @@
     </thingCategories>
     <tradeTags>
       <li>ExoticMisc</li>
+      <li>AnimalPart</li>
     </tradeTags>
     <thingSetMakerTags>
       <li>AnimalPart</li>

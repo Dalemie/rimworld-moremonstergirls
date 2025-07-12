@@ -108,6 +108,9 @@
         </points>
       </litterSizeCurve>
       <mateMtbHours>12</mateMtbHours>
+      <canCrossBreedWith>
+        <li>FairyForest</li>
+      </canCrossBreedWith>
       <nameOnTameChance>0.18</nameOnTameChance>
       <nameOnNuzzleChance>0.4</nameOnNuzzleChance>
       <wildBiomes>

@@ -32,6 +32,9 @@
       <manhunterOnTameFailChance>0.025</manhunterOnTameFailChance>
       <manhunterOnDamageChance>0.5</manhunterOnDamageChance>
       <mateMtbHours>6</mateMtbHours>
+      <canCrossBreedWith>
+        <li>Harpy</li>
+      </canCrossBreedWith>
       <wildBiomes>
         <Tundra>0.06</Tundra>
         <IceSheet>0</IceSheet>

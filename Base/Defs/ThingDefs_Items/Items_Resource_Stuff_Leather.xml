@@ -127,21 +127,6 @@
       <commonality>0.2</commonality>
     </stuffProps>
   </ThingDef>
-  <!--<ThingDef ParenName="LeatherBase">
-    <defName>Leather_Slime</defName>
-    <label>slime membrane</label>
-    <description>The outer membrane of a dead slime carefully peeled off.  Quite a good insulator and damage absorber</description>
-    <statBases>
-      <MarketValue>5</MarketValue>
-      <StuffPower_Armor_Sharp>2.2</StuffPower_Armor_Sharp>
-      <StuffPower_Armor_Blunt>2.2</StuffPower_Armor_Blunt>
-      <StuffPower_Insulation_Cold>45</StuffPower_Insulation_Cold>
-    </statBases>
-    <stuffProps>
-      <color>140,80,140</color>
-      <commonality>0.2</commonality>
-    </stuffProps>
-  </ThingDef>-->
   <ThingDef ParentName="LeatherBase">
     <defName>Leather_Thrumbomorph</defName>
     <label>thrumbomorph leather</label>
