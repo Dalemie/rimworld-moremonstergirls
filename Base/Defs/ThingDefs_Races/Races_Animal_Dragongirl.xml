@@ -115,6 +115,9 @@
         <TemperateSwamp>0.1</TemperateSwamp>
       </wildBiomes>
       <trainability>Advanced</trainability>
+      <specialTrainables>
+        <li MayRequire="Ludeon.RimWorld.Odyssey">AttackTarget</li>
+      </specialTrainables>
       <meatLabel>dragon meat</meatLabel>
       <nuzzleMtbHours>40</nuzzleMtbHours>
       <lifeExpectancy>100</lifeExpectancy>
@@ -138,6 +141,7 @@
     </race>
     <tradeTags>
       <li>AnimalUncommon</li>
+      <li>AnimalFighter</li>
       <li>BadassAnimal</li>
     </tradeTags>
   </ThingDef>

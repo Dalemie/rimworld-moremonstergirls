@@ -159,6 +159,7 @@
     </race>
     <tradeTags>
       <li>AnimalCommon</li>
+      <li>AnimalFarm</li>
     </tradeTags>
   </ThingDef>
   <PawnKindDef ParentName="AnimalKindBase">

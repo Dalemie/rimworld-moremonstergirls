@@ -132,7 +132,8 @@
       <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
     </race>
     <tradeTags>
-      <li>StandardAnimal</li>
+      <li>AnimalUncommon</li>
+      <li>AnimalExotic</li>
     </tradeTags>
   </ThingDef>
 

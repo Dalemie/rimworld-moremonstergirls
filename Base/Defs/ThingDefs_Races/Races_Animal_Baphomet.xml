@@ -38,14 +38,6 @@
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
         <chanceFactor>0.7</chanceFactor>
-        <surpriseAttack>
-          <extraMeleeDamages>
-            <li>
-              <def>Stun</def>
-              <amount>16</amount>
-            </li>
-          </extraMeleeDamages>
-        </surpriseAttack>
       </li>
       <li>
         <label>head</label>
@@ -72,6 +64,9 @@
       <gestationPeriodDays>28</gestationPeriodDays>
       <predator>true</predator>
       <trainability>Advanced</trainability>
+      <specialTrainables>
+        <li MayRequire="Ludeon.RimWorld.Odyssey">AttackTarget</li>
+      </specialTrainables>
       <packAnimal>false</packAnimal>
       <lifeExpectancy>57</lifeExpectancy>
       <litterSizeCurve>
@@ -119,9 +114,8 @@
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
     </race>
     <tradeTags>
-		<li>AnimalCommon</li>
-		<li>AnimalFarm</li>
-		<li>AnimalExotic</li>
+      <li>AnimalUncommon</li>
+		  <li>AnimalExotic</li>
     </tradeTags>
   </ThingDef>
   <PawnKindDef ParentName="AnimalKindBase">

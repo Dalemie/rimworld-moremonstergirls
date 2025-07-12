@@ -110,6 +110,9 @@
       <makesFootprints>true</makesFootprints>
       <lifeExpectancy>150</lifeExpectancy>
       <trainability>Advanced</trainability>
+      <specialTrainables>
+        <li MayRequire="Ludeon.Rimworld.Odyssey">ThrumboRoar</li>
+      </specialTrainables>
       <meatLabel>thrumbomorph meat</meatLabel>
       <manhunterOnTameFailChance>0.1</manhunterOnTameFailChance>
       <manhunterOnDamageChance>0.75</manhunterOnDamageChance>
