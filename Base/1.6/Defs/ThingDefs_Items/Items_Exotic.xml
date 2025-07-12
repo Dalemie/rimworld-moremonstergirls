@@ -18,6 +18,10 @@
     </statBases>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
     <stackLimit>10</stackLimit>
+    <weaponClasses>
+      <li>Melee</li>
+      <li>MeleePiercer</li>
+    </weaponClasses>
     <tools>
       <li>
         <label>point</label>
@@ -25,7 +29,7 @@
           <li>Scratch</li>
           <li>Stab</li>
         </capacities>
-        <power>28</power>
+        <power>24</power>
         <cooldownTime>2.6</cooldownTime>
       </li>
       <li>
@@ -33,7 +37,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>9</power>
+        <power>8</power>
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
@@ -42,6 +46,7 @@
     </thingCategories>
     <tradeTags>
       <li>ExoticMisc</li>
+      <li>AnimalPart</li>
     </tradeTags>
     <thingSetMakerTags>
       <li>AnimalPart</li>

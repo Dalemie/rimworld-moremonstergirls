@@ -9,6 +9,7 @@
       <ComfyTemperatureMin>-20</ComfyTemperatureMin>
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <MarketValue>1100</MarketValue>
+      <Wildness>0.65</Wildness>
     </statBases>
     <comps>
       <li Class="CompProperties_Milkable">
@@ -18,8 +19,8 @@
       </li>
       <li Class="CompProperties_Shearable">
         <woolDef>WoolThrumbomorph</woolDef>
-        <shearIntervalDays>15</shearIntervalDays>
-        <woolAmount>100</woolAmount>
+        <shearIntervalDays>20</shearIntervalDays>
+        <woolAmount>60</woolAmount>
       </li>
     </comps>
     <tools>
@@ -104,12 +105,14 @@
       <baseHungerRate>0.8</baseHungerRate>
       <baseHealthScale>3.5</baseHealthScale>
       <petness>0.02</petness>
-      <wildness>0.65</wildness>
       <foodType>VegetarianRoughAnimal</foodType>
       <leatherDef>Leather_Thrumbomorph</leatherDef>
       <makesFootprints>true</makesFootprints>
       <lifeExpectancy>150</lifeExpectancy>
       <trainability>Advanced</trainability>
+      <specialTrainables>
+        <li MayRequire="Ludeon.Rimworld.Odyssey">ThrumboRoar</li>
+      </specialTrainables>
       <meatLabel>thrumbomorph meat</meatLabel>
       <manhunterOnTameFailChance>0.1</manhunterOnTameFailChance>
       <manhunterOnDamageChance>0.75</manhunterOnDamageChance>

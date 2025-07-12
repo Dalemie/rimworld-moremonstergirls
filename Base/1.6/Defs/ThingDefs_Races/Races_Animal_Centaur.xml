@@ -9,6 +9,7 @@
       <ComfyTemperatureMin>-10</ComfyTemperatureMin>
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <MarketValue>888</MarketValue>
+      <Wildness>0.25</Wildness>
     </statBases>
     <tools>
       <li>
@@ -89,11 +90,11 @@
       <li Class="CompProperties_Milkable">
         <milkDef>CentaurMilk</milkDef>
         <milkIntervalDays>1</milkIntervalDays>
-        <milkAmount>25</milkAmount>
+        <milkAmount>8</milkAmount>
       </li>
       <li Class="CompProperties_Shearable">
         <woolDef>HairCentaur</woolDef>
-        <shearIntervalDays>25</shearIntervalDays>
+        <shearIntervalDays>30</shearIntervalDays>
         <woolAmount>100</woolAmount>
       </li>
     </comps>
@@ -105,7 +106,6 @@
       <baseHealthScale>1.75</baseHealthScale>
       <baseHungerRate>0.8</baseHungerRate>
       <foodType>VegetarianRoughAnimal</foodType>
-      <wildness>0.25</wildness>
       <petness>0.5</petness>
       <leatherDef>Leather_Centaur</leatherDef>
       <meatLabel>centaur meat</meatLabel>

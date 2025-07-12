@@ -9,13 +9,14 @@
       <ComfyTemperatureMin>-30</ComfyTemperatureMin>
       <ComfyTemperatureMax>60</ComfyTemperatureMax>
       <MarketValue>500</MarketValue>
-      <ArmorRating_Blunt>2.5</ArmorRating_Blunt>
-      <ArmorRating_Sharp>1.75</ArmorRating_Sharp>
+      <ArmorRating_Blunt>1.2</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+      <Wildness>0.70</Wildness>
     </statBases>
     <comps>
       <li Class="CompProperties_Milkable">
         <milkDef>GooSlimeRed</milkDef>
-        <milkIntervalDays>1</milkIntervalDays>
+        <milkIntervalDays>5</milkIntervalDays>
         <milkAmount>5</milkAmount>
       </li>
     </comps>
@@ -76,7 +77,6 @@
       <foodType>OmnivoreRoughAnimal, DendrovoreAnimal</foodType>
       <leatherDef>Leather_Slime</leatherDef>
       <petness>0</petness>
-      <wildness>0.7</wildness>
       <nuzzleMtbHours>48</nuzzleMtbHours>
       <herdMigrationAllowed>true</herdMigrationAllowed>
       <packAnimal>false</packAnimal>
@@ -96,18 +96,18 @@
       </litterSizeCurve>
       <mateMtbHours>6</mateMtbHours>
       <wildBiomes>
-        <Tundra>0.0001</Tundra>
-        <IceSheet>0.0001</IceSheet>
-        <SeaIce>0.0001</SeaIce>
-        <TropicalRainforest>0.0001</TropicalRainforest>
-        <TemperateForest>0.0001</TemperateForest>
-        <BorealForest>0.0001</BorealForest>
-        <AridShrubland>0.0001</AridShrubland>
-        <Desert>0.0001</Desert>
-        <ExtremeDesert>0.0001</ExtremeDesert>
-        <TemperateSwamp>0.0001</TemperateSwamp>
-        <ColdBog>0.0001</ColdBog>
-        <TropicalSwamp>0.0001</TropicalSwamp>
+        <Tundra>0.03</Tundra>
+        <IceSheet>0.01</IceSheet>
+        <SeaIce>0.01</SeaIce>
+        <TropicalRainforest>0.06</TropicalRainforest>
+        <TemperateForest>0.06</TemperateForest>
+        <BorealForest>0.06</BorealForest>
+        <AridShrubland>0.05</AridShrubland>
+        <Desert>0.03</Desert>
+        <ExtremeDesert>0.01</ExtremeDesert>
+        <TemperateSwamp>0.08</TemperateSwamp>
+        <ColdBog>0.06</ColdBog>
+        <TropicalSwamp>0.06</TropicalSwamp>
       </wildBiomes>
       <lifeStageAges>
         <li>

@@ -10,6 +10,7 @@
       <ArmorRating_Sharp>0.3</ArmorRating_Sharp>
       <ComfyTemperatureMin>-20</ComfyTemperatureMin>
       <MarketValue>1100</MarketValue>
+      <Wildness>0.65</Wildness>
     </statBases>
     <comps>
       <li Class="CompProperties_Milkable">
@@ -113,8 +114,10 @@
         <ExtremeDesert>0.00</ExtremeDesert>
         <TemperateSwamp>0.1</TemperateSwamp>
       </wildBiomes>
-      <wildness>0.65</wildness>
       <trainability>Advanced</trainability>
+      <specialTrainables>
+        <li MayRequire="Ludeon.RimWorld.Odyssey">AttackTarget</li>
+      </specialTrainables>
       <meatLabel>dragon meat</meatLabel>
       <nuzzleMtbHours>40</nuzzleMtbHours>
       <lifeExpectancy>100</lifeExpectancy>
@@ -138,6 +141,7 @@
     </race>
     <tradeTags>
       <li>AnimalUncommon</li>
+      <li>AnimalFighter</li>
       <li>BadassAnimal</li>
     </tradeTags>
   </ThingDef>

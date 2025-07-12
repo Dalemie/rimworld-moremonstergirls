@@ -10,11 +10,12 @@
       <ComfyTemperatureMin>0</ComfyTemperatureMin>
       <ComfyTemperatureMax>40</ComfyTemperatureMax>
       <MarketValue>650</MarketValue>
+      <Wildness>0.30</Wildness>
     </statBases>
     <comps>
       <li Class="CompProperties_Milkable">
         <milkDef>FairyDust</milkDef>
-        <milkIntervalDays>1</milkIntervalDays>
+        <milkIntervalDays>5</milkIntervalDays>
         <milkAmount>10</milkAmount>
       </li>
     </comps>
@@ -90,7 +91,6 @@
       <baseHungerRate>0.35</baseHungerRate>
       <baseHealthScale>0.8</baseHealthScale>
       <petness>0.25</petness>
-      <wildness>0.30</wildness>
       <foodType>VegetarianRoughAnimal</foodType>
       <leatherDef>Leather_FairyForest</leatherDef>
       <lifeExpectancy>100</lifeExpectancy>
@@ -109,6 +109,9 @@
         </points>
       </litterSizeCurve>
       <mateMtbHours>12</mateMtbHours>
+      <canCrossBreedWith>
+        <li>FairyIce</li>
+      </canCrossBreedWith>
       <nameOnTameChance>0.12</nameOnTameChance>
       <nameOnNuzzleChance>0.3</nameOnNuzzleChance>
       <wildBiomes>

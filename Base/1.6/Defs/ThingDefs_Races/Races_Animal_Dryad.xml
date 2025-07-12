@@ -8,6 +8,7 @@
       <MoveSpeed>5.4</MoveSpeed>
       <ComfyTemperatureMin>-30</ComfyTemperatureMin>
       <MarketValue>950</MarketValue>
+      <Wildness>0.10</Wildness>
     </statBases>
     <tools>
       <li>
@@ -88,11 +89,11 @@
       <li Class="CompProperties_Milkable">
         <milkDef>DryadMilk</milkDef>
         <milkIntervalDays>1</milkIntervalDays>
-        <milkAmount>25</milkAmount>
+        <milkAmount>8</milkAmount>
       </li>
       <li Class="CompProperties_Shearable">
         <woolDef>HairDryad</woolDef>
-        <shearIntervalDays>15</shearIntervalDays>
+        <shearIntervalDays>20</shearIntervalDays>
         <woolAmount>100</woolAmount>
       </li>
     </comps>
@@ -104,7 +105,6 @@
       <baseHealthScale>1.60</baseHealthScale>
       <baseHungerRate>0.7</baseHungerRate>
       <foodType>VegetarianRoughAnimal</foodType>
-      <wildness>0.10</wildness>
       <petness>0.5</petness>
       <leatherDef>Leather_Dryad</leatherDef>
       <meatLabel>dryad meat</meatLabel>
@@ -159,6 +159,7 @@
     </race>
     <tradeTags>
       <li>AnimalCommon</li>
+      <li>AnimalFarm</li>
     </tradeTags>
   </ThingDef>
   <PawnKindDef ParentName="AnimalKindBase">

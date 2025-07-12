@@ -10,6 +10,7 @@
       <MoveSpeed>6.2</MoveSpeed>
       <ComfyTemperatureMin>-20</ComfyTemperatureMin>
       <MarketValue>500</MarketValue>
+      <Wildness>0.60</Wildness>
     </statBases>
     <race>
       <body>Harpy</body>
@@ -22,7 +23,6 @@
       <foodType>OmnivoreRoughAnimal</foodType>
       <leatherDef>Leather_BlackHarpy</leatherDef>
       <petness>0.05</petness>
-      <wildness>0.60</wildness>
       <nuzzleMtbHours>32</nuzzleMtbHours>
       <herdMigrationAllowed>true</herdMigrationAllowed>
       <packAnimal>false</packAnimal>
@@ -32,6 +32,9 @@
       <manhunterOnTameFailChance>0.025</manhunterOnTameFailChance>
       <manhunterOnDamageChance>0.5</manhunterOnDamageChance>
       <mateMtbHours>6</mateMtbHours>
+      <canCrossBreedWith>
+        <li>Harpy</li>
+      </canCrossBreedWith>
       <wildBiomes>
         <Tundra>0.06</Tundra>
         <IceSheet>0</IceSheet>
@@ -75,8 +78,8 @@
       </li>
       <li Class="CompProperties_Shearable">
         <woolDef>BlackHarpyFeathers</woolDef>
-        <shearIntervalDays>10</shearIntervalDays>
-        <woolAmount>100</woolAmount>
+        <shearIntervalDays>15</shearIntervalDays>
+        <woolAmount>40</woolAmount>
       </li>
     </comps>
     <tools>
@@ -128,7 +131,6 @@
     </tools>
     <tradeTags>
       <li>AnimalUncommon</li>
-      <li>BadassAnimal</li>
     </tradeTags>
   </ThingDef>
 
