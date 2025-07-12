@@ -551,8 +551,8 @@ namespace monstergirlsbase
         {
             this.CentaurMilk = new Production()
             {
-                IntervalDays = 2,
-                Amount = 10,
+                IntervalDays = 1,
+                Amount = 8,
             };
         }
 
@@ -560,7 +560,7 @@ namespace monstergirlsbase
         {
             this.CentaurHair = new Production()
             {
-                IntervalDays = 25,
+                IntervalDays = 30,
                 Amount = 100,
             };
         }
@@ -571,7 +571,7 @@ namespace monstergirlsbase
             this.CowgirlMilk = new Production()
             {
                 IntervalDays = 1,
-                Amount = 8,
+                Amount = 12,
             };
         }
 
@@ -597,8 +597,8 @@ namespace monstergirlsbase
         {
             this.DryadMilk = new Production()
             {
-                IntervalDays = 2,
-                Amount = 10,
+                IntervalDays = 1,
+                Amount = 8,
             };
         }
 
@@ -606,7 +606,7 @@ namespace monstergirlsbase
         {
             this.DryadWool = new Production()
             {
-                IntervalDays = 15,
+                IntervalDays = 20,
                 Amount = 100,
             };
         }
@@ -615,8 +615,8 @@ namespace monstergirlsbase
         {
             this.ForestFairyDust = new Production()
             {
-                IntervalDays = 2,
-                Amount = 4,
+                IntervalDays = 5,
+                Amount = 10,
             };
         }
 
@@ -624,8 +624,8 @@ namespace monstergirlsbase
         {
             this.IceFairyDust = new Production()
             {
-                IntervalDays = 2,
-                Amount = 4,
+                IntervalDays = 5,
+                Amount = 10,
             };
         }
 
@@ -634,7 +634,7 @@ namespace monstergirlsbase
             this.BaphometMilk = new Production()
             {
                 IntervalDays = 2,
-                Amount = 6,
+                Amount = 10,
             };
         }
 
@@ -653,8 +653,8 @@ namespace monstergirlsbase
         {
             this.BlackHarpyFeathers = new Production()
             {
-                IntervalDays = 10,
-                Amount = 100,
+                IntervalDays = 15,
+                Amount = 40,
             };
         }
 
@@ -673,8 +673,8 @@ namespace monstergirlsbase
         {
             this.HarpyFeathers = new Production()
             {
-                IntervalDays = 10,
-                Amount = 100,
+                IntervalDays = 15,
+                Amount = 40,
             };
         }
 
@@ -682,8 +682,8 @@ namespace monstergirlsbase
         {
             this.ImpMotherMilk = new Production()
             {
-                IntervalDays = 2,
-                Amount = 10,
+                IntervalDays = 1,
+                Amount = 12,
             };
         }
 
@@ -691,8 +691,8 @@ namespace monstergirlsbase
         {
             this.SlimegirlSlime = new Production()
             {
-                IntervalDays = 1,
-                Amount = 4,
+                IntervalDays = 5,
+                Amount = 5,
             };
         }
 
@@ -700,7 +700,7 @@ namespace monstergirlsbase
         {
             this.ThumbromorphMilk = new Production()
             {
-                IntervalDays = 2,
+                IntervalDays = 1,
                 Amount = 10,
             };
         }
@@ -709,8 +709,8 @@ namespace monstergirlsbase
         {
             this.ThumbromorphWool = new Production()
             {
-                IntervalDays = 15,
-                Amount = 100,
+                IntervalDays = 20,
+                Amount = 60,
             };
         }
     }
