@@ -34,7 +34,7 @@
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>12</power>
+        <power>16</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
         <chanceFactor>0.7</chanceFactor>

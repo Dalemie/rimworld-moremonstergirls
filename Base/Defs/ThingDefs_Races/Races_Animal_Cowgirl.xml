@@ -16,7 +16,7 @@
       <li Class="CompProperties_Milkable">
         <milkDef>CowgirlMilk</milkDef>
         <milkIntervalDays>1</milkIntervalDays>
-        <milkAmount>25</milkAmount>
+        <milkAmount>12</milkAmount>
       </li>
     </comps>
     <tools>

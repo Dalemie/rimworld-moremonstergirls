@@ -19,8 +19,8 @@
       </li>
       <li Class="CompProperties_Shearable">
         <woolDef>WoolThrumbomorph</woolDef>
-        <shearIntervalDays>15</shearIntervalDays>
-        <woolAmount>100</woolAmount>
+        <shearIntervalDays>20</shearIntervalDays>
+        <woolAmount>60</woolAmount>
       </li>
     </comps>
     <tools>

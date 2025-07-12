@@ -90,11 +90,11 @@
       <li Class="CompProperties_Milkable">
         <milkDef>CentaurMilk</milkDef>
         <milkIntervalDays>1</milkIntervalDays>
-        <milkAmount>25</milkAmount>
+        <milkAmount>8</milkAmount>
       </li>
       <li Class="CompProperties_Shearable">
         <woolDef>HairCentaur</woolDef>
-        <shearIntervalDays>25</shearIntervalDays>
+        <shearIntervalDays>30</shearIntervalDays>
         <woolAmount>100</woolAmount>
       </li>
     </comps>

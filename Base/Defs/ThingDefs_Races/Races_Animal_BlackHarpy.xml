@@ -78,8 +78,8 @@
       </li>
       <li Class="CompProperties_Shearable">
         <woolDef>BlackHarpyFeathers</woolDef>
-        <shearIntervalDays>10</shearIntervalDays>
-        <woolAmount>100</woolAmount>
+        <shearIntervalDays>15</shearIntervalDays>
+        <woolAmount>40</woolAmount>
       </li>
     </comps>
     <tools>

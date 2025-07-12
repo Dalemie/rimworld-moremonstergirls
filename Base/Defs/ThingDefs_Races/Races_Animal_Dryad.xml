@@ -89,11 +89,11 @@
       <li Class="CompProperties_Milkable">
         <milkDef>DryadMilk</milkDef>
         <milkIntervalDays>1</milkIntervalDays>
-        <milkAmount>25</milkAmount>
+        <milkAmount>8</milkAmount>
       </li>
       <li Class="CompProperties_Shearable">
         <woolDef>HairDryad</woolDef>
-        <shearIntervalDays>15</shearIntervalDays>
+        <shearIntervalDays>20</shearIntervalDays>
         <woolAmount>100</woolAmount>
       </li>
     </comps>
