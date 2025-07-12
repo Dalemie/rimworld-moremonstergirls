@@ -34,16 +34,13 @@ namespace monstergirlsbase
 
         private static void Init()
         {
-            if (Settings.UseMonsterGirlMilk)
-            {
-                SetMilk();
-                DisableMilk();
-            }
+            SetMilk();
+            SetProd();
         }
 
         public static void SetMilk()
         {
-            if (!Settings.DisableMilk && Settings.UseMonsterGirlMilk)
+            if (Settings.UseMonsterGirlMilk)
             {
                 DefDatabase<ThingDef>.GetNamed("Centaur").GetCompProperties<CompProperties_Milkable>().milkDef = MilkDefOf.CentaurMilk;
                 DefDatabase<ThingDef>.GetNamed("Cowgirl").GetCompProperties<CompProperties_Milkable>().milkDef = MilkDefOf.CowgirlMilk;
@@ -64,40 +61,9 @@ namespace monstergirlsbase
                 DefDatabase<ThingDef>.GetNamed("Thrumbomorph").GetCompProperties<CompProperties_Milkable>().milkDef = MilkDefOf.Milk;
             }
         }
-        public static void DisableMilk()
+        public static void SetProd()
         {
-            if (!Settings.DisableMilk)
-            {
-                if (DefDatabase<ThingDef>.GetNamed("CentaurMilk", false) == null)
-                {
-                    DefDatabase<ThingDef>.Add(MilkDefOf.CentaurMilk);
-                    DefDatabase<ThingDef>.Add(MilkDefOf.CowgirlMilk);
-                    DefDatabase<ThingDef>.Add(MilkDefOf.DryadMilk);
-                    DefDatabase<ThingDef>.Add(MilkDefOf.ThrumbogirlMilk);
-                    DefDatabase<ThingDef>.Add(MilkDefOf.ImpmotherMilk);
-                    DefDatabase<ThingDef>.Add(MilkDefOf.DragonMilk);
-                    DefDatabase<ThingDef>.Add(MilkDefOf.BaphometMilk);
-                }
-            }
-            else
-            {
-                if (DefDatabase<ThingDef>.GetNamed("CentaurMilk", false) != null)
-                {
-                    if (Current.Game != null)
-                        Log.Warning("monster girl milk can only be disabled if the game is not currently running");
-                    else
-                    {
-                        var mi = typeof(DefDatabase<ThingDef>).GetMethod("Remove", BindingFlags.Static | BindingFlags.NonPublic);
-                        mi.Invoke(null, new object[] { MilkDefOf.CentaurMilk });
-                        mi.Invoke(null, new object[] { MilkDefOf.CowgirlMilk });
-                        mi.Invoke(null, new object[] { MilkDefOf.DryadMilk });
-                        mi.Invoke(null, new object[] { MilkDefOf.ThrumbogirlMilk });
-                        mi.Invoke(null, new object[] { MilkDefOf.ImpmotherMilk });
-                        mi.Invoke(null, new object[] { MilkDefOf.DragonMilk });
-                        mi.Invoke(null, new object[] { MilkDefOf.BaphometMilk });
-                    }
-                }
-            }
+            SettingsController.SetProductions();
         }
     }
 }
