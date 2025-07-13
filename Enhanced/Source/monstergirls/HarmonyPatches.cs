@@ -23,11 +23,11 @@ namespace monstergirls
     }
 
 
-    [HarmonyPatch(typeof(Mineable), "TrySpawnYield")]
+    [HarmonyPatch(typeof(Mineable), "TrySpawnYield", new[] { typeof(Map), typeof(bool), typeof(Pawn) })]
     static class Patch_Mineable_TrySpawnYield
     {
         private static readonly FieldInfo yieldPctFI = typeof(Mineable).GetField("yieldPct", BindingFlags.NonPublic | BindingFlags.Instance);
-        static bool Prefix(Mineable __instance, Map map, float yieldChance, bool moteOnWaste, Pawn pawn)
+        static bool Prefix(Mineable __instance, Map map, bool moteOnWaste, Pawn pawn)
         {
             if (!Settings.MinedItemsAreDisabled)
             {
