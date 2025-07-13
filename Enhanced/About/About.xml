@@ -33,6 +33,7 @@ All credit due to the original author of this mod, wagon!
         <packageId>moremonstergirls.daleim</packageId>
         <displayName>More Monster Girls Enhanced</displayName>
         <downloadUrl>https://github.com/Dalemie/rimworld-moremonstergirls/releases/latest</downloadUrl>
+        <steamWorkshopUrl>steam://url/CommunityFilePage/3524636708</steamWorkshopUrl>
     </li>
 </modDependencies>
 <loadAfter>
