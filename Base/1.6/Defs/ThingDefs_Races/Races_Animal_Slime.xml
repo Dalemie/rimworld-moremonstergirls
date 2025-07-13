@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsArms">
-    <defName>Slime</defName>
+    <defName>MMG_Slime</defName>
     <label>slime</label>
     <description>A gooey blob shaped into the form of a human. Slimes can appear and survive in wide range of enviroments, eat anything, and propogate quickly. Red slimes leave behind a goo that is used for it's medicinal properties. They are known to attack humans, and might have developed their unique form as a sort of disguise.Slimes are slow-moving, but hard to kill - amorphous body takes many hits until destroyed and their victims appears intoxicated.</description>
     <statBases>
@@ -15,7 +15,7 @@
     </statBases>
     <comps>
       <li Class="CompProperties_Milkable">
-        <milkDef>GooSlimeRed</milkDef>
+        <milkDef>MMG_GooSlimeRed</milkDef>
         <milkIntervalDays>5</milkIntervalDays>
         <milkAmount>5</milkAmount>
       </li>
@@ -58,7 +58,7 @@
       </li>
     </tools>
     <race>
-      <body>Slime</body>
+      <body>MMG_Slime</body>
       <ageGenerationCurve>
         <points>
           <li>0.1,0</li>
@@ -75,7 +75,7 @@
       <baseHungerRate>0.45</baseHungerRate>
       <baseHealthScale>2</baseHealthScale>
       <foodType>OmnivoreRoughAnimal, DendrovoreAnimal</foodType>
-      <leatherDef>Leather_Slime</leatherDef>
+      <leatherDef>MMG_Leather_Slime</leatherDef>
       <petness>0</petness>
       <nuzzleMtbHours>48</nuzzleMtbHours>
       <herdMigrationAllowed>true</herdMigrationAllowed>
@@ -133,10 +133,10 @@
   </ThingDef>
 
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>Slime</defName>
+    <defName>MMG_Slime</defName>
     <label>slime</label>
     <labelPlural>slimes</labelPlural>
-    <race>Slime</race>
+    <race>MMG_Slime</race>
     <combatPower>90</combatPower>
     <ecoSystemWeight>0.1</ecoSystemWeight>
     <wildGroupSize>
@@ -149,46 +149,46 @@
       <li>
         <labelMale>slimeman baby</labelMale>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Slime/Slime_m</texPath>
+          <texPath>Things/Pawn/Animal/Slime/MMG_Slime_m</texPath>
           <drawSize>0.6</drawSize>
         </bodyGraphicData>
         <labelFemale>slimegirl baby</labelFemale>
         <femaleGraphicData>
-          <texPath>Things/Pawn/Animal/Slime/Slime_f</texPath>
+          <texPath>Things/Pawn/Animal/Slime/MMG_Slime_f</texPath>
           <drawSize>0.6</drawSize>
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/SlimeGoop</texPath>
+          <texPath>Things/Pawn/Animal/Dessicated/MMG_SlimeGoop</texPath>
           <drawSize>0.6</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <labelMale>juvenlile slimeman</labelMale>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Slime/Slime_m</texPath>
+          <texPath>Things/Pawn/Animal/Slime/MMG_Slime_m</texPath>
           <drawSize>1.0</drawSize>
         </bodyGraphicData>
         <labelFemale>juvenlie slimegirl</labelFemale>
         <femaleGraphicData>
-          <texPath>Things/Pawn/Animal/Slime/Slime_f</texPath>
+          <texPath>Things/Pawn/Animal/Slime/MMG_Slime_f</texPath>
           <drawSize>1.0</drawSize>
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/SlimeGoop</texPath>
+          <texPath>Things/Pawn/Animal/Dessicated/MMG_SlimeGoop</texPath>
           <drawSize>1.0</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Slime/Slime_m</texPath>
+          <texPath>Things/Pawn/Animal/Slime/MMG_Slime_m</texPath>
           <drawSize>1.3</drawSize>
         </bodyGraphicData>
         <femaleGraphicData>
-          <texPath>Things/Pawn/Animal/Slime/Slime_f</texPath>
+          <texPath>Things/Pawn/Animal/Slime/MMG_Slime_f</texPath>
           <drawSize>1.3</drawSize>
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/SlimeGoop</texPath>
+          <texPath>Things/Pawn/Animal/Dessicated/MMG_SlimeGoop</texPath>
           <drawSize>1.3</drawSize>
         </dessicatedBodyGraphicData>
       </li>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <ThingDef ParentName="LeatherBase">
-    <defName>Leather_Cowgirl</defName>
+    <defName>MMG_Leather_Cowgirl</defName>
     <label>cowgirl hide</label>
     <description>Tanned, dried, scraped cowgirl skin.  You did it, didn't you?  You killed a cute, innocent cowgirl for this.  You Monster!</description>
     <graphicData>
@@ -19,7 +19,7 @@
     </stuffProps>
   </ThingDef>
   <ThingDef ParentName="LeatherBase">
-    <defName>Leather_Baphomet</defName>
+    <defName>MMG_Leather_Baphomet</defName>
     <label>baphomet leather</label>
     <description>Tanned, dried, scraped baphomet skin.  You did it, didn't you?  You killed a cute, innocent baphomet for this.  You Monster!</description>
     <graphicData>
@@ -38,7 +38,7 @@
     </stuffProps>
   </ThingDef>
   <ThingDef ParentName="LeatherBase">
-    <defName>Leather_Centaur</defName>
+    <defName>MMG_Leather_Centaur</defName>
     <label>centaur leather</label>
     <description>Tanned, dried, scraped centaur skin.  Fairly tough and insulates well against heat.</description>
     <graphicData>
@@ -56,7 +56,7 @@
     </stuffProps>
   </ThingDef>
   <ThingDef ParentName="LeatherBase">
-    <defName>Leather_Dryad</defName>
+    <defName>MMG_Leather_Dryad</defName>
     <label>dryad leather</label>
     <description>Tanned, dried, scraped dryad skin.  Feels soft and warm, just like the creature you butchered to get this leather.</description>
     <graphicData>
@@ -74,7 +74,7 @@
     </stuffProps>
   </ThingDef>
   <ThingDef ParentName="LeatherBase">
-    <defName>Leather_Harpy</defName>
+    <defName>MMG_Leather_Harpy</defName>
     <label>harpy leather</label>
     <description>Tanned, dried, scraped harpy skin.  Provides some protection against heat and somewhat insulates against blows</description>
     <graphicData>
@@ -91,7 +91,7 @@
     </stuffProps>
   </ThingDef>
   <ThingDef ParentName="LeatherBase">
-    <defName>Leather_BlackHarpy</defName>
+    <defName>MMG_Leather_BlackHarpy</defName>
     <label>black harpy leather</label>
     <description>Tanned, dried, scraped black harpy skin.  Provides some protection against cold and somewhat insulates against blows</description>
     <graphicData>
@@ -109,7 +109,7 @@
     </stuffProps>
   </ThingDef>
   <ThingDef ParentName="LeatherBase">
-    <defName>Leather_FairyForest</defName>
+    <defName>MMG_Leather_FairyForest</defName>
     <label>fairyskin</label>
     <description>Tanned, dried, scraped skin of a delicate, defenceless forest fairy... Completely average in terms of stats.  Hope you can live with yourself... You Monster!</description>
     <graphicData>
@@ -124,7 +124,7 @@
     </stuffProps>
   </ThingDef>
   <ThingDef ParentName="LeatherBase">
-    <defName>Leather_FairyIce</defName>
+    <defName>MMG_Leather_FairyIce</defName>
     <label>ice fairyskin</label>
     <description>Tanned, dried, scraped skin of a delicate, defenceless ice fairy... Very high cold insulation.  Hope you can live with yourself... You Monster!</description>
     <graphicData>
@@ -140,7 +140,7 @@
     </stuffProps>
   </ThingDef>
   <ThingDef ParentName="LeatherBase">
-    <defName>Leather_Thrumbomorph</defName>
+    <defName>MMG_Leather_Thrumbomorph</defName>
     <label>thrumbomorph leather</label>
     <description>Tanned, dried, and scraped skin of a thrumbomorph  Good all-round insulator and damage absorber</description>
     <graphicData>
@@ -159,7 +159,7 @@
     </stuffProps>
   </ThingDef>
   <ThingDef ParentName="LeatherBase">
-    <defName>Leather_Slime</defName>
+    <defName>MMG_Leather_Slime</defName>
     <label>slime membrane</label>
     <description>The outer membrane of a dead slime carefully peeled off.  Quite a good insulator and damage absorber</description>
     <graphicData>
@@ -177,7 +177,7 @@
     </stuffProps>
   </ThingDef>
   <ThingDef ParentName="LeatherBase">
-    <defName>Leather_Imp</defName>
+    <defName>MMG_Leather_Imp</defName>
     <label> imp leather</label>
     <description>Tanned, dried, and scraped skin of an imp. Offers some damage and heat protection.</description>
     <graphicData>
@@ -195,7 +195,7 @@
     </stuffProps>
   </ThingDef>
   <ThingDef ParentName="LeatherBase">
-    <defName>Leather_Dragon</defName>
+    <defName>MMG_Leather_Dragon</defName>
     <label>dragonskin</label>
     <description>Tanned, dried, and scraped skin of a dragonoid. Offers some damage and heat protection.</description>
     <graphicData>

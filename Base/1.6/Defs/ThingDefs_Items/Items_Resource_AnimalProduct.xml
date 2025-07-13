@@ -3,11 +3,11 @@
    <!--================================ Milk ======================================-->
    
   <ThingDef ParentName="OrganicProductBase">
-    <defName>CentaurMilk</defName>
+    <defName>MMG_CentaurMilk</defName>
     <label>centaur milk</label>
     <description>Milk from a happy centaur.  Prized for its slight earthy taste.</description>
     <graphicData>
-      <texPath>Things/Item/Resource/CentaurMilk</texPath>
+      <texPath>Things/Item/Resource/MMG_CentaurMilk</texPath>
     </graphicData>
     <socialPropernessMatters>true</socialPropernessMatters>
     <statBases>
@@ -34,11 +34,11 @@
   </ThingDef>
   
   <ThingDef ParentName="OrganicProductBase">
-    <defName>CowgirlMilk</defName>
+    <defName>MMG_CowgirlMilk</defName>
     <label>cowgirl milk</label>
     <description>Milk from a happy cowgirl. Very Tasty.</description>
     <graphicData>
-      <texPath>Things/Item/Resource/CowgirlMilk</texPath>
+      <texPath>Things/Item/Resource/MMG_CowgirlMilk</texPath>
     </graphicData>
     <socialPropernessMatters>true</socialPropernessMatters>
     <statBases>
@@ -66,11 +66,11 @@
   </ThingDef>
 
   <ThingDef ParentName="OrganicProductBase">
-    <defName>DryadMilk</defName>
+    <defName>MMG_DryadMilk</defName>
     <label>dryad milk</label>
     <description>Milk from a docile dryad.  Has a slight fruity taste.</description>
     <graphicData>
-      <texPath>Things/Item/Resource/DryadMilk</texPath>
+      <texPath>Things/Item/Resource/MMG_DryadMilk</texPath>
     </graphicData>
     <socialPropernessMatters>true</socialPropernessMatters>
     <statBases>
@@ -97,11 +97,11 @@
   </ThingDef>
 
   <ThingDef ParentName="OrganicProductBase">
-    <defName>ThrumbogirlMilk</defName>
+    <defName>MMG_ThrumbogirlMilk</defName>
     <label>thrumbogirl milk</label>
     <description>Milk from a happy thrumbogirl. Cool and refreshing.</description>
     <graphicData>
-      <texPath>Things/Item/Resource/ThrumbogirlMilk</texPath>
+      <texPath>Things/Item/Resource/MMG_ThrumbogirlMilk</texPath>
     </graphicData>
     <socialPropernessMatters>true</socialPropernessMatters>
     <statBases>
@@ -129,11 +129,11 @@
   </ThingDef>
 
   <ThingDef ParentName="OrganicProductBase">
-    <defName>ImpmotherMilk</defName>
+    <defName>MMG_ImpmotherMilk</defName>
     <label>impmother milk</label>
     <description>Milk from a seductive impmother. Has a mysterious taste.</description>
     <graphicData>
-      <texPath>Things/Item/Resource/ImpmotherMilk</texPath>
+      <texPath>Things/Item/Resource/MMG_ImpmotherMilk</texPath>
     </graphicData>
     <socialPropernessMatters>true</socialPropernessMatters>
     <statBases>
@@ -161,11 +161,11 @@
   </ThingDef>
 
   <ThingDef ParentName="OrganicProductBase">
-    <defName>DragonMilk</defName>
+    <defName>MMG_DragonMilk</defName>
     <label>dragonoid milk</label>
     <description>Milk from a feisty dragongirl. Has a spicy taste that's highly regarded.</description>
     <graphicData>
-      <texPath>Things/Item/Resource/DragonMilk</texPath>
+      <texPath>Things/Item/Resource/MMG_DragonMilk</texPath>
     </graphicData>
     <socialPropernessMatters>true</socialPropernessMatters>
     <statBases>
@@ -193,11 +193,11 @@
   </ThingDef>
   
   <ThingDef ParentName="OrganicProductBase">
-    <defName>BaphometMilk</defName>
+    <defName>MMG_BaphometMilk</defName>
     <label>baphomet milk</label>
     <description>Milk from a happy Baphomet. Prized for its slight vivacious taste.</description>
     <graphicData>
-      <texPath>Things/Item/Resource/BaphometMilk</texPath>
+      <texPath>Things/Item/Resource/MMG_BaphometMilk</texPath>
     </graphicData>
     <socialPropernessMatters>true</socialPropernessMatters>
     <statBases>
@@ -226,7 +226,7 @@
 <!--============================================ Unfertilized Eggs =============================================================-->  
   
   <ThingDef ParentName="EggUnfertBase">
-    <defName>EggHarpyUnfertilized</defName>
+    <defName>MMG_EggHarpyUnfertilized</defName>
     <label>harpy egg (unfert.)</label>
     <description>An unfertilized harpy egg.  It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
@@ -240,7 +240,7 @@
   </ThingDef>
 
   <ThingDef ParentName="EggUnfertBase">
-    <defName>EggBlackHarpyUnfertilized</defName>
+    <defName>MMG_EggBlackHarpyUnfertilized</defName>
     <label>black harpy egg (unfert.)</label>
     <description>An unfertilized black harpy egg.  It can be eaten raw, but it's much better cooked.</description>
     <graphicData>
@@ -255,7 +255,7 @@
   
 <!--=========================================== Fertilized Eggs ================================================================-->
   <ThingDef ParentName="EggFertBase">
-    <defName>EggHarpyFertilized</defName>
+    <defName>MMG_EggHarpyFertilized</defName>
     <label>harpy egg (fert.)</label>
     <description>Fertilized harpy egg. Needs a warm place to hatch. If all goes well, it should hatch into a harpy chick.</description>
     <graphicData>
@@ -269,13 +269,13 @@
     <comps>
       <li Class="CompProperties_Hatcher">
         <hatcherDaystoHatch>10</hatcherDaystoHatch>
-        <hatcherPawn>Harpy</hatcherPawn>  
+        <hatcherPawn>MMG_Harpy</hatcherPawn>  
       </li>
     </comps>
   </ThingDef>
 
   <ThingDef ParentName="EggFertBase">
-    <defName>EggBlackHarpyFertilized</defName>
+    <defName>MMG_EggBlackHarpyFertilized</defName>
     <label>black harpy egg (fert.)</label>
     <description>Fertilized black harpy egg. Needs a warm place to hatch. If all goes well, it should hatch into a black harpy chick.</description>
     <graphicData>
@@ -289,7 +289,7 @@
     <comps>
       <li Class="CompProperties_Hatcher">
         <hatcherDaystoHatch>10</hatcherDaystoHatch>
-        <hatcherPawn>BlackHarpy</hatcherPawn>
+        <hatcherPawn>MMG_BlackHarpy</hatcherPawn>
       </li>
     </comps>
   </ThingDef>

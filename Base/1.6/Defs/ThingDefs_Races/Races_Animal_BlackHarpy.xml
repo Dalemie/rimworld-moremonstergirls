@@ -3,7 +3,7 @@
 
 
   <ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsArms">
-    <defName>BlackHarpy</defName>
+    <defName>MMG_BlackHarpy</defName>
     <label>black harpy</label>
     <description>An omnivorous creature that appears as a human woman with wings, talons and a beak. Black harpies produce eggs and live in boreal forests and tundras. They are larger, stronger and meaner than their southern cousins. They also prefer meat. Their feathers can be used for clothing, similar to wool.</description>
     <statBases>
@@ -13,7 +13,7 @@
       <Wildness>0.60</Wildness>
     </statBases>
     <race>
-      <body>Harpy</body>
+      <body>MMG_Harpy</body>
       <herdAnimal>true</herdAnimal>
       <predator>true</predator>
       <maxPreyBodySize>1.1</maxPreyBodySize>
@@ -21,7 +21,7 @@
       <baseHungerRate>0.5</baseHungerRate>
       <baseHealthScale>1.35</baseHealthScale>
       <foodType>OmnivoreRoughAnimal</foodType>
-      <leatherDef>Leather_BlackHarpy</leatherDef>
+      <leatherDef>MMG_Leather_BlackHarpy</leatherDef>
       <petness>0.05</petness>
       <nuzzleMtbHours>32</nuzzleMtbHours>
       <herdMigrationAllowed>true</herdMigrationAllowed>
@@ -33,7 +33,7 @@
       <manhunterOnDamageChance>0.5</manhunterOnDamageChance>
       <mateMtbHours>6</mateMtbHours>
       <canCrossBreedWith>
-        <li>Harpy</li>
+        <li>MMG_Harpy</li>
       </canCrossBreedWith>
       <wildBiomes>
         <Tundra>0.06</Tundra>
@@ -69,15 +69,15 @@
     </race>
     <comps>
       <li Class="CompProperties_EggLayer">
-        <eggUnfertilizedDef>EggBlackHarpyUnfertilized</eggUnfertilizedDef>
-        <eggFertilizedDef>EggBlackHarpyFertilized</eggFertilizedDef>
+        <eggUnfertilizedDef>MMG_EggBlackHarpyUnfertilized</eggUnfertilizedDef>
+        <eggFertilizedDef>MMG_EggBlackHarpyFertilized</eggFertilizedDef>
         <eggFertilizationCountMax>1</eggFertilizationCountMax>
         <eggLayIntervalDays>10</eggLayIntervalDays>
         <!--<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>-->
         <eggCountRange>1</eggCountRange>
       </li>
       <li Class="CompProperties_Shearable">
-        <woolDef>BlackHarpyFeathers</woolDef>
+        <woolDef>MMG_BlackHarpyFeathers</woolDef>
         <shearIntervalDays>15</shearIntervalDays>
         <woolAmount>40</woolAmount>
       </li>
@@ -135,10 +135,10 @@
   </ThingDef>
 
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>BlackHarpy</defName>
+    <defName>MMG_BlackHarpy</defName>
     <label>black harpy</label>
     <labelPlural>black harpies</labelPlural>
-    <race>BlackHarpy</race>
+    <race>MMG_BlackHarpy</race>
     <combatPower>155</combatPower>
     <ecoSystemWeight>0.1</ecoSystemWeight>
     <wildGroupSize>
@@ -153,12 +153,12 @@
       <li>
         <labelMale>black harpyman chick</labelMale>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Harpy/HarpyBlack_m</texPath>
+          <texPath>Things/Pawn/Animal/Harpy/MMG_HarpyBlack_m</texPath>
           <drawSize>1.0</drawSize>
         </bodyGraphicData>
         <labelFemale>black harpy chick</labelFemale>
         <femaleGraphicData>
-          <texPath>Things/Pawn/Animal/Harpy/HarpyBlack_fc</texPath>
+          <texPath>Things/Pawn/Animal/Harpy/MMG_HarpyBlack_fc</texPath>
           <drawSize>1.0</drawSize>
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
@@ -169,12 +169,12 @@
       <li>
         <labelMale>juvenile black harpyman</labelMale>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Harpy/HarpyBlack_m</texPath>
+          <texPath>Things/Pawn/Animal/Harpy/MMG_HarpyBlack_m</texPath>
           <drawSize>1.4</drawSize>
         </bodyGraphicData>
         <labelFemale>juvenile black harpy</labelFemale>
         <femaleGraphicData>
-          <texPath>Things/Pawn/Animal/Harpy/HarpyBlack_f</texPath>
+          <texPath>Things/Pawn/Animal/Harpy/MMG_HarpyBlack_f</texPath>
           <drawSize>1.4</drawSize>
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
@@ -185,12 +185,12 @@
       <li>
         <labelMale>black harpyman</labelMale>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Harpy/HarpyBlack_m</texPath>
+          <texPath>Things/Pawn/Animal/Harpy/MMG_HarpyBlack_m</texPath>
           <drawSize>1.8</drawSize>
         </bodyGraphicData>
         <labelFemale>black harpy</labelFemale>
         <femaleGraphicData>
-          <texPath>Things/Pawn/Animal/Harpy/HarpyBlack_f</texPath>
+          <texPath>Things/Pawn/Animal/Harpy/MMG_HarpyBlack_f</texPath>
           <drawSize>1.8</drawSize>
         </femaleGraphicData>
         <dessicatedBodyGraphicData>

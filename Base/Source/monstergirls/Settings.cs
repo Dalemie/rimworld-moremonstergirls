@@ -27,24 +27,24 @@ namespace monstergirlsbase
 
         public static void SetProductions()
         {
-            SetCompProps(GetMilkCompProps("Centaur"), settings.CentaurMilk);
-            SetCompProps(GetShearableCompProps("Centaur"), settings.CentaurHair);
-            SetCompProps(GetMilkCompProps("Cowgirl"), settings.CowgirlMilk);
-            SetCompProps(GetMilkCompProps("Dragongirl"), settings.DragongirlMilk);
-            SetCompProps(GetShearableCompProps("Dragongirl"), settings.DragongirlScales);
-            SetCompProps(GetMilkCompProps("Dryad"), settings.DryadMilk);
-            SetCompProps(GetMilkCompProps("Dryad"), settings.DryadWool);
-            SetCompProps(GetMilkCompProps("FairyForest"), settings.ForestFairyDust);
-            SetCompProps(GetMilkCompProps("FairyIce"), settings.IceFairyDust);
-            SetCompProps(GetMilkCompProps("Baphomet"), settings.BaphometMilk);
-            SetCompProps(GetEggLayerCompProps("Harpy"), settings.HarpyEggs);
-            SetCompProps(GetShearableCompProps("Harpy"), settings.HarpyFeathers);
-            SetCompProps(GetEggLayerCompProps("BlackHarpy"), settings.BlackHarpyEggs);
-            SetCompProps(GetShearableCompProps("BlackHarpy"), settings.BlackHarpyFeathers);
-            SetCompProps(GetMilkCompProps("Impmother"), settings.ImpMotherMilk);
-            SetCompProps(GetMilkCompProps("Slime"), settings.SlimegirlSlime);
-            SetCompProps(GetMilkCompProps("Thrumbomorph"), settings.ThumbromorphMilk);
-            SetCompProps(GetShearableCompProps("Thrumbomorph"), settings.ThumbromorphWool);
+            SetCompProps(GetMilkCompProps("MMG_Centaur"), settings.CentaurMilk);
+            SetCompProps(GetShearableCompProps("MMG_Centaur"), settings.CentaurHair);
+            SetCompProps(GetMilkCompProps("MMG_Cowgirl"), settings.CowgirlMilk);
+            SetCompProps(GetMilkCompProps("MMG_Dragongirl"), settings.DragongirlMilk);
+            SetCompProps(GetShearableCompProps("MMG_Dragongirl"), settings.DragongirlScales);
+            SetCompProps(GetMilkCompProps("MMG_Dryad"), settings.DryadMilk);
+            SetCompProps(GetShearableCompProps("MMG_Dryad"), settings.DryadWool);
+            SetCompProps(GetMilkCompProps("MMG_FairyForest"), settings.ForestFairyDust);
+            SetCompProps(GetMilkCompProps("MMG_FairyIce"), settings.IceFairyDust);
+            SetCompProps(GetMilkCompProps("MMG_Baphomet"), settings.BaphometMilk);
+            SetCompProps(GetEggLayerCompProps("MMG_Harpy"), settings.HarpyEggs);
+            SetCompProps(GetShearableCompProps("MMG_Harpy"), settings.HarpyFeathers);
+            SetCompProps(GetEggLayerCompProps("MMG_BlackHarpy"), settings.BlackHarpyEggs);
+            SetCompProps(GetShearableCompProps("MMG_BlackHarpy"), settings.BlackHarpyFeathers);
+            SetCompProps(GetMilkCompProps("MMG_Impmother"), settings.ImpMotherMilk);
+            SetCompProps(GetMilkCompProps("MMG_Slime"), settings.SlimegirlSlime);
+            SetCompProps(GetMilkCompProps("MMG_Thrumbomorph"), settings.ThumbromorphMilk);
+            SetCompProps(GetShearableCompProps("MMG_Thrumbomorph"), settings.ThumbromorphWool);
         }
 
         public override void DoSettingsWindowContents(Rect rect)
@@ -71,24 +71,24 @@ namespace monstergirlsbase
             if (Widgets.ButtonText(new Rect(200, y, 100, 22), "Reset".Translate()))
             {
                 settings.DefaultCentaurMilk();
-                SetCompProps(GetMilkCompProps("Centaur"), settings.CentaurMilk);
+                SetCompProps(GetMilkCompProps("MMG_Centaur"), settings.CentaurMilk);
             }
             y += NEWLINE;
             if (DrawProductionInput(ref y, settings.CentaurMilk))
             {
-                SetCompProps(GetMilkCompProps("Centaur"), settings.CentaurMilk);
+                SetCompProps(GetMilkCompProps("MMG_Centaur"), settings.CentaurMilk);
             }
             y += NEWLINE;
             Widgets.Label(new Rect(20, y, 150, 22), "MMG.Hair".Translate());
             if (Widgets.ButtonText(new Rect(200, y, 100, 22), "Reset".Translate()))
             {
                 settings.DefaultCentaurHair();
-                SetCompProps(GetShearableCompProps("Centaur"), settings.CentaurHair);
+                SetCompProps(GetShearableCompProps("MMG_Centaur"), settings.CentaurHair);
             }
             y += NEWLINE;
             if (DrawProductionInput(ref y, settings.CentaurHair))
             {
-                SetCompProps(GetShearableCompProps("Centaur"), settings.CentaurHair);
+                SetCompProps(GetShearableCompProps("MMG_Centaur"), settings.CentaurHair);
             }
             y += NEW_SETTING;
 
@@ -98,12 +98,12 @@ namespace monstergirlsbase
             if (Widgets.ButtonText(new Rect(200, y, 100, 22), "Reset".Translate()))
             {
                 settings.DefaultCowgirl();
-                SetCompProps(GetMilkCompProps("Cowgirl"), settings.CowgirlMilk);
+                SetCompProps(GetMilkCompProps("MMG_Cowgirl"), settings.CowgirlMilk);
             }
             y += NEWLINE;
             if (DrawProductionInput(ref y, settings.CowgirlMilk))
             {
-                SetCompProps(GetMilkCompProps("Cowgirl"), settings.CowgirlMilk);
+                SetCompProps(GetMilkCompProps("MMG_Cowgirl"), settings.CowgirlMilk);
             }
             y += NEW_SETTING;
 
@@ -113,24 +113,24 @@ namespace monstergirlsbase
             if (Widgets.ButtonText(new Rect(200, y, 100, 22), "Reset".Translate()))
             {
                 settings.DefaultDragongirlMilk();
-                SetCompProps(GetMilkCompProps("Dragongirl"), settings.DragongirlMilk);
+                SetCompProps(GetMilkCompProps("MMG_Dragongirl"), settings.DragongirlMilk);
             }
             y += NEWLINE;
             if (DrawProductionInput(ref y, settings.DragongirlMilk))
             {
-                SetCompProps(GetMilkCompProps("Dragongirl"), settings.DragongirlMilk);
+                SetCompProps(GetMilkCompProps("MMG_Dragongirl"), settings.DragongirlMilk);
             }
             y += NEWLINE;
             Widgets.Label(new Rect(20, y, 150, 22), "MMG.Scales".Translate());
             if (Widgets.ButtonText(new Rect(200, y, 100, 22), "Reset".Translate()))
             {
                 settings.DefaultDragongirlScales();
-                SetCompProps(GetShearableCompProps("Dragongirl"), settings.DragongirlScales);
+                SetCompProps(GetShearableCompProps("MMG_Dragongirl"), settings.DragongirlScales);
             }
             y += NEWLINE;
             if (DrawProductionInput(ref y, settings.DragongirlScales))
             {
-                SetCompProps(GetShearableCompProps("Dragongirl"), settings.DragongirlScales);
+                SetCompProps(GetShearableCompProps("MMG_Dragongirl"), settings.DragongirlScales);
             }
             y += NEW_SETTING;
 
@@ -140,24 +140,24 @@ namespace monstergirlsbase
             if (Widgets.ButtonText(new Rect(200, y, 100, 22), "Reset".Translate()))
             {
                 settings.DefaultDryadMilk();
-                SetCompProps(GetMilkCompProps("Dryad"), settings.DryadMilk);
+                SetCompProps(GetMilkCompProps("MMG_Dryad"), settings.DryadMilk);
             }
             y += NEWLINE;
             if (DrawProductionInput(ref y, settings.DryadMilk))
             {
-                SetCompProps(GetMilkCompProps("Dryad"), settings.DryadWool);
+                SetCompProps(GetMilkCompProps("MMG_Dryad"), settings.DryadMilk);
             }
             y += NEWLINE;
             Widgets.Label(new Rect(20, y, 150, 22), "MMG.Wool".Translate());
             if (Widgets.ButtonText(new Rect(200, y, 100, 22), "Reset".Translate()))
             {
                 settings.DefaultDryadWool();
-                SetCompProps(GetShearableCompProps("Dryad"), settings.DryadWool);
+                SetCompProps(GetShearableCompProps("MMG_Dryad"), settings.DryadWool);
             }
             y += NEWLINE;
             if (DrawProductionInput(ref y, settings.DryadWool))
             {
-                SetCompProps(GetShearableCompProps("Dryad"), settings.DryadWool);
+                SetCompProps(GetShearableCompProps("MMG_Dryad"), settings.DryadWool);
             }
             y += NEW_SETTING;
 
@@ -167,12 +167,12 @@ namespace monstergirlsbase
             if (Widgets.ButtonText(new Rect(200, y, 100, 22), "Reset".Translate()))
             {
                 settings.DefaultFairyForest();
-                SetCompProps(GetMilkCompProps("FairyForest"), settings.ForestFairyDust);
+                SetCompProps(GetMilkCompProps("MMG_FairyForest"), settings.ForestFairyDust);
             }
             y += NEWLINE;
             if (DrawProductionInput(ref y, settings.ForestFairyDust))
             {
-                SetCompProps(GetMilkCompProps("FairyForest"), settings.ForestFairyDust);
+                SetCompProps(GetMilkCompProps("MMG_FairyForest"), settings.ForestFairyDust);
             }
             y += NEW_SETTING;
 
@@ -182,12 +182,12 @@ namespace monstergirlsbase
             if (Widgets.ButtonText(new Rect(200, y, 100, 22), "Reset".Translate()))
             {
                 settings.DefaultFairyIce();
-                SetCompProps(GetMilkCompProps("FairyIce"), settings.IceFairyDust);
+                SetCompProps(GetMilkCompProps("MMG_FairyIce"), settings.IceFairyDust);
             }
             y += NEWLINE;
             if (DrawProductionInput(ref y, settings.IceFairyDust))
             {
-                SetCompProps(GetMilkCompProps("FairyIce"), settings.IceFairyDust);
+                SetCompProps(GetMilkCompProps("MMG_FairyIce"), settings.IceFairyDust);
             }
             y += NEW_SETTING;
 
@@ -197,12 +197,12 @@ namespace monstergirlsbase
             if (Widgets.ButtonText(new Rect(200, y, 100, 22), "Reset".Translate()))
             {
                 settings.DefaultBaphomet();
-                SetCompProps(GetMilkCompProps("Baphomet"), settings.BaphometMilk);
+                SetCompProps(GetMilkCompProps("MMG_Baphomet"), settings.BaphometMilk);
             }
             y += NEWLINE;
             if (DrawProductionInput(ref y, settings.BaphometMilk))
             {
-                SetCompProps(GetMilkCompProps("Baphomet"), settings.BaphometMilk);
+                SetCompProps(GetMilkCompProps("MMG_Baphomet"), settings.BaphometMilk);
             }
             y += NEW_SETTING;
 
@@ -212,24 +212,24 @@ namespace monstergirlsbase
             if (Widgets.ButtonText(new Rect(200, y, 100, 22), "Reset".Translate()))
             {
                 settings.DefaultHarpyEggs();
-                SetCompProps(GetEggLayerCompProps("Harpy"), settings.HarpyEggs);
+                SetCompProps(GetEggLayerCompProps("MMG_Harpy"), settings.HarpyEggs);
             }
             y += NEWLINE;
             if (DrawProductionInput(ref y, settings.HarpyEggs))
             {
-                SetCompProps(GetEggLayerCompProps("Harpy"), settings.HarpyEggs);
+                SetCompProps(GetEggLayerCompProps("MMG_Harpy"), settings.HarpyEggs);
             }
             y += NEWLINE;
             Widgets.Label(new Rect(20, y, 150, 22), "MMG.Feathers".Translate());
             if (Widgets.ButtonText(new Rect(200, y, 100, 22), "Reset".Translate()))
             {
                 settings.DefaultHarpyFeathers();
-                SetCompProps(GetShearableCompProps("Harpy"), settings.HarpyFeathers);
+                SetCompProps(GetShearableCompProps("MMG_Harpy"), settings.HarpyFeathers);
             }
             y += NEWLINE;
             if (DrawProductionInput(ref y, settings.HarpyFeathers))
             {
-                SetCompProps(GetShearableCompProps("Harpy"), settings.HarpyFeathers);
+                SetCompProps(GetShearableCompProps("MMG_Harpy"), settings.HarpyFeathers);
             }
             y += NEW_SETTING;
 
@@ -239,24 +239,24 @@ namespace monstergirlsbase
             if (Widgets.ButtonText(new Rect(200, y, 100, 22), "Reset".Translate()))
             {
                 settings.DefaultBlackHarpyEggs();
-                SetCompProps(GetEggLayerCompProps("BlackHarpy"), settings.BlackHarpyEggs);
+                SetCompProps(GetEggLayerCompProps("MMG_BlackHarpy"), settings.BlackHarpyEggs);
             }
             y += NEWLINE;
             if (DrawProductionInput(ref y, settings.BlackHarpyEggs))
             {
-                SetCompProps(GetEggLayerCompProps("BlackHarpy"), settings.BlackHarpyEggs);
+                SetCompProps(GetEggLayerCompProps("MMG_BlackHarpy"), settings.BlackHarpyEggs);
             }
             y += NEWLINE;
             Widgets.Label(new Rect(20, y, 150, 22), "MMG.Feathers".Translate());
             if (Widgets.ButtonText(new Rect(200, y, 100, 22), "Reset".Translate()))
             {
                 settings.DefaultBlackHarpyFeathers();
-                SetCompProps(GetShearableCompProps("BlackHarpy"), settings.BlackHarpyFeathers);
+                SetCompProps(GetShearableCompProps("MMG_BlackHarpy"), settings.BlackHarpyFeathers);
             }
             y += NEWLINE;
             if (DrawProductionInput(ref y, settings.BlackHarpyFeathers))
             {
-                SetCompProps(GetShearableCompProps("BlackHarpy"), settings.BlackHarpyFeathers);
+                SetCompProps(GetShearableCompProps("MMG_BlackHarpy"), settings.BlackHarpyFeathers);
             }
             y += NEW_SETTING;
 
@@ -266,12 +266,12 @@ namespace monstergirlsbase
             if (Widgets.ButtonText(new Rect(200, y, 100, 22), "Reset".Translate()))
             {
                 settings.DefaultImpMother();
-                SetCompProps(GetMilkCompProps("Impmother"), settings.ImpMotherMilk);
+                SetCompProps(GetMilkCompProps("MMG_Impmother"), settings.ImpMotherMilk);
             }
             y += NEWLINE;
             if (DrawProductionInput(ref y, settings.ImpMotherMilk))
             {
-                SetCompProps(GetMilkCompProps("Impmother"), settings.ImpMotherMilk);
+                SetCompProps(GetMilkCompProps("MMG_Impmother"), settings.ImpMotherMilk);
             }
             y += NEW_SETTING;
 
@@ -281,12 +281,12 @@ namespace monstergirlsbase
             if (Widgets.ButtonText(new Rect(200, y, 100, 22), "Reset".Translate()))
             {
                 settings.DefaultSlimegirlSlime();
-                SetCompProps(GetMilkCompProps("Slime"), settings.SlimegirlSlime);
+                SetCompProps(GetMilkCompProps("MMG_Slime"), settings.SlimegirlSlime);
             }
             y += NEWLINE;
             if (DrawProductionInput(ref y, settings.SlimegirlSlime))
             {
-                SetCompProps(GetMilkCompProps("Slime"), settings.SlimegirlSlime);
+                SetCompProps(GetMilkCompProps("MMG_Slime"), settings.SlimegirlSlime);
             }
             y += NEW_SETTING;
 
@@ -296,24 +296,24 @@ namespace monstergirlsbase
             if (Widgets.ButtonText(new Rect(200, y, 100, 22), "Reset".Translate()))
             {
                 settings.DefaultThrumbomorphMilk();
-                SetCompProps(GetMilkCompProps("Thrumbomorph"), settings.ThumbromorphMilk);
+                SetCompProps(GetMilkCompProps("MMG_Thrumbomorph"), settings.ThumbromorphMilk);
             }
             y += NEWLINE;
             if (DrawProductionInput(ref y, settings.ThumbromorphMilk))
             {
-                SetCompProps(GetMilkCompProps("Thrumbomorph"), settings.ThumbromorphMilk);
+                SetCompProps(GetMilkCompProps("MMG_Thrumbomorph"), settings.ThumbromorphMilk);
             }
             y += NEWLINE;
             Widgets.Label(new Rect(20, y, 150, 22), "MMG.Wool".Translate());
             if (Widgets.ButtonText(new Rect(200, y, 100, 22), "Reset".Translate()))
             {
                 settings.DefaultThrumbomorphWool();
-                SetCompProps(GetShearableCompProps("Thrumbomorph"), settings.ThumbromorphWool);
+                SetCompProps(GetShearableCompProps("MMG_Thrumbomorph"), settings.ThumbromorphWool);
             }
             y += NEWLINE;
             if (DrawProductionInput(ref y, settings.ThumbromorphWool))
             {
-                SetCompProps(GetShearableCompProps("Thrumbomorph"), settings.ThumbromorphWool);
+                SetCompProps(GetShearableCompProps("MMG_Thrumbomorph"), settings.ThumbromorphWool);
             }
 
             Widgets.EndScrollView();

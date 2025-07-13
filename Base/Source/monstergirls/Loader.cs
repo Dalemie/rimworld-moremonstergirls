@@ -15,13 +15,13 @@ namespace monstergirlsbase
     public class MilkDefOf
     {
         public static ThingDef Milk;
-        public static ThingDef CentaurMilk;
-        public static ThingDef CowgirlMilk;
-        public static ThingDef DryadMilk;
-        public static ThingDef ImpmotherMilk;
-        public static ThingDef DragonMilk;
-        public static ThingDef BaphometMilk;
-        public static ThingDef ThrumbogirlMilk;
+        public static ThingDef MMG_CentaurMilk;
+        public static ThingDef MMG_CowgirlMilk;
+        public static ThingDef MMG_DryadMilk;
+        public static ThingDef MMG_ImpmotherMilk;
+        public static ThingDef MMG_DragonMilk;
+        public static ThingDef MMG_BaphometMilk;
+        public static ThingDef MMG_ThrumbogirlMilk;
     }
 
     [StaticConstructorOnStartup]
@@ -42,23 +42,23 @@ namespace monstergirlsbase
         {
             if (Settings.UseMonsterGirlMilk)
             {
-                DefDatabase<ThingDef>.GetNamed("Centaur").GetCompProperties<CompProperties_Milkable>().milkDef = MilkDefOf.CentaurMilk;
-                DefDatabase<ThingDef>.GetNamed("Cowgirl").GetCompProperties<CompProperties_Milkable>().milkDef = MilkDefOf.CowgirlMilk;
-                DefDatabase<ThingDef>.GetNamed("Impmother").GetCompProperties<CompProperties_Milkable>().milkDef = MilkDefOf.ImpmotherMilk;
-                DefDatabase<ThingDef>.GetNamed("Dragongirl").GetCompProperties<CompProperties_Milkable>().milkDef = MilkDefOf.DragonMilk;
-                DefDatabase<ThingDef>.GetNamed("Dryad").GetCompProperties<CompProperties_Milkable>().milkDef = MilkDefOf.DryadMilk;
-                DefDatabase<ThingDef>.GetNamed("Baphomet").GetCompProperties<CompProperties_Milkable>().milkDef = MilkDefOf.BaphometMilk;
-                DefDatabase<ThingDef>.GetNamed("Thrumbomorph").GetCompProperties<CompProperties_Milkable>().milkDef = MilkDefOf.ThrumbogirlMilk;
+                DefDatabase<ThingDef>.GetNamed("MMG_Centaur").GetCompProperties<CompProperties_Milkable>().milkDef = MilkDefOf.MMG_CentaurMilk;
+                DefDatabase<ThingDef>.GetNamed("MMG_Cowgirl").GetCompProperties<CompProperties_Milkable>().milkDef = MilkDefOf.MMG_CowgirlMilk;
+                DefDatabase<ThingDef>.GetNamed("MMG_Impmother").GetCompProperties<CompProperties_Milkable>().milkDef = MilkDefOf.MMG_ImpmotherMilk;
+                DefDatabase<ThingDef>.GetNamed("MMG_Dragongirl").GetCompProperties<CompProperties_Milkable>().milkDef = MilkDefOf.MMG_DragonMilk;
+                DefDatabase<ThingDef>.GetNamed("MMG_Dryad").GetCompProperties<CompProperties_Milkable>().milkDef = MilkDefOf.MMG_DryadMilk;
+                DefDatabase<ThingDef>.GetNamed("MMG_Baphomet").GetCompProperties<CompProperties_Milkable>().milkDef = MilkDefOf.MMG_BaphometMilk;
+                DefDatabase<ThingDef>.GetNamed("MMG_Thrumbomorph").GetCompProperties<CompProperties_Milkable>().milkDef = MilkDefOf.MMG_ThrumbogirlMilk;
             }
             else
             {
-                DefDatabase<ThingDef>.GetNamed("Centaur").GetCompProperties<CompProperties_Milkable>().milkDef = MilkDefOf.Milk;
-                DefDatabase<ThingDef>.GetNamed("Cowgirl").GetCompProperties<CompProperties_Milkable>().milkDef = MilkDefOf.Milk;
-                DefDatabase<ThingDef>.GetNamed("Impmother").GetCompProperties<CompProperties_Milkable>().milkDef = MilkDefOf.Milk;
-                DefDatabase<ThingDef>.GetNamed("Dragongirl").GetCompProperties<CompProperties_Milkable>().milkDef = MilkDefOf.Milk;
-                DefDatabase<ThingDef>.GetNamed("Dryad").GetCompProperties<CompProperties_Milkable>().milkDef = MilkDefOf.Milk;
-                DefDatabase<ThingDef>.GetNamed("Baphomet").GetCompProperties<CompProperties_Milkable>().milkDef = MilkDefOf.Milk;
-                DefDatabase<ThingDef>.GetNamed("Thrumbomorph").GetCompProperties<CompProperties_Milkable>().milkDef = MilkDefOf.Milk;
+                DefDatabase<ThingDef>.GetNamed("MMG_Centaur").GetCompProperties<CompProperties_Milkable>().milkDef = MilkDefOf.Milk;
+                DefDatabase<ThingDef>.GetNamed("MMG_Cowgirl").GetCompProperties<CompProperties_Milkable>().milkDef = MilkDefOf.Milk;
+                DefDatabase<ThingDef>.GetNamed("MMG_Impmother").GetCompProperties<CompProperties_Milkable>().milkDef = MilkDefOf.Milk;
+                DefDatabase<ThingDef>.GetNamed("MMG_Dragongirl").GetCompProperties<CompProperties_Milkable>().milkDef = MilkDefOf.Milk;
+                DefDatabase<ThingDef>.GetNamed("MMG_Dryad").GetCompProperties<CompProperties_Milkable>().milkDef = MilkDefOf.Milk;
+                DefDatabase<ThingDef>.GetNamed("MMG_Baphomet").GetCompProperties<CompProperties_Milkable>().milkDef = MilkDefOf.Milk;
+                DefDatabase<ThingDef>.GetNamed("MMG_Thrumbomorph").GetCompProperties<CompProperties_Milkable>().milkDef = MilkDefOf.Milk;
             }
         }
         public static void SetProd()
