@@ -3,7 +3,7 @@
 
 
   <BodyDef>
-    <defName>Centaur</defName>
+    <defName>MMG_Centaur</defName>
     <label>centaur</label>
     <corePart>
       <def>Torso</def>

@@ -3,7 +3,7 @@
 
 
   <BodyDef>
-    <defName>Dryad</defName>
+    <defName>MMG_Dryad</defName>
     <label>dryad</label>
     <corePart>
       <def>Torso</def>

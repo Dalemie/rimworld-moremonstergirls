@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsArms">
-    <defName>Impmother</defName>
+    <defName>MMG_Impmother</defName>
     <label>imp mother</label>
     <description>A demonic creature. Imps were developed by larger, more intelligent demons to serve as menial slaves. They have a very unusual lifespan, only reaching adulthood in the last 8 years of their life. However, an adult imp (called an impmother) produces offspring very rapidly and produces enough milk to make a cow blush. Their personalities are mischievous and they love attention, but they can become very attached to their mother or owner. They prefer hot climates.</description>
     <statBases>
@@ -13,7 +13,7 @@
     </statBases>
     <comps>
       <li Class="CompProperties_Milkable">
-        <milkDef>ImpmotherMilk</milkDef>
+        <milkDef>MMG_ImpmotherMilk</milkDef>
         <milkIntervalDays>1</milkIntervalDays>
         <milkAmount>12</milkAmount>
       </li>
@@ -77,14 +77,14 @@
     </tools>
     <race>
       <manhunterOnDamageChance>0.10</manhunterOnDamageChance>
-      <body>Impish</body>
+      <body>MMG_Impish</body>
       <herdAnimal>true</herdAnimal>
       <baseBodySize>1.3</baseBodySize>
       <baseHungerRate>0.45</baseHungerRate>
       <baseHealthScale>1.6</baseHealthScale>
       <petness>0.2</petness>
       <foodType>OmnivoreRoughAnimal</foodType>
-      <leatherDef>Leather_Imp</leatherDef>
+      <leatherDef>MMG_Leather_Imp</leatherDef>
       <herdMigrationAllowed>true</herdMigrationAllowed>
       <gestationPeriodDays>20</gestationPeriodDays>
       <trainability>Advanced</trainability>
@@ -138,9 +138,9 @@
   </ThingDef>
 
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>Impmother</defName>
+    <defName>MMG_Impmother</defName>
     <label>imp mother</label>
-    <race>Impmother</race>
+    <race>MMG_Impmother</race>
     <combatPower>70</combatPower>
     <ecoSystemWeight>0.10</ecoSystemWeight>
     <wildGroupSize>
@@ -153,7 +153,7 @@
         <label>imp</label>
         <labelPlural>imps</labelPlural>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Demon/impmothermale</texPath>
+          <texPath>Things/Pawn/Animal/Demon/MMG_impmothermale</texPath>
           <drawSize>0.8</drawSize>
           <color>(220,220,220)</color>
           <shadowData>
@@ -162,7 +162,7 @@
           </shadowData>
         </bodyGraphicData>
         <femaleGraphicData>
-          <texPath>Things/Pawn/Animal/Demon/impmotherbaby</texPath>
+          <texPath>Things/Pawn/Animal/Demon/MMG_MMG_impmotherbaby</texPath>
           <drawSize>0.8</drawSize>
           <color>(220,220,220)</color>
           <shadowData>
@@ -179,7 +179,7 @@
         <label>imp</label>
         <labelPlural>imps</labelPlural>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Demon/impmothermale</texPath>
+          <texPath>Things/Pawn/Animal/Demon/MMG_impmothermale</texPath>
           <drawSize>1.3</drawSize>
           <color>(220,220,220)</color>
           <shadowData>
@@ -188,7 +188,7 @@
           </shadowData>
         </bodyGraphicData>
         <femaleGraphicData>
-          <texPath>Things/Pawn/Animal/Demon/impmotherbaby</texPath>
+          <texPath>Things/Pawn/Animal/Demon/MMG_impmotherbaby</texPath>
           <drawSize>1.3</drawSize>
           <color>(220,220,220)</color>
           <shadowData>
@@ -203,7 +203,7 @@
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Demon/impmothermale</texPath>
+          <texPath>Things/Pawn/Animal/Demon/MMG_impmothermale</texPath>
           <drawSize>1.5</drawSize>
           <color>(220,220,220)</color>
           <shadowData>
@@ -212,7 +212,7 @@
           </shadowData>
         </bodyGraphicData>
         <femaleGraphicData>
-          <texPath>Things/Pawn/Animal/Demon/impmother</texPath>
+          <texPath>Things/Pawn/Animal/Demon/MMG_impmother</texPath>
           <drawSize>1.5</drawSize>
           <color>(220,220,220)</color>
           <shadowData>

@@ -3,7 +3,7 @@
 
 
   <ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsArms">
-    <defName>Harpy</defName>
+    <defName>MMG_Harpy</defName>
     <label>harpy</label>
     <description>An omnivorous creature that appears as a human woman with wings, talons and a beak. Harpies produce eggs and live in arid regions. In combat, they are delicate, but fast with powerful attacks. They reproduce quickly and can be extremely dangerous in large groups. Their feathers can be used for clothing, similar to wool.</description>
     <statBases>
@@ -14,7 +14,7 @@
       <Wildness>0.50</Wildness>
     </statBases>
     <race>
-      <body>Harpy</body>
+      <body>MMG_Harpy</body>
       <herdAnimal>true</herdAnimal>
       <predator>true</predator>
       <maxPreyBodySize>0.5</maxPreyBodySize>
@@ -22,7 +22,7 @@
       <baseHungerRate>0.4</baseHungerRate>
       <baseHealthScale>1</baseHealthScale>
       <foodType>OmnivoreRoughAnimal</foodType>
-      <leatherDef>Leather_Harpy</leatherDef>
+      <leatherDef>MMG_Leather_Harpy</leatherDef>
       <petness>0.25</petness>
       <nuzzleMtbHours>24</nuzzleMtbHours>
       <herdMigrationAllowed>true</herdMigrationAllowed>
@@ -34,7 +34,7 @@
       <manhunterOnDamageChance>0.1</manhunterOnDamageChance>
       <mateMtbHours>6</mateMtbHours>
       <canCrossBreedWith>
-        <li>BlackHarpy</li>
+        <li>MMG_BlackHarpy</li>
       </canCrossBreedWith>
       <wildBiomes>
         <Tundra>0</Tundra>
@@ -68,15 +68,15 @@
     </race>
     <comps>
       <li Class="CompProperties_EggLayer">
-        <eggUnfertilizedDef>EggHarpyUnfertilized</eggUnfertilizedDef>
-        <eggFertilizedDef>EggHarpyFertilized</eggFertilizedDef>
+        <eggUnfertilizedDef>MMG_EggHarpyUnfertilized</eggUnfertilizedDef>
+        <eggFertilizedDef>MMG_EggHarpyFertilized</eggFertilizedDef>
         <eggFertilizationCountMax>1</eggFertilizationCountMax>
         <eggLayIntervalDays>10</eggLayIntervalDays>
         <!--<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>-->
         <eggCountRange>1</eggCountRange>
       </li>
       <li Class="CompProperties_Shearable">
-        <woolDef>HarpyFeathers</woolDef>
+        <woolDef>MMG_HarpyFeathers</woolDef>
         <shearIntervalDays>15</shearIntervalDays>
         <woolAmount>40</woolAmount>
       </li>
@@ -134,10 +134,10 @@
   </ThingDef>
 
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>Harpy</defName>
+    <defName>MMG_Harpy</defName>
     <label>harpy</label>
     <labelPlural>harpies</labelPlural>
-    <race>Harpy</race>
+    <race>MMG_Harpy</race>
     <combatPower>90</combatPower>
     <ecoSystemWeight>0.1</ecoSystemWeight>
     <wildGroupSize>
@@ -152,48 +152,48 @@
       <li>
         <labelMale>harpyman chick</labelMale>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Harpy/Harpy_m</texPath>
+          <texPath>Things/Pawn/Animal/Harpy/MMG_Harpy_m</texPath>
           <drawSize>0.9</drawSize>
         </bodyGraphicData>
         <labelFemale>harpy chick</labelFemale>
         <femaleGraphicData>
-          <texPath>Things/Pawn/Animal/Harpy/Harpy_fc</texPath>
+          <texPath>Things/Pawn/Animal/Harpy/MMG_Harpy_fc</texPath>
           <drawSize>0.9</drawSize>
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+          <texPath>Things/Pawn/Animal/Dessicated/MMG_CritterDessicatedSmall</texPath>
           <drawSize>1</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <labelMale>juvenile harpyman</labelMale>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Harpy/Harpy_m</texPath>
+          <texPath>Things/Pawn/Animal/Harpy/MMG_Harpy_m</texPath>
           <drawSize>1.3</drawSize>
         </bodyGraphicData>
         <labelFemale>juvenile harpy</labelFemale>
         <femaleGraphicData>
-          <texPath>Things/Pawn/Animal/Harpy/Harpy_f</texPath>
+          <texPath>Things/Pawn/Animal/Harpy/MMG_Harpy_f</texPath>
           <drawSize>1.3</drawSize>
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Dessicated/MMG_CritterDessicatedMedium</texPath>
           <drawSize>1.3</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <labelMale>harpyman</labelMale>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Harpy/Harpy_m</texPath>
+          <texPath>Things/Pawn/Animal/Harpy/MMG_Harpy_m</texPath>
           <drawSize>1.6</drawSize>
         </bodyGraphicData>
         <labelFemale>harpy</labelFemale>
         <femaleGraphicData>
-          <texPath>Things/Pawn/Animal/Harpy/Harpy_f</texPath>
+          <texPath>Things/Pawn/Animal/Harpy/MMG_Harpy_f</texPath>
           <drawSize>1.6</drawSize>
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Dessicated/MMG_CritterDessicatedMedium</texPath>
           <drawSize>1.6</drawSize>
         </dessicatedBodyGraphicData>
       </li>

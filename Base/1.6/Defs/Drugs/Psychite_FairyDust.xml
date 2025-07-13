@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <ThingDef ParentName="MakeableDrugBase">
-    <defName>FairyDust</defName>
+    <defName>MMG_FairyDust</defName>
     <label>fairy dust</label>
     <description>A strange dust that emanates from a fairy fluttering it's wings. Since only female fairies have wings, only they produce dust.</description>
     <graphicData>
@@ -35,7 +35,7 @@
       <useEatingSpeedStat>false</useEatingSpeedStat>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>FairyDustHigh</hediffDef>
+          <hediffDef>MMG_FairyDustHigh</hediffDef>
           <severity>0.75</severity>
           <toleranceChemical>Psychite</toleranceChemical>
         </li>
@@ -79,7 +79,7 @@
   </ThingDef>
 
   <HediffDef>
-    <defName>FairyDustHigh</defName>
+    <defName>MMG_FairyDustHigh</defName>
     <hediffClass>HediffWithComps</hediffClass>
     <description>Active fairy dust in the bloodstream. Generates an intense euphoric high.</description>
     <label>high on fairy dust</label>
@@ -111,9 +111,9 @@
   </HediffDef>
 
   <ThoughtDef>
-    <defName>FairyDustHigh</defName>
+    <defName>MMG_FairyDustHigh</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
-    <hediff>FairyDustHigh</hediff>
+    <hediff>MMG_FairyDustHigh</hediff>
     <validWhileDespawned>true</validWhileDespawned>
     <stages>
       <li>

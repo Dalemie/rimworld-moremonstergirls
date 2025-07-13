@@ -14,13 +14,13 @@
 					<success>Always</success>
 					<xpath>/Defs/ItemProcessor.ItemAcceptedDef[defName = "IP_CheesePressFirstItem"]/items</xpath>
 					<value>
-						<li>CentaurMilk</li>
-						<li>CowgirlMilk</li>
-						<li>DryadMilk</li>
-						<li>ThrumbogirlMilk</li>
-						<li>ImpmotherMilk</li>
-						<li>DragonMilk</li>
-						<li>BaphometMilk</li>
+						<li>MMG_CentaurMilk</li>
+						<li>MMG_CowgirlMilk</li>
+						<li>MMG_DryadMilk</li>
+						<li>MMG_ThrumbogirlMilk</li>
+						<li>MMG_ImpmotherMilk</li>
+						<li>MMG_DragonMilk</li>
+						<li>MMG_BaphometMilk</li>
 					</value>
 				</li>
 
@@ -33,7 +33,7 @@
 							<defName>VCE_CentaurMilkIntoCheese</defName>
 							<building>VCE_CheesePress</building>
 							<items>
-								<li>CentaurMilk</li>
+								<li>MMG_CentaurMilk</li>
 							</items>	
 							<amount>
 								<li>50</li>
@@ -61,7 +61,7 @@
 							<defName>VCE_CowgirlMilkIntoCheese</defName>
 							<building>VCE_CheesePress</building>
 							<items>
-								<li>CowgirlMilk</li>
+								<li>MMG_CowgirlMilk</li>
 							</items>	
 							<amount>
 								<li>50</li>
@@ -89,7 +89,7 @@
 							<defName>VCE_DryadMilkIntoCheese</defName>
 							<building>VCE_CheesePress</building>
 							<items>
-								<li>DryadMilk</li>
+								<li>MMG_DryadMilk</li>
 							</items>	
 							<amount>
 								<li>50</li>
@@ -117,7 +117,7 @@
 							<defName>VCE_ThumbrogirlMilkIntoCheese</defName>
 							<building>VCE_CheesePress</building>
 							<items>
-								<li>ThrumbogirlMilk</li>
+								<li>MMG_ThrumbogirlMilk</li>
 							</items>	
 							<amount>
 								<li>50</li>
@@ -145,7 +145,7 @@
 							<defName>VCE_ImpmotherMilkIntoCheese</defName>
 							<building>VCE_CheesePress</building>
 							<items>
-								<li>ImpmotherMilk</li>
+								<li>MMG_ImpmotherMilk</li>
 							</items>	
 							<amount>
 								<li>50</li>
@@ -173,7 +173,7 @@
 							<defName>VCE_DragongirlMilkIntoCheese</defName>
 							<building>VCE_CheesePress</building>
 							<items>
-								<li>DragonMilk</li>
+								<li>MMG_DragonMilk</li>
 							</items>	
 							<amount>
 								<li>50</li>
@@ -201,7 +201,7 @@
 							<defName>VCE_BaphometMilkIntoCheese</defName>
 							<building>VCE_CheesePress</building>
 							<items>
-								<li>BaphometMilk</li>
+								<li>MMG_BaphometMilk</li>
 							</items>	
 							<amount>
 								<li>50</li>

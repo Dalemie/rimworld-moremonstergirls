@@ -21,7 +21,7 @@
 				<!-- Harpy and Black Harpy -->
 			
 				<li Class="PatchOperationAddModExtension">
-					<xpath>Defs/ThingDef[defName="BlackHarpy" or defName="Harpy"]</xpath>
+					<xpath>Defs/ThingDef[defName="MMG_BlackHarpy" or defName="MMG_Harpy"]</xpath>
 					<value>
 						<li Class="CombatExtended.RacePropertiesExtensionCE">
 							<bodyShape>Humanoid</bodyShape>
@@ -32,7 +32,7 @@
 				<!-- Basic Melee Stats -->
 
 				<li Class="PatchOperationAdd">
-					<xpath>Defs/ThingDef[defName="BlackHarpy" or defName="Harpy"]/statBases</xpath>
+					<xpath>Defs/ThingDef[defName="MMG_BlackHarpy" or defName="MMG_Harpy"]/statBases</xpath>
 					<value>
 						<MeleeDodgeChance>0.2</MeleeDodgeChance>
 						<MeleeCritChance>0.2</MeleeCritChance>
@@ -43,7 +43,7 @@
 				<!-- Melee Tools -->
 
 				<li Class="PatchOperationReplace">
-					<xpath>Defs/ThingDef[defName="BlackHarpy" or defName="Harpy"]/tools</xpath>
+					<xpath>Defs/ThingDef[defName="MMG_BlackHarpy" or defName="MMG_Harpy"]/tools</xpath>
 					<value>
 						<tools>
 
@@ -103,7 +103,7 @@
 				<!-- Forest Fairy and Ice Fairy Harpy -->
 			
 				<li Class="PatchOperationAddModExtension">
-					<xpath>Defs/ThingDef[defName="FairyIce" or defName="FairyForest"]</xpath>
+					<xpath>Defs/ThingDef[defName="MMG_FairyIce" or defName="MMG_FairyForest"]</xpath>
 					<value>
 						<li Class="CombatExtended.RacePropertiesExtensionCE">
 							<bodyShape>Humanoid</bodyShape>
@@ -114,7 +114,7 @@
 				<!-- Basic Melee Stats -->
 
 				<li Class="PatchOperationAdd">
-					<xpath>Defs/ThingDef[defName="FairyIce" or defName="FairyForest"]/statBases</xpath>
+					<xpath>Defs/ThingDef[defName="MMG_FairyIce" or defName="MMG_FairyForest"]/statBases</xpath>
 					<value>
 						<MeleeDodgeChance>0.3</MeleeDodgeChance>
 						<MeleeCritChance>0.1</MeleeCritChance>
@@ -125,7 +125,7 @@
 				<!-- Melee Tools -->
 
 				<li Class="PatchOperationReplace">
-					<xpath>Defs/ThingDef[defName="FairyIce" or defName="FairyForest"]/tools</xpath>
+					<xpath>Defs/ThingDef[defName="MMG_FairyIce" or defName="MMG_FairyForest"]/tools</xpath>
 					<value>
 						<tools>
 
@@ -213,7 +213,7 @@
 				<!-- Centaurs and Dryads -->
 			
 				<li Class="PatchOperationAddModExtension">
-					<xpath>Defs/ThingDef[defName="Centaur" or defName="Dryad"]</xpath>
+					<xpath>Defs/ThingDef[defName="MMG_Centaur" or defName="MMG_Dryad"]</xpath>
 					<value>
 						<li Class="CombatExtended.RacePropertiesExtensionCE">
 							<bodyShape>Quadruped</bodyShape>
@@ -224,7 +224,7 @@
 				<!-- Basic Melee Stats -->
 
 				<li Class="PatchOperationAdd">
-					<xpath>Defs/ThingDef[defName="Centaur" or defName="Dryad"]/statBases</xpath>
+					<xpath>Defs/ThingDef[defName="MMG_Centaur" or defName="MMG_Dryad"]/statBases</xpath>
 					<value>
 						<MeleeDodgeChance>0.15</MeleeDodgeChance>
 						<MeleeCritChance>0.25</MeleeCritChance>
@@ -235,7 +235,7 @@
 				<!-- Melee Tools -->
 
 				<li Class="PatchOperationReplace">
-					<xpath>Defs/ThingDef[defName="Centaur" or defName="Dryad"]/tools</xpath>
+					<xpath>Defs/ThingDef[defName="MMG_Centaur" or defName="MMG_Dryad"]/tools</xpath>
 					<value>
 						<tools>
 
@@ -347,7 +347,7 @@
 				<!-- Cowgirl -->
 			
 				<li Class="PatchOperationAddModExtension">
-					<xpath>Defs/ThingDef[defName="Cowgirl"]</xpath>
+					<xpath>Defs/ThingDef[defName="MMG_Cowgirl"]</xpath>
 					<value>
 						<li Class="CombatExtended.RacePropertiesExtensionCE">
 							<bodyShape>Humanoid</bodyShape>
@@ -358,7 +358,7 @@
 				<!-- Basic Melee Stats -->
 
 				<li Class="PatchOperationAdd">
-					<xpath>Defs/ThingDef[defName="Cowgirl"]/statBases</xpath>
+					<xpath>Defs/ThingDef[defName="MMG_Cowgirl"]/statBases</xpath>
 					<value>
 						<MeleeDodgeChance>0.15</MeleeDodgeChance>
 						<MeleeCritChance>0.15</MeleeCritChance>
@@ -369,7 +369,7 @@
 				<!-- Melee Tools -->
 
 				<li Class="PatchOperationReplace">
-					<xpath>Defs/ThingDef[defName="Cowgirl"]/tools</xpath>
+					<xpath>Defs/ThingDef[defName="MMG_Cowgirl"]/tools</xpath>
 					<value>
 						<tools>
 
@@ -454,7 +454,7 @@
 				<!-- Imp Mother -->
 			
 				<li Class="PatchOperationAddModExtension">
-					<xpath>Defs/ThingDef[defName="Impmother"]</xpath>
+					<xpath>Defs/ThingDef[defName="MMG_Impmother"]</xpath>
 					<value>
 						<li Class="CombatExtended.RacePropertiesExtensionCE">
 							<bodyShape>Humanoid</bodyShape>
@@ -465,7 +465,7 @@
 				<!-- Basic Melee Stats -->
 
 				<li Class="PatchOperationAdd">
-					<xpath>Defs/ThingDef[defName="Impmother"]/statBases</xpath>
+					<xpath>Defs/ThingDef[defName="MMG_Impmother"]/statBases</xpath>
 					<value>
 						<MeleeDodgeChance>0.2</MeleeDodgeChance>
 						<MeleeCritChance>0.2</MeleeCritChance>
@@ -476,7 +476,7 @@
 				<!-- Melee Tools -->
 
 				<li Class="PatchOperationReplace">
-					<xpath>Defs/ThingDef[defName="Impmother"]/tools</xpath>
+					<xpath>Defs/ThingDef[defName="MMG_Impmother"]/tools</xpath>
 					<value>
 						<tools>
 
@@ -564,7 +564,7 @@
 				<!-- Dragonoid -->
 			
 				<li Class="PatchOperationAddModExtension">
-					<xpath>Defs/ThingDef[defName="Dragongirl"]</xpath>
+					<xpath>Defs/ThingDef[defName="MMG_Dragongirl"]</xpath>
 					<value>
 						<li Class="CombatExtended.RacePropertiesExtensionCE">
 							<bodyShape>Humanoid</bodyShape>
@@ -575,7 +575,7 @@
 				<!-- Basic Melee Stats -->
 
 				<li Class="PatchOperationAdd">
-					<xpath>Defs/ThingDef[defName="Dragongirl"]/statBases</xpath>
+					<xpath>Defs/ThingDef[defName="MMG_Dragongirl"]/statBases</xpath>
 					<value>
 						<MeleeDodgeChance>0.25</MeleeDodgeChance>
 						<MeleeCritChance>0.3</MeleeCritChance>
@@ -586,7 +586,7 @@
 				<!-- Melee Tools -->
 
 				<li Class="PatchOperationReplace">
-					<xpath>Defs/ThingDef[defName="Dragongirl"]/tools</xpath>
+					<xpath>Defs/ThingDef[defName="MMG_Dragongirl"]/tools</xpath>
 					<value>
 						<tools>
 
@@ -693,7 +693,7 @@
 				<!-- Slime -->
 			
 				<li Class="PatchOperationAddModExtension">
-					<xpath>Defs/ThingDef[defName="Slime"]</xpath>
+					<xpath>Defs/ThingDef[defName="MMG_Slime"]</xpath>
 					<value>
 						<li Class="CombatExtended.RacePropertiesExtensionCE">
 							<bodyShape>Humanoid</bodyShape>
@@ -704,7 +704,7 @@
 				<!-- Basic Melee Stats -->
 
 				<li Class="PatchOperationAdd">
-					<xpath>Defs/ThingDef[defName="Slime"]/statBases</xpath>
+					<xpath>Defs/ThingDef[defName="MMG_Slime"]/statBases</xpath>
 					<value>
 						<MeleeDodgeChance>0.3</MeleeDodgeChance>
 						<MeleeCritChance>0.15</MeleeCritChance>
@@ -715,7 +715,7 @@
 				<!-- Melee Tools -->
 
 				<li Class="PatchOperationReplace">
-					<xpath>Defs/ThingDef[defName="Slime"]/tools</xpath>
+					<xpath>Defs/ThingDef[defName="MMG_Slime"]/tools</xpath>
 					<value>
 						<tools>
 
@@ -775,7 +775,7 @@
 				<!-- Thrumbomorph -->
 			
 				<li Class="PatchOperationAddModExtension">
-					<xpath>Defs/ThingDef[defName="Thrumbomorph"]</xpath>
+					<xpath>Defs/ThingDef[defName="MMG_Thrumbomorph"]</xpath>
 					<value>
 						<li Class="CombatExtended.RacePropertiesExtensionCE">
 							<bodyShape>Humanoid</bodyShape>
@@ -786,7 +786,7 @@
 				<!-- Basic Melee Stats -->
 
 				<li Class="PatchOperationAdd">
-					<xpath>Defs/ThingDef[defName="Thrumbomorph"]/statBases</xpath>
+					<xpath>Defs/ThingDef[defName="MMG_Thrumbomorph"]/statBases</xpath>
 					<value>
 						<MeleeDodgeChance>0.15</MeleeDodgeChance>
 						<MeleeCritChance>0.3</MeleeCritChance>
@@ -797,7 +797,7 @@
 				<!-- Melee Tools -->
 
 				<li Class="PatchOperationReplace">
-					<xpath>Defs/ThingDef[defName="Thrumbomorph"]/tools</xpath>
+					<xpath>Defs/ThingDef[defName="MMG_Thrumbomorph"]/tools</xpath>
 					<value>
 						<tools>
 
@@ -900,7 +900,7 @@
 				<!-- Baphomet -->
 			
 				<li Class="PatchOperationAddModExtension">
-					<xpath>Defs/ThingDef[defName="Baphomet"]</xpath>
+					<xpath>Defs/ThingDef[defName="MMG_Baphomet"]</xpath>
 					<value>
 						<li Class="CombatExtended.RacePropertiesExtensionCE">
 							<bodyShape>Humanoid</bodyShape>
@@ -911,7 +911,7 @@
 				<!-- Basic Melee Stats -->
 
 				<li Class="PatchOperationAdd">
-					<xpath>Defs/ThingDef[defName="Baphomet"]/statBases</xpath>
+					<xpath>Defs/ThingDef[defName="MMG_Baphomet"]/statBases</xpath>
 					<value>
 						<MeleeDodgeChance>0.2</MeleeDodgeChance>
 						<MeleeCritChance>0.2</MeleeCritChance>
@@ -922,7 +922,7 @@
 				<!-- Melee Tools -->
 
 				<li Class="PatchOperationReplace">
-					<xpath>Defs/ThingDef[defName="Baphomet"]/tools</xpath>
+					<xpath>Defs/ThingDef[defName="MMG_Baphomet"]/tools</xpath>
 					<value>
 						<tools>
 

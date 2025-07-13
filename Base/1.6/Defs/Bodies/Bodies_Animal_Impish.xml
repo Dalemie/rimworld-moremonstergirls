@@ -3,7 +3,7 @@
 
 
   <BodyDef>
-    <defName>Impish</defName>
+    <defName>MMG_Impish</defName>
     <label>impish</label>
     <corePart>
       <def>Torso</def>

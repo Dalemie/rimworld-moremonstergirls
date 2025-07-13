@@ -3,7 +3,7 @@
 
 
   <BodyDef>
-    <defName>Cowgirl</defName>
+    <defName>MMG_Cowgirl</defName>
     <label>cowgirl</label>
     <corePart>
       <def>Torso</def>

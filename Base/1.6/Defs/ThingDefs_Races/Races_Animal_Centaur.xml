@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
-    <defName>Centaur</defName>
+    <defName>MMG_Centaur</defName>
     <label>centaur</label>
     <description>A fast, tough, intelligent and independent animal. Centaurs are most often found grazing in arid grasslands. Centaurs are extremely versatile and can serve well in combat, as pack animals, for their milk and wool, and as companions.</description>
     <statBases>
@@ -88,26 +88,26 @@
     </tools>
     <comps>
       <li Class="CompProperties_Milkable">
-        <milkDef>CentaurMilk</milkDef>
+        <milkDef>MMG_CentaurMilk</milkDef>
         <milkIntervalDays>1</milkIntervalDays>
         <milkAmount>8</milkAmount>
       </li>
       <li Class="CompProperties_Shearable">
-        <woolDef>HairCentaur</woolDef>
+        <woolDef>MMG_HairCentaur</woolDef>
         <shearIntervalDays>30</shearIntervalDays>
         <woolAmount>100</woolAmount>
       </li>
     </comps>
     <race>
       <herdAnimal>true</herdAnimal>
-      <body>Centaur</body>
+      <body>MMG_Centaur</body>
       <roamMtbDays>2</roamMtbDays>
       <baseBodySize>1.8</baseBodySize>
       <baseHealthScale>1.75</baseHealthScale>
       <baseHungerRate>0.8</baseHungerRate>
       <foodType>VegetarianRoughAnimal</foodType>
       <petness>0.5</petness>
-      <leatherDef>Leather_Centaur</leatherDef>
+      <leatherDef>MMG_Leather_Centaur</leatherDef>
       <meatLabel>centaur meat</meatLabel>
       <gestationPeriodDays>30</gestationPeriodDays>
       <trainability>Advanced</trainability>
@@ -164,10 +164,10 @@
     </tradeTags>
   </ThingDef>
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>Centaur</defName>
+    <defName>MMG_Centaur</defName>
     <label>centaur</label>
     <labelPlural>centaurs</labelPlural>
-    <race>Centaur</race>
+    <race>MMG_Centaur</race>
     <combatPower>80</combatPower>
     <ecoSystemWeight>0.2</ecoSystemWeight>
     <wildGroupSize>
@@ -179,43 +179,43 @@
     <lifeStages>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Centaur/Centaur_m</texPath>
+          <texPath>Things/Pawn/Animal/Centaur/MMG_Centaur_m</texPath>
           <drawSize>0.8</drawSize>
         </bodyGraphicData>
         <femaleGraphicData>
-          <texPath>Things/Pawn/Animal/Centaur/Centaur_fc</texPath>
+          <texPath>Things/Pawn/Animal/Centaur/MMG_Centaur_fc</texPath>
           <drawSize>0.8</drawSize>
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Centaur/DessicatedCentaur</texPath>
+          <texPath>Things/Pawn/Animal/Centaur/MMG_DessicatedCentaur</texPath>
           <drawSize>1.8</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Centaur/Centaur_m</texPath>
+          <texPath>Things/Pawn/Animal/Centaur/MMG_Centaur_m</texPath>
           <drawSize>1.2</drawSize>
         </bodyGraphicData>
         <femaleGraphicData>
-          <texPath>Things/Pawn/Animal/Centaur/Centaur_fc</texPath>
+          <texPath>Things/Pawn/Animal/Centaur/MMG_Centaur_fc</texPath>
           <drawSize>1.2</drawSize>
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Centaur/DessicatedCentaur</texPath>
+          <texPath>Things/Pawn/Animal/Centaur/MMG_DessicatedCentaur</texPath>
           <drawSize>2.2</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Centaur/Centaur_m</texPath>
+          <texPath>Things/Pawn/Animal/Centaur/MMG_Centaur_m</texPath>
           <drawSize>1.9</drawSize>
         </bodyGraphicData>
         <femaleGraphicData>
-          <texPath>Things/Pawn/Animal/Centaur/Centaur_f</texPath>
+          <texPath>Things/Pawn/Animal/Centaur/MMG_Centaur_f</texPath>
           <drawSize>1.9</drawSize>
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
-			   <texPath>Things/Pawn/Animal/Centaur/DessicatedCentaur</texPath>
+			   <texPath>Things/Pawn/Animal/Centaur/MMG_DessicatedCentaur</texPath>
 			   <drawSize>2.9</drawSize>
 			</dessicatedBodyGraphicData>
       </li>

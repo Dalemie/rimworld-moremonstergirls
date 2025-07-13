@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsArms">
-    <defName>Cowgirl</defName>
+    <defName>MMG_Cowgirl</defName>
     <label>cowgirl</label>
     <description>An animal which looks like a cow and human hybrid. It is very calm and can produce large amounts of milk.</description>
     <statBases>
@@ -14,7 +14,7 @@
     </statBases>
     <comps>
       <li Class="CompProperties_Milkable">
-        <milkDef>CowgirlMilk</milkDef>
+        <milkDef>MMG_CowgirlMilk</milkDef>
         <milkIntervalDays>1</milkIntervalDays>
         <milkAmount>12</milkAmount>
       </li>
@@ -75,7 +75,7 @@
       </li>
     </tools>
     <race>
-      <body>Cowgirl</body>
+      <body>MMG_Cowgirl</body>
       <roamMtbDays>2</roamMtbDays>
       <ageGenerationCurve>
         <points>
@@ -93,7 +93,7 @@
       <baseHealthScale>1.25</baseHealthScale>
       <petness>0.6</petness>
       <foodType>VegetarianRoughAnimal</foodType>
-      <leatherDef>Leather_Cowgirl</leatherDef>
+      <leatherDef>MMG_Leather_Cowgirl</leatherDef>
       <makesFootprints>true</makesFootprints>
       <lifeExpectancy>30</lifeExpectancy>
       <trainability>Advanced</trainability>
@@ -152,10 +152,10 @@
     </tradeTags>
   </ThingDef>
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>Cowgirl</defName>
+    <defName>MMG_Cowgirl</defName>
     <label>cowgirl</label>
     <labelPlural>cowgirls</labelPlural>
-    <race>Cowgirl</race>
+    <race>MMG_Cowgirl</race>
     <combatPower>65</combatPower>
     <ecoSystemWeight>0.1</ecoSystemWeight>
     <wildGroupSize>
@@ -167,11 +167,11 @@
         <label>calf</label>
         <labelPlural>calves</labelPlural>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Bovine/Bovine_calf_m</texPath>
+          <texPath>Things/Pawn/Animal/Bovine/MMG_Bovine_calf_m</texPath>
           <drawSize>0.6</drawSize>
         </bodyGraphicData>
         <femaleGraphicData>
-          <texPath>Things/Pawn/Animal/Bovine/Bovine_calf_f</texPath>
+          <texPath>Things/Pawn/Animal/Bovine/MMG_Bovine_calf_f</texPath>
           <drawSize>0.7</drawSize>
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
@@ -184,11 +184,11 @@
         <labelMale>shota bullboy</labelMale>
         <labelFemale>loli cowgirl</labelFemale>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Bovine/Bovine_m</texPath>
+          <texPath>Things/Pawn/Animal/Bovine/MMG_Bovine_m</texPath>
           <drawSize>1.0</drawSize>
         </bodyGraphicData>
         <femaleGraphicData>
-          <texPath>Things/Pawn/Animal/Bovine/Bovine_f</texPath>
+          <texPath>Things/Pawn/Animal/Bovine/MMG_Bovine_f</texPath>
           <drawSize>1.2</drawSize>
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
@@ -201,11 +201,11 @@
         <labelMale>bullboy</labelMale>
         <labelFemale>cowgirl</labelFemale>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Bovine/Bovine_m</texPath>
+          <texPath>Things/Pawn/Animal/Bovine/MMG_Bovine_m</texPath>
           <drawSize>1.4</drawSize>
         </bodyGraphicData>
         <femaleGraphicData>
-          <texPath>Things/Pawn/Animal/Bovine/Bovine_f</texPath>
+          <texPath>Things/Pawn/Animal/Bovine/MMG_Bovine_f</texPath>
           <drawSize>1.6</drawSize>
         </femaleGraphicData>
         <dessicatedBodyGraphicData>

@@ -3,7 +3,7 @@
 
 
   <BodyDef>
-    <defName>Harpy</defName>
+    <defName>MMG_Harpy</defName>
     <label>harpy</label>
     <corePart>
       <def>Torso</def>
@@ -195,7 +195,7 @@
               </groups>
             </li>
             <li>
-              <def>HarpyWing</def>
+              <def>MMG_HarpyWing</def>
               <customLabel>left wing</customLabel>
               <coverage>0.75</coverage>
               <groups>
@@ -224,7 +224,7 @@
               </groups>
             </li>
             <li>
-              <def>HarpyWing</def>
+              <def>MMG_HarpyWing</def>
               <customLabel>right wing</customLabel>
               <coverage>0.75</coverage>
               <groups>

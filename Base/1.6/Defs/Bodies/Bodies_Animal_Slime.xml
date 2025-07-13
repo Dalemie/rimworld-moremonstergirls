@@ -3,10 +3,10 @@
 
 
   <BodyDef>
-    <defName>Slime</defName>
+    <defName>MMG_Slime</defName>
     <label>slime</label>
     <corePart>
-      <def>BodySlime</def>
+      <def>MMG_BodySlime</def>
       <height>Middle</height>
       <depth>Outside</depth>
       <groups>
@@ -142,7 +142,7 @@
                   </groups>
                 </li>
                 <li>
-                  <def>SlimeMouth</def>
+                  <def>MMG_SlimeMouth</def>
                   <coverage>0.10</coverage>
                   <groups>
                     <li>Mouth</li>

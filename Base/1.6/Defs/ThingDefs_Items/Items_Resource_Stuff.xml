@@ -3,7 +3,7 @@
 
   <!--==========================Hair=============================-->
   <ThingDef ParentName="WoolBase">
-    <defName>HairCentaur</defName>
+    <defName>MMG_HairCentaur</defName>
     <label>centaur hair</label>
     <description>Soft, light and provides very good insulation. Centaur hair clothes can keep the body comfortable even in extreme conditions.</description>
     <graphicData>
@@ -19,7 +19,7 @@
     </stuffProps>
   </ThingDef>
   <ThingDef ParentName="WoolBase">
-    <defName>HairDryad</defName>
+    <defName>MMG_HairDryad</defName>
     <label>dryad hair</label>
     <description>Soft, light and provides very good insulation. Dryad hair clothes can keep the body comfortable even in extreme conditions.</description>
     <graphicData>
@@ -35,7 +35,7 @@
     </stuffProps>
   </ThingDef>
   <ThingDef ParentName="WoolBase">
-    <defName>HarpyFeathers</defName>
+    <defName>MMG_HarpyFeathers</defName>
     <label>harpy feathers</label>
     <description>Soft, light and provides very good insulation. Harpy feather clothes can keep the body comfortable in very hot conditions.</description>
     <graphicData>
@@ -54,7 +54,7 @@
     </stuffProps>
   </ThingDef>
   <ThingDef ParentName="WoolBase">
-    <defName>BlackHarpyFeathers</defName>
+    <defName>MMG_BlackHarpyFeathers</defName>
     <label>black harpy feathers</label>
     <description>Soft, light and provides very good insulation. Black harpy feather clothes can keep the body warm in cold conditions.</description>
     <graphicData>
@@ -72,7 +72,7 @@
     </stuffProps>
   </ThingDef>
   <ThingDef ParentName="WoolBase">
-    <defName>WoolThrumbomorph</defName>
+    <defName>MMG_WoolThrumbomorph</defName>
     <label>thrumbomorph wool</label>
     <description>Soft, light and provides very good insulation.  Thrumbomorph wool is valuable and clothes made from it provide good all-round protection.</description>
     <graphicData>
@@ -90,7 +90,7 @@
     </stuffProps>
   </ThingDef>
   <ThingDef ParentName="WoolBase">
-    <defName>DragongirlScales</defName>
+    <defName>MMG_DragongirlScales</defName>
     <label>dragongirl scales</label>
     <description>Scales shed from a dragongirl. Equipment made from these scales provide excellent defense and protection from heat.</description>
     <graphicData>

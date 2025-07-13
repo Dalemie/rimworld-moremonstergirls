@@ -3,7 +3,7 @@
 
 
   <BodyDef>
-    <defName>Thrumbomorph</defName>
+    <defName>MMG_Thrumbomorph</defName>
     <label>thrumbomorph</label>
     <corePart>
       <def>Torso</def>

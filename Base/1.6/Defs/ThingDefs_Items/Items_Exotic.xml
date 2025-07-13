@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <ThingDef ParentName="ResourceVerbBase">
-    <defName>ThrumbomorphHorn</defName>
+    <defName>MMG_ThrumbomorphHorn</defName>
     <label>thrumbomorph's horn</label>
     <description>A thrumbogirl's horn. It's not as large or as valuable  as a thrumbo's horn but it's just as deadly</description>
     <graphicData>

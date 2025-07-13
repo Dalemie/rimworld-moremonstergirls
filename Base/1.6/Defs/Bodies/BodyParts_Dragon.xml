@@ -2,7 +2,7 @@
 <Defs>
 
   <BodyPartDef>
-    <defName>DragonScales</defName>
+    <defName>MMG_DragonScales</defName>
     <label>scales</label>
     <hitPoints>50</hitPoints>
     <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>

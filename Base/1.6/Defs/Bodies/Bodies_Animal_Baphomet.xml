@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <BodyDef>
-    <defName>Baphomet</defName>
+    <defName>MMG_Baphomet</defName>
     <label>baphomet</label>
     <corePart>
       <def>Torso</def>

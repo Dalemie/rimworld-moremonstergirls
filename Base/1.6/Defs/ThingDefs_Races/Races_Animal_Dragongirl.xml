@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsArms">
-    <defName>Dragongirl</defName>
+    <defName>MMG_Dragongirl</defName>
     <label>dragonoid</label>
     <description>Dragonoids are a very powerful combat animal. Their bodies are covered in thick defensive scales and they can tear their prey apart with their teeth and claws. They are most common in arid regions.</description>
     <statBases>
@@ -14,12 +14,12 @@
     </statBases>
     <comps>
       <li Class="CompProperties_Milkable">
-        <milkDef>DragonMilk</milkDef>
+        <milkDef>MMG_DragonMilk</milkDef>
         <milkIntervalDays>2</milkIntervalDays>
         <milkAmount>8</milkAmount>
       </li>
       <li Class="CompProperties_Shearable">
-        <woolDef>DragongirlScales</woolDef>
+        <woolDef>MMG_DragongirlScales</woolDef>
         <shearIntervalDays>30</shearIntervalDays>
         <woolAmount>120</woolAmount>
       </li>
@@ -89,7 +89,7 @@
       </li>
     </tools>
     <race>
-      <body>Dragongirl</body>
+      <body>MMG_Dragongirl</body>
       <baseBodySize>1.8</baseBodySize>
       <baseHungerRate>0.6</baseHungerRate>
       <baseHealthScale>3.2</baseHealthScale>
@@ -100,7 +100,7 @@
       <predator>true</predator>
       <maxPreyBodySize>1.5</maxPreyBodySize>
       <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
-      <leatherDef>Leather_Dragon</leatherDef>
+      <leatherDef>MMG_Leather_Dragon</leatherDef>
       <gestationPeriodDays>50</gestationPeriodDays>
       <wildBiomes>
         <Tundra>0.00</Tundra>
@@ -147,15 +147,15 @@
   </ThingDef>
 
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>Dragongirl</defName>
+    <defName>MMG_Dragongirl</defName>
     <label>dragonoid</label>
-    <race>Dragongirl</race>
+    <race>MMG_Dragongirl</race>
     <combatPower>300</combatPower>
     <ecoSystemWeight>1</ecoSystemWeight>
     <lifeStages>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dragonmorph/dragongirlmale</texPath>
+          <texPath>Things/Pawn/Animal/Dragonmorph/MMG_dragongirlmale</texPath>
           <drawSize>0.9</drawSize>
           <color>(220,220,220)</color>
           <shadowData>
@@ -164,7 +164,7 @@
           </shadowData>
         </bodyGraphicData>
         <femaleGraphicData>
-          <texPath>Things/Pawn/Animal/Dragonmorph/dragongirl</texPath>
+          <texPath>Things/Pawn/Animal/Dragonmorph/MMG_dragongirl</texPath>
           <drawSize>0.9</drawSize>
           <color>(220,220,220)</color>
           <shadowData>
@@ -179,7 +179,7 @@
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dragonmorph/dragongirlmale</texPath>
+          <texPath>Things/Pawn/Animal/Dragonmorph/MMG_dragongirlmale</texPath>
           <drawSize>1.2</drawSize>
           <color>(220,220,220)</color>
           <shadowData>
@@ -188,7 +188,7 @@
           </shadowData>
         </bodyGraphicData>
         <femaleGraphicData>
-          <texPath>Things/Pawn/Animal/Dragonmorph/dragongirl</texPath>
+          <texPath>Things/Pawn/Animal/Dragonmorph/MMG_dragongirl</texPath>
           <drawSize>1.2</drawSize>
           <color>(220,220,220)</color>
           <shadowData>
@@ -203,7 +203,7 @@
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dragonmorph/dragongirlmale</texPath>
+          <texPath>Things/Pawn/Animal/Dragonmorph/MMG_dragongirlmale</texPath>
           <drawSize>1.7</drawSize>
           <color>(220,220,220)</color>
           <shadowData>
@@ -212,7 +212,7 @@
           </shadowData>
         </bodyGraphicData>
         <femaleGraphicData>
-          <texPath>Things/Pawn/Animal/Dragonmorph/dragongirl</texPath>
+          <texPath>Things/Pawn/Animal/Dragonmorph/MMG_dragongirl</texPath>
           <drawSize>1.7</drawSize>
           <color>(220,220,220)</color>
           <shadowData>

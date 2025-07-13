@@ -2,11 +2,11 @@
 <Defs>
 
   <ThingDef ParentName="MedicineBase">
-    <defName>GooSlimeRed</defName>
+    <defName>MMG_GooSlimeRed</defName>
     <label>red goo</label>
     <description>A red goo that dripped off of a red slime. It can serve as a primitive medicine.</description>
     <graphicData>
-      <texPath>Things/Item/Resource/RedGoo</texPath>
+      <texPath>Things/Item/Resource/MMG_RedGoo</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.85</drawSize>
     </graphicData>

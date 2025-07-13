@@ -3,7 +3,7 @@
 
 
   <BodyDef>
-    <defName>Fairy</defName>
+    <defName>MMG_Fairy</defName>
     <label>fairy</label>
     <corePart>
       <def>Torso</def>

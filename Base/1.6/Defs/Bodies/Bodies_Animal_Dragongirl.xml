@@ -3,7 +3,7 @@
 
 
   <BodyDef>
-    <defName>Dragongirl</defName>
+    <defName>MMG_Dragongirl</defName>
     <label>dragongirl</label>
     <corePart>
       <def>Torso</def>
@@ -19,7 +19,7 @@
 			<height>Bottom</height>
 		</li>
 		<li>
-      			<def>DragonScales</def>
+      			<def>MMG_DragonScales</def>
       			<height>Middle</height>
           		<coverage>0.05</coverage>
       			<depth>Outside</depth>

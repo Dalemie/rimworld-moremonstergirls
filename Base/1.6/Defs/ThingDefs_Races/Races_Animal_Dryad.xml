@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
-    <defName>Dryad</defName>
+    <defName>MMG_Dryad</defName>
     <label>dryad</label>
     <description>A forest-dwelling cousin of the centaur. Dryads are smaller and more docile, but quickly grow long, silky hair that can be used as wool.</description>
     <statBases>
@@ -87,26 +87,26 @@
     </tools>
     <comps>
       <li Class="CompProperties_Milkable">
-        <milkDef>DryadMilk</milkDef>
+        <milkDef>MMG_DryadMilk</milkDef>
         <milkIntervalDays>1</milkIntervalDays>
         <milkAmount>8</milkAmount>
       </li>
       <li Class="CompProperties_Shearable">
-        <woolDef>HairDryad</woolDef>
+        <woolDef>MMG_HairDryad</woolDef>
         <shearIntervalDays>20</shearIntervalDays>
         <woolAmount>100</woolAmount>
       </li>
     </comps>
     <race>
       <herdAnimal>true</herdAnimal>
-      <body>Dryad</body>
+      <body>MMG_Dryad</body>
       <roamMtbDays>2</roamMtbDays>
       <baseBodySize>1.5</baseBodySize>
       <baseHealthScale>1.60</baseHealthScale>
       <baseHungerRate>0.7</baseHungerRate>
       <foodType>VegetarianRoughAnimal</foodType>
       <petness>0.5</petness>
-      <leatherDef>Leather_Dryad</leatherDef>
+      <leatherDef>MMG_Leather_Dryad</leatherDef>
       <meatLabel>dryad meat</meatLabel>
       <gestationPeriodDays>30</gestationPeriodDays>
       <trainability>Advanced</trainability>
@@ -162,10 +162,10 @@
     </tradeTags>
   </ThingDef>
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>Dryad</defName>
+    <defName>MMG_Dryad</defName>
     <label>dryad</label>
     <labelPlural>dryads</labelPlural>
-    <race>Dryad</race>
+    <race>MMG_Dryad</race>
     <combatPower>80</combatPower>
     <ecoSystemWeight>0.2</ecoSystemWeight>
     <wildGroupSize>
@@ -177,43 +177,43 @@
     <lifeStages>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Centaur/Dryad_m</texPath>
+          <texPath>Things/Pawn/Animal/Centaur/MMG_Dryad_m</texPath>
           <drawSize>0.8</drawSize>
         </bodyGraphicData>
         <femaleGraphicData>
-          <texPath>Things/Pawn/Animal/Centaur/Dryad_f</texPath>
+          <texPath>Things/Pawn/Animal/Centaur/MMG_Dryad_f</texPath>
           <drawSize>0.8</drawSize>
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Centaur/DessicatedCentaur</texPath>
+          <texPath>Things/Pawn/Animal/Centaur/MMG_DessicatedCentaur</texPath>
           <drawSize>1.8</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Centaur/Dryad_m</texPath>
+          <texPath>Things/Pawn/Animal/Centaur/MMG_Dryad_m</texPath>
           <drawSize>1.0</drawSize>
         </bodyGraphicData>
         <femaleGraphicData>
-          <texPath>Things/Pawn/Animal/Centaur/Dryad_f</texPath>
+          <texPath>Things/Pawn/Animal/Centaur/MMG_Dryad_f</texPath>
           <drawSize>1.0</drawSize>
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Centaur/DessicatedCentaur</texPath>
+          <texPath>Things/Pawn/Animal/Centaur/MMG_DessicatedCentaur</texPath>
           <drawSize>2.0</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Centaur/Dryad_m</texPath>
+          <texPath>Things/Pawn/Animal/Centaur/MMG_Dryad_m</texPath>
           <drawSize>1.6</drawSize>
         </bodyGraphicData>
         <femaleGraphicData>
-          <texPath>Things/Pawn/Animal/Centaur/Dryad_f</texPath>
+          <texPath>Things/Pawn/Animal/Centaur/MMG_Dryad_f</texPath>
           <drawSize>1.6</drawSize>
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Centaur/DessicatedCentaur</texPath>
+          <texPath>Things/Pawn/Animal/Centaur/MMG_DessicatedCentaur</texPath>
           <drawSize>2.6</drawSize>
         </dessicatedBodyGraphicData>
       </li>

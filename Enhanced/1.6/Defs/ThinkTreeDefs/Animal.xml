@@ -11,32 +11,32 @@
                     <subNodes>
                         <li Class="monstergirls.ThinkNode_ConditionalColonyHasPawnKindDef">
                         <pawnKindDefs>
-							<li>BlackHarpy</li>
-							<li>Centaur</li>
-							<li>Cowgirl</li>
-							<li>Dragongirl</li>
-							<li>Dryad</li>
-							<li>FairyForest</li>
-							<li>FairyIce</li>
-							<li>Harpy</li>
-							<li>Impmother</li>
-							<li>Thrumbomorph</li>
-							<li>Baphomet</li>
+							<li>MMG_BlackHarpy</li>
+							<li>MMG_Centaur</li>
+							<li>MMG_Cowgirl</li>
+							<li>MMG_Dragongirl</li>
+							<li>MMG_Dryad</li>
+							<li>MMG_FairyForest</li>
+							<li>MMG_FairyIce</li>
+							<li>MMG_Harpy</li>
+							<li>MMG_Impmother</li>
+							<li>MMG_Thrumbomorph</li>
+							<li>MMG_Baphomet</li>
                         </pawnKindDefs>
                         <subNodes>
                             <li Class="monstergirls.ThinkNode_ConditionalPawnMatchesAnyDef">
                                 <defs>
-									<li>BlackHarpy</li>
-									<li>Centaur</li>
-									<li>Cowgirl</li>
-									<li>Dragongirl</li>
-									<li>Dryad</li>
-									<li>FairyForest</li>
-									<li>FairyIce</li>
-									<li>Harpy</li>
-									<li>Impmother</li>
-									<li>Thrumbomorph</li>
-									<li>Baphomet</li>
+									<li>MMG_BlackHarpy</li>
+									<li>MMG_Centaur</li>
+									<li>MMG_Cowgirl</li>
+									<li>MMG_Dragongirl</li>
+									<li>MMG_Dryad</li>
+									<li>MMG_FairyForest</li>
+									<li>MMG_FairyIce</li>
+									<li>MMG_Harpy</li>
+									<li>MMG_Impmother</li>
+									<li>MMG_Thrumbomorph</li>
+									<li>MMG_Baphomet</li>
                                 </defs>
                                 <subNodes>
                                     <li Class="monstergirls.JobGiver_GenericWorkGiver">
