@@ -897,10 +897,10 @@
 				<!-- End of Thrumbomorph -->
 				
 				
-				<!-- Foxgirl -->
+				<!-- Baphomet -->
 			
 				<li Class="PatchOperationAddModExtension">
-					<xpath>Defs/ThingDef[defName="Foxgirl"]</xpath>
+					<xpath>Defs/ThingDef[defName="Baphomet"]</xpath>
 					<value>
 						<li Class="CombatExtended.RacePropertiesExtensionCE">
 							<bodyShape>Humanoid</bodyShape>
@@ -911,7 +911,7 @@
 				<!-- Basic Melee Stats -->
 
 				<li Class="PatchOperationAdd">
-					<xpath>Defs/ThingDef[defName="Foxgirl"]/statBases</xpath>
+					<xpath>Defs/ThingDef[defName="Baphomet"]/statBases</xpath>
 					<value>
 						<MeleeDodgeChance>0.2</MeleeDodgeChance>
 						<MeleeCritChance>0.2</MeleeCritChance>
@@ -922,7 +922,7 @@
 				<!-- Melee Tools -->
 
 				<li Class="PatchOperationReplace">
-					<xpath>Defs/ThingDef[defName="Foxgirl"]/tools</xpath>
+					<xpath>Defs/ThingDef[defName="Baphomet"]/tools</xpath>
 					<value>
 						<tools>
 
@@ -994,7 +994,7 @@
 							
 							
 
-				<!-- End of Foxgirl -->
+				<!-- End of Baphomet -->
 				
 				
 				

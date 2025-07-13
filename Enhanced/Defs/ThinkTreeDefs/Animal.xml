@@ -21,7 +21,7 @@
 							<li>Harpy</li>
 							<li>Impmother</li>
 							<li>Thrumbomorph</li>
-							<li>Foxgirl</li>
+							<li>Baphomet</li>
                         </pawnKindDefs>
                         <subNodes>
                             <li Class="monstergirls.ThinkNode_ConditionalPawnMatchesAnyDef">
@@ -36,7 +36,7 @@
 									<li>Harpy</li>
 									<li>Impmother</li>
 									<li>Thrumbomorph</li>
-									<li>Foxgirl</li>
+									<li>Baphomet</li>
                                 </defs>
                                 <subNodes>
                                     <li Class="monstergirls.JobGiver_GenericWorkGiver">

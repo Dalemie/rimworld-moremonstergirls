@@ -5,3 +5,6 @@ Source/obj/
 /Source/.vs/
 Thumbs.db
 packages/
+*.dds
+.vs/
+obj/

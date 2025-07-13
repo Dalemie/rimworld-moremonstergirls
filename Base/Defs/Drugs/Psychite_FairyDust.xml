@@ -91,12 +91,15 @@
     <comps>
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-1.5</severityPerDay>
+        <showHoursToRecover>true</showHoursToRecover>
       </li>
     </comps>
     <stages>
       <li>
         <painFactor>0.5</painFactor>
-        <restFallFactor>0.33</restFallFactor>
+          <statFactors>
+            <RestFallRateFactor>0.33</RestFallRateFactor>
+          </statFactors>
         <capMods>
           <li>
             <capacity>Moving</capacity>

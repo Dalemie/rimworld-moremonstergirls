@@ -11,7 +11,7 @@ namespace monstergirlsbase
         private const float NEW_SETTING = NEWLINE + 20;
 
         private bool initialized = false;
-        private Settings settings;
+        public static Settings settings;
         private Vector2 scroll = Vector2.zero;
         private float y = 0;
 
@@ -25,6 +25,28 @@ namespace monstergirlsbase
             return "MoreMonsterGirls".Translate();
         }
 
+        public static void SetProductions()
+        {
+            SetCompProps(GetMilkCompProps("Centaur"), settings.CentaurMilk);
+            SetCompProps(GetShearableCompProps("Centaur"), settings.CentaurHair);
+            SetCompProps(GetMilkCompProps("Cowgirl"), settings.CowgirlMilk);
+            SetCompProps(GetMilkCompProps("Dragongirl"), settings.DragongirlMilk);
+            SetCompProps(GetShearableCompProps("Dragongirl"), settings.DragongirlScales);
+            SetCompProps(GetMilkCompProps("Dryad"), settings.DryadMilk);
+            SetCompProps(GetMilkCompProps("Dryad"), settings.DryadWool);
+            SetCompProps(GetMilkCompProps("FairyForest"), settings.ForestFairyDust);
+            SetCompProps(GetMilkCompProps("FairyIce"), settings.IceFairyDust);
+            SetCompProps(GetMilkCompProps("Baphomet"), settings.BaphometMilk);
+            SetCompProps(GetEggLayerCompProps("Harpy"), settings.HarpyEggs);
+            SetCompProps(GetShearableCompProps("Harpy"), settings.HarpyFeathers);
+            SetCompProps(GetEggLayerCompProps("BlackHarpy"), settings.BlackHarpyEggs);
+            SetCompProps(GetShearableCompProps("BlackHarpy"), settings.BlackHarpyFeathers);
+            SetCompProps(GetMilkCompProps("Impmother"), settings.ImpMotherMilk);
+            SetCompProps(GetMilkCompProps("Slime"), settings.SlimegirlSlime);
+            SetCompProps(GetMilkCompProps("Thrumbomorph"), settings.ThumbromorphMilk);
+            SetCompProps(GetShearableCompProps("Thrumbomorph"), settings.ThumbromorphWool);
+        }
+
         public override void DoSettingsWindowContents(Rect rect)
         {
             Widgets.BeginScrollView(new Rect(0, 40, rect.width, rect.height - 50), ref scroll, new Rect(0, 0, rect.width - 16, y));
@@ -32,26 +54,16 @@ namespace monstergirlsbase
 
             if (!this.initialized)
             {
-                settings.SetUnsetProductions();
+                settings.SetDefaultProductions();
                 this.initialized = true;
             }
 
-            Widgets.Label(new Rect(0, y, 250, 22), "MMG.DisableMGMilk".Translate());
-            bool orig = Settings.DisableMilk;
-            Widgets.Checkbox(260, y - 2, ref Settings.DisableMilk);
-            if (orig != Settings.DisableMilk)
-                Loader.DisableMilk();
+            Widgets.Label(new Rect(10, y, 250, 22), "MMG.UseMGMilk".Translate());
+            bool orig = Settings.UseMonsterGirlMilk;
+            Widgets.Checkbox(270, y - 2, ref Settings.UseMonsterGirlMilk);
+            if (orig != Settings.UseMonsterGirlMilk)
+                Loader.SetMilk();
             y += NEWLINE;
-
-            if (!Settings.DisableMilk)
-            {
-                Widgets.Label(new Rect(10, y, 250, 22), "MMG.UseMGMilk".Translate());
-                orig = Settings.UseMonsterGirlMilk;
-                Widgets.Checkbox(270, y - 2, ref Settings.UseMonsterGirlMilk);
-                if (orig != Settings.UseMonsterGirlMilk)
-                    Loader.SetMilk();
-                y += NEWLINE;
-            }
 
             Widgets.Label(new Rect(0, y, 150, 22), "MMG.Centaur".Translate());
             y += NEWLINE;
@@ -179,18 +191,18 @@ namespace monstergirlsbase
             }
             y += NEW_SETTING;
 
-            Widgets.Label(new Rect(0, y, 150, 22), "MMG.Foxgirl".Translate());
+            Widgets.Label(new Rect(0, y, 150, 22), "MMG.Baphomet".Translate());
             y += NEWLINE;
             Widgets.Label(new Rect(20, y, 150, 22), "MMG.Milk".Translate());
             if (Widgets.ButtonText(new Rect(200, y, 100, 22), "Reset".Translate()))
             {
-                settings.DefaultFoxgirl();
-                SetCompProps(GetMilkCompProps("Foxgirl"), settings.FoxgirlMilk);
+                settings.DefaultBaphomet();
+                SetCompProps(GetMilkCompProps("Baphomet"), settings.BaphometMilk);
             }
             y += NEWLINE;
-            if (DrawProductionInput(ref y, settings.FoxgirlMilk))
+            if (DrawProductionInput(ref y, settings.BaphometMilk))
             {
-                SetCompProps(GetMilkCompProps("Foxgirl"), settings.FoxgirlMilk);
+                SetCompProps(GetMilkCompProps("Baphomet"), settings.BaphometMilk);
             }
             y += NEW_SETTING;
 
@@ -307,7 +319,7 @@ namespace monstergirlsbase
             Widgets.EndScrollView();
         }
 
-        private CompProperties_Milkable GetMilkCompProps(string defName)
+        private static CompProperties_Milkable GetMilkCompProps(string defName)
         {
             var c = DefDatabase<ThingDef>.GetNamed(defName).GetCompProperties<CompProperties_Milkable>();
             if (c == null)
@@ -318,7 +330,7 @@ namespace monstergirlsbase
             return c;
         }
 
-        private CompProperties_Shearable GetShearableCompProps(string defName)
+        private static CompProperties_Shearable GetShearableCompProps(string defName)
         {
             var c = DefDatabase<ThingDef>.GetNamed(defName).GetCompProperties<CompProperties_Shearable>();
             if (c == null)
@@ -329,7 +341,7 @@ namespace monstergirlsbase
             return c;
         }
 
-        private CompProperties_EggLayer GetEggLayerCompProps(string defName)
+        private static CompProperties_EggLayer GetEggLayerCompProps(string defName)
         {
             var c = DefDatabase<ThingDef>.GetNamed(defName).GetCompProperties<CompProperties_EggLayer>();
             if (c == null)
@@ -340,7 +352,7 @@ namespace monstergirlsbase
             return c;
         }
 
-        private void SetCompProps(CompProperties_Milkable compProps, Production p)
+        private static void SetCompProps(CompProperties_Milkable compProps, Production p)
         {
             if (compProps != null)
             {
@@ -349,7 +361,7 @@ namespace monstergirlsbase
             }
         }
 
-        private void SetCompProps(CompProperties_Shearable compProps, Production p)
+        private static void SetCompProps(CompProperties_Shearable compProps, Production p)
         {
             if (compProps != null)
             {
@@ -358,7 +370,7 @@ namespace monstergirlsbase
             }
         }
 
-        private void SetCompProps(CompProperties_EggLayer compProps, EggProduction p)
+        private static void SetCompProps(CompProperties_EggLayer compProps, EggProduction p)
         {
             if (compProps != null)
             {
@@ -426,9 +438,8 @@ namespace monstergirlsbase
         }
     }
 
-    class Settings : ModSettings
+    public class Settings : ModSettings
     {
-        public static bool DisableMilk = false;
         public static bool UseMonsterGirlMilk = true;
 
         public Production CentaurMilk;
@@ -445,7 +456,7 @@ namespace monstergirlsbase
         public Production ForestFairyDust;
         public Production IceFairyDust;
 
-        public Production FoxgirlMilk;
+        public Production BaphometMilk;
 
         public EggProduction HarpyEggs;
         public Production HarpyFeathers;
@@ -464,39 +475,32 @@ namespace monstergirlsbase
         {
             base.ExposeData();
 
-            string version = (Scribe.mode == LoadSaveMode.Saving) ? "1.3" : "";
-            Scribe_Values.Look(ref version, "version", "");
-            if (version == "1.3")
-            {
-                Scribe_Values.Look(ref DisableMilk, "disableMilk", false);
-                Scribe_Values.Look(ref UseMonsterGirlMilk, "useMonsterGirlMilk", true);
-                Scribe_Deep.Look(ref this.CentaurMilk, "CentaurMilk", null);
-                Scribe_Deep.Look(ref this.CentaurHair, "CentaurHair", null);
-                Scribe_Deep.Look(ref this.CowgirlMilk, "CowgirlMilk", null);
-                Scribe_Deep.Look(ref this.DragongirlMilk, "DragongirlMilk", null);
-                Scribe_Deep.Look(ref this.DragongirlScales, "DragongirlScales", null);
-                Scribe_Deep.Look(ref this.DryadMilk, "DryadMilk", null);
-                Scribe_Deep.Look(ref this.DryadWool, "DryadWool", null);
-                Scribe_Deep.Look(ref this.ForestFairyDust, "ForestFairyDust", null);
-                Scribe_Deep.Look(ref this.IceFairyDust, "IceFairyDust", null);
-                Scribe_Deep.Look(ref this.FoxgirlMilk, "FoxgirlMilk", null);
-                Scribe_Deep.Look(ref this.HarpyEggs, "HarpyEggs", null);
-                Scribe_Deep.Look(ref this.HarpyFeathers, "HarpyFeathers", null);
-                Scribe_Deep.Look(ref this.BlackHarpyEggs, "BlackHarpyEggs", null);
-                Scribe_Deep.Look(ref this.BlackHarpyFeathers, "BlackHarpyFeathers", null);
-                Scribe_Deep.Look(ref this.ImpMotherMilk, "ImpMotherMilk", null);
-                Scribe_Deep.Look(ref this.SlimegirlSlime, "SlimegirlSlime", null);
-                Scribe_Deep.Look(ref this.ThumbromorphMilk, "ThumbromorphMilk", null);
-                Scribe_Deep.Look(ref this.ThumbromorphWool, "ThumbromorphWool", null);
-            }
+            Scribe_Values.Look(ref UseMonsterGirlMilk, "useMonsterGirlMilk", true);
+            Scribe_Deep.Look(ref this.CentaurMilk, "CentaurMilk", null);
+            Scribe_Deep.Look(ref this.CentaurHair, "CentaurHair", null);
+            Scribe_Deep.Look(ref this.CowgirlMilk, "CowgirlMilk", null);
+            Scribe_Deep.Look(ref this.DragongirlMilk, "DragongirlMilk", null);
+            Scribe_Deep.Look(ref this.DragongirlScales, "DragongirlScales", null);
+            Scribe_Deep.Look(ref this.DryadMilk, "DryadMilk", null);
+            Scribe_Deep.Look(ref this.DryadWool, "DryadWool", null);
+            Scribe_Deep.Look(ref this.ForestFairyDust, "ForestFairyDust", null);
+            Scribe_Deep.Look(ref this.IceFairyDust, "IceFairyDust", null);
+            Scribe_Deep.Look(ref this.BaphometMilk, "BaphometMilk", null);
+            Scribe_Deep.Look(ref this.HarpyEggs, "HarpyEggs", null);
+            Scribe_Deep.Look(ref this.HarpyFeathers, "HarpyFeathers", null);
+            Scribe_Deep.Look(ref this.BlackHarpyEggs, "BlackHarpyEggs", null);
+            Scribe_Deep.Look(ref this.BlackHarpyFeathers, "BlackHarpyFeathers", null);
+            Scribe_Deep.Look(ref this.ImpMotherMilk, "ImpMotherMilk", null);
+            Scribe_Deep.Look(ref this.SlimegirlSlime, "SlimegirlSlime", null);
+            Scribe_Deep.Look(ref this.ThumbromorphMilk, "ThumbromorphMilk", null);
+            Scribe_Deep.Look(ref this.ThumbromorphWool, "ThumbromorphWool", null);
+
+            // Replace default null value from above with default 
+            this.SetDefaultProductions();
             
-            if (Scribe.mode == LoadSaveMode.PostLoadInit)
-            {
-                this.SetUnsetProductions();
-            }
         }
 
-        public void SetUnsetProductions()
+        public void SetDefaultProductions()
         {
             if (this.CentaurMilk == null)
                 this.DefaultCentaurMilk();
@@ -522,8 +526,8 @@ namespace monstergirlsbase
             if (this.IceFairyDust == null)
                 this.DefaultFairyIce();
 
-            if (this.FoxgirlMilk == null)
-                this.DefaultFoxgirl();
+            if (this.BaphometMilk == null)
+                this.DefaultBaphomet();
 
             if (this.HarpyEggs == null)
                 this.DefaultHarpyEggs();
@@ -551,8 +555,8 @@ namespace monstergirlsbase
         {
             this.CentaurMilk = new Production()
             {
-                IntervalDays = 2,
-                Amount = 10,
+                IntervalDays = 1,
+                Amount = 8,
             };
         }
 
@@ -560,7 +564,7 @@ namespace monstergirlsbase
         {
             this.CentaurHair = new Production()
             {
-                IntervalDays = 25,
+                IntervalDays = 30,
                 Amount = 100,
             };
         }
@@ -571,7 +575,7 @@ namespace monstergirlsbase
             this.CowgirlMilk = new Production()
             {
                 IntervalDays = 1,
-                Amount = 8,
+                Amount = 12,
             };
         }
 
@@ -597,8 +601,8 @@ namespace monstergirlsbase
         {
             this.DryadMilk = new Production()
             {
-                IntervalDays = 2,
-                Amount = 10,
+                IntervalDays = 1,
+                Amount = 8,
             };
         }
 
@@ -606,7 +610,7 @@ namespace monstergirlsbase
         {
             this.DryadWool = new Production()
             {
-                IntervalDays = 15,
+                IntervalDays = 20,
                 Amount = 100,
             };
         }
@@ -615,8 +619,8 @@ namespace monstergirlsbase
         {
             this.ForestFairyDust = new Production()
             {
-                IntervalDays = 2,
-                Amount = 4,
+                IntervalDays = 5,
+                Amount = 10,
             };
         }
 
@@ -624,17 +628,17 @@ namespace monstergirlsbase
         {
             this.IceFairyDust = new Production()
             {
-                IntervalDays = 2,
-                Amount = 4,
+                IntervalDays = 5,
+                Amount = 10,
             };
         }
 
-        public void DefaultFoxgirl()
+        public void DefaultBaphomet()
         {
-            this.FoxgirlMilk = new Production()
+            this.BaphometMilk = new Production()
             {
                 IntervalDays = 2,
-                Amount = 6,
+                Amount = 10,
             };
         }
 
@@ -653,8 +657,8 @@ namespace monstergirlsbase
         {
             this.BlackHarpyFeathers = new Production()
             {
-                IntervalDays = 10,
-                Amount = 100,
+                IntervalDays = 15,
+                Amount = 40,
             };
         }
 
@@ -673,8 +677,8 @@ namespace monstergirlsbase
         {
             this.HarpyFeathers = new Production()
             {
-                IntervalDays = 10,
-                Amount = 100,
+                IntervalDays = 15,
+                Amount = 40,
             };
         }
 
@@ -682,8 +686,8 @@ namespace monstergirlsbase
         {
             this.ImpMotherMilk = new Production()
             {
-                IntervalDays = 2,
-                Amount = 10,
+                IntervalDays = 1,
+                Amount = 12,
             };
         }
 
@@ -691,8 +695,8 @@ namespace monstergirlsbase
         {
             this.SlimegirlSlime = new Production()
             {
-                IntervalDays = 1,
-                Amount = 4,
+                IntervalDays = 5,
+                Amount = 5,
             };
         }
 
@@ -700,7 +704,7 @@ namespace monstergirlsbase
         {
             this.ThumbromorphMilk = new Production()
             {
-                IntervalDays = 2,
+                IntervalDays = 1,
                 Amount = 10,
             };
         }
@@ -709,13 +713,13 @@ namespace monstergirlsbase
         {
             this.ThumbromorphWool = new Production()
             {
-                IntervalDays = 15,
-                Amount = 100,
+                IntervalDays = 20,
+                Amount = 60,
             };
         }
     }
 
-    class Production : IExposable
+    public class Production : IExposable
     {
         public int IntervalDays;
         public int Amount;
@@ -729,7 +733,7 @@ namespace monstergirlsbase
         }
     }
 
-    class EggProduction : IExposable
+    public class EggProduction : IExposable
     {
         public int IntervalDays;
         public int CountMin;

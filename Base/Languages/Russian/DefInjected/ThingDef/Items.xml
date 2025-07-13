@@ -67,9 +67,9 @@
   <Leather_Cowgirl.description>Дублёная, высушенная, очищенная шкура коровки. Ты ведь это сделал, не так ли? Ты убил милую, невинную коровку ради этого. Ты Чудовище!</Leather_Cowgirl.description>
   <Leather_Cowgirl.stuffProps.stuffAdjective>шкуры коровки</Leather_Cowgirl.stuffProps.stuffAdjective>
   
-  <Leather_Foxgirl.label>кожа лисички</Leather_Foxgirl.label>
-  <Leather_Foxgirl.description>Дублёная, высушенная, очищенная кожа лисички. Ты ведь это сделал, не так ли? Ты убил милую, невинную лисичку ради этого. Ты Чудовище!</Leather_Foxgirl.description>
-  <Leather_Foxgirl.stuffProps.stuffAdjective>кожи лисички</Leather_Foxgirl.stuffProps.stuffAdjective>
+  <Leather_Baphomet.label>кожа лисички</Leather_Baphomet.label>
+  <Leather_Baphomet.description>Дублёная, высушенная, очищенная кожа лисички. Ты ведь это сделал, не так ли? Ты убил милую, невинную лисичку ради этого. Ты Чудовище!</Leather_Baphomet.description>
+  <Leather_Baphomet.stuffProps.stuffAdjective>кожи лисички</Leather_Baphomet.stuffProps.stuffAdjective>
   
   <Leather_Centaur.label>кожа кентавра</Leather_Centaur.label>
   <Leather_Centaur.description>Дублёная, высушенная, очищенная кожа кентавра. Довольно жесткая и хорошо изолирует от жары.</Leather_Centaur.description>

@@ -11,6 +11,7 @@
     <AssemblyName>monstergirlsbase</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <StartAction>None</StartAction>
     <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -26,7 +27,7 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>none</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>..\..\..\..\..\Steam\steamapps\common\RimWorld\Mods\MoreMonsterGirls\1.4\Assemblies\</OutputPath>
+    <OutputPath>..\..\1.6\Assemblies\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -34,6 +35,9 @@
   </PropertyGroup>
   <PropertyGroup>
     <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RunPostBuildEvent>Always</RunPostBuildEvent>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Assembly-CSharp">
@@ -82,4 +86,14 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>set PARENT_DIR=$(TargetDir)..
+xcopy "$(ProjectDir)..\..\Defs\ThingDefs_Items" "%25PARENT_DIR%25\Defs\ThingDefs_Items" /E /I /Y
+xcopy "$(ProjectDir)..\..\Defs\ThingDefs_Races" "%25PARENT_DIR%25\Defs\ThingDefs_Races" /E /I /Y</PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PreBuildEvent>set PARENT_DIR=$(TargetDir)..
+rmdir /S /Q "%25PARENT_DIR%25\Defs\ThingDefs_Items"
+rmdir /S /Q "%25PARENT_DIR%25\Defs\ThingDefs_Races"</PreBuildEvent>
+  </PropertyGroup>
 </Project>

@@ -20,7 +20,7 @@
 						<li>ThrumbogirlMilk</li>
 						<li>ImpmotherMilk</li>
 						<li>DragonMilk</li>
-						<li>FoxgirlMilk</li>
+						<li>BaphometMilk</li>
 					</value>
 				</li>
 
@@ -192,16 +192,16 @@
 					</value>
 				</li>
 				
-				<!-- Dragon Milk -->
+				<!-- Baphomet Milk -->
 				<li Class="PatchOperationAdd"> 
 					<success>Always</success>
 					<xpath>/Defs</xpath>
 					<value>
 						<ItemProcessor.CombinationDef>
-							<defName>VCE_FoxgirlMilkIntoCheese</defName>
+							<defName>VCE_BaphometMilkIntoCheese</defName>
 							<building>VCE_CheesePress</building>
 							<items>
-								<li>FoxgirlMilk</li>
+								<li>BaphometMilk</li>
 							</items>	
 							<amount>
 								<li>50</li>
