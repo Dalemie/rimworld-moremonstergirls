@@ -269,7 +269,7 @@
     <comps>
       <li Class="CompProperties_Hatcher">
         <hatcherDaystoHatch>10</hatcherDaystoHatch>
-        <hatcherPawn>Harpy</hatcherPawn>  
+        <hatcherPawn>MMG_Harpy</hatcherPawn>  
       </li>
     </comps>
   </ThingDef>
@@ -289,7 +289,7 @@
     <comps>
       <li Class="CompProperties_Hatcher">
         <hatcherDaystoHatch>10</hatcherDaystoHatch>
-        <hatcherPawn>BlackHarpy</hatcherPawn>
+        <hatcherPawn>MMG_BlackHarpy</hatcherPawn>
       </li>
     </comps>
   </ThingDef>
