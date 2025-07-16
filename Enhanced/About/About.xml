@@ -10,7 +10,7 @@
 
 This is the Enhanced version, a patch for the main mod that give additional abilities to monstergirls.
 
-Monstergirls that have finished Obedience training can:
+Monstergirls that have finished Haul training can:
 - Clean
 - Mine
 - Cut Plants
@@ -20,6 +20,8 @@ Monstergirls that have finished Obedience training can:
 Of course, they can haul too when the training is done.
 
 This is working for all monster girls that have advanced intelligence; which means all of them besides Slimes.
+
+Also this patch remove the need of a pen for Dryads, Centaurs and Cowgirls. Making it so no animals from the main mod needs a pen.
 
 Loading order:
 - CORE
