@@ -10,7 +10,7 @@ namespace monstergirlsbase
         private const float NEWLINE = 30;
         private const float NEW_SETTING = NEWLINE + 20;
 
-        private bool initialized = false;
+        private static bool initialized = false;
         public static Settings settings;
         private Vector2 scroll = Vector2.zero;
         private float y = 0;
@@ -27,6 +27,13 @@ namespace monstergirlsbase
 
         public static void SetProductions()
         {
+
+            if (!SettingsController.initialized)
+            {
+                settings.SetDefaultProductions();
+                SettingsController.initialized = true;
+            }
+
             SetCompProps(GetMilkCompProps("MMG_Centaur"), settings.CentaurMilk);
             SetCompProps(GetShearableCompProps("MMG_Centaur"), settings.CentaurHair);
             SetCompProps(GetMilkCompProps("MMG_Cowgirl"), settings.CowgirlMilk);
@@ -52,10 +59,10 @@ namespace monstergirlsbase
             Widgets.BeginScrollView(new Rect(0, 40, rect.width, rect.height - 50), ref scroll, new Rect(0, 0, rect.width - 16, y));
             y = 0;
 
-            if (!this.initialized)
+            if (!SettingsController.initialized)
             {
                 settings.SetDefaultProductions();
-                this.initialized = true;
+                SettingsController.initialized = true;
             }
 
             Widgets.Label(new Rect(10, y, 250, 22), "MMG.UseMGMilk".Translate());
