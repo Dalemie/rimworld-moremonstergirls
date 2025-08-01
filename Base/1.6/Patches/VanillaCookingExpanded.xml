@@ -10,216 +10,6 @@
 		<match Class="PatchOperationSequence">
 			<success>Always</success>
 			<operations>
-				<li Class="PatchOperationAdd"> 
-					<success>Always</success>
-					<xpath>/Defs/ItemProcessor.ItemAcceptedDef[defName = "IP_CheesePressFirstItem"]/items</xpath>
-					<value>
-						<li>MMG_CentaurMilk</li>
-						<li>MMG_CowgirlMilk</li>
-						<li>MMG_DryadMilk</li>
-						<li>MMG_ThrumbogirlMilk</li>
-						<li>MMG_ImpmotherMilk</li>
-						<li>MMG_DragonMilk</li>
-						<li>MMG_BaphometMilk</li>
-					</value>
-				</li>
-
-				<!-- Centaur Milk -->
-				<li Class="PatchOperationAdd"> 
-					<success>Always</success>
-					<xpath>/Defs</xpath>
-					<value>
-						<ItemProcessor.CombinationDef>
-							<defName>VCE_CentaurMilkIntoCheese</defName>
-							<building>VCE_CheesePress</building>
-							<items>
-								<li>MMG_CentaurMilk</li>
-							</items>	
-							<amount>
-								<li>50</li>
-							</amount>
-							<result>VCE_MonsterGirlCheese</result>	
-							<yield>25</yield>
-							<useQualityIncreasing>true</useQualityIncreasing>
-							<awfulQualityAgeDaysThreshold>10</awfulQualityAgeDaysThreshold>
-								<poorQualityAgeDaysThreshold>15</poorQualityAgeDaysThreshold>
-								<normalQualityAgeDaysThreshold>25</normalQualityAgeDaysThreshold>
-								<goodQualityAgeDaysThreshold>35</goodQualityAgeDaysThreshold>
-								<excellentQualityAgeDaysThreshold>40</excellentQualityAgeDaysThreshold>
-								<masterworkQualityAgeDaysThreshold>45</masterworkQualityAgeDaysThreshold>
-								<legendaryQualityAgeDaysThreshold>75</legendaryQualityAgeDaysThreshold>
-						</ItemProcessor.CombinationDef>
-					</value>
-				</li>
-
-				<!-- Cowgirl Milk -->
-				<li Class="PatchOperationAdd"> 
-					<success>Always</success>
-					<xpath>/Defs</xpath>
-					<value>
-						<ItemProcessor.CombinationDef>
-							<defName>VCE_CowgirlMilkIntoCheese</defName>
-							<building>VCE_CheesePress</building>
-							<items>
-								<li>MMG_CowgirlMilk</li>
-							</items>	
-							<amount>
-								<li>50</li>
-							</amount>
-							<result>VCE_MonsterGirlCheese</result>	
-							<yield>25</yield>
-							<useQualityIncreasing>true</useQualityIncreasing>
-							<awfulQualityAgeDaysThreshold>10</awfulQualityAgeDaysThreshold>
-								<poorQualityAgeDaysThreshold>15</poorQualityAgeDaysThreshold>
-								<normalQualityAgeDaysThreshold>25</normalQualityAgeDaysThreshold>
-								<goodQualityAgeDaysThreshold>35</goodQualityAgeDaysThreshold>
-								<excellentQualityAgeDaysThreshold>40</excellentQualityAgeDaysThreshold>
-								<masterworkQualityAgeDaysThreshold>45</masterworkQualityAgeDaysThreshold>
-								<legendaryQualityAgeDaysThreshold>75</legendaryQualityAgeDaysThreshold>
-						</ItemProcessor.CombinationDef>
-					</value>
-				</li>
-				
-				<!-- Dryad Milk -->
-				<li Class="PatchOperationAdd"> 
-					<success>Always</success>
-					<xpath>/Defs</xpath>
-					<value>
-						<ItemProcessor.CombinationDef>
-							<defName>VCE_DryadMilkIntoCheese</defName>
-							<building>VCE_CheesePress</building>
-							<items>
-								<li>MMG_DryadMilk</li>
-							</items>	
-							<amount>
-								<li>50</li>
-							</amount>
-							<result>VCE_MonsterGirlCheese</result>	
-							<yield>25</yield>
-							<useQualityIncreasing>true</useQualityIncreasing>
-							<awfulQualityAgeDaysThreshold>10</awfulQualityAgeDaysThreshold>
-								<poorQualityAgeDaysThreshold>15</poorQualityAgeDaysThreshold>
-								<normalQualityAgeDaysThreshold>25</normalQualityAgeDaysThreshold>
-								<goodQualityAgeDaysThreshold>35</goodQualityAgeDaysThreshold>
-								<excellentQualityAgeDaysThreshold>40</excellentQualityAgeDaysThreshold>
-								<masterworkQualityAgeDaysThreshold>45</masterworkQualityAgeDaysThreshold>
-								<legendaryQualityAgeDaysThreshold>75</legendaryQualityAgeDaysThreshold>
-						</ItemProcessor.CombinationDef>
-					</value>
-				</li>
-				
-				<!-- Thrumbogirl Milk -->
-				<li Class="PatchOperationAdd"> 
-					<success>Always</success>
-					<xpath>/Defs</xpath>
-					<value>
-						<ItemProcessor.CombinationDef>
-							<defName>VCE_ThumbrogirlMilkIntoCheese</defName>
-							<building>VCE_CheesePress</building>
-							<items>
-								<li>MMG_ThrumbogirlMilk</li>
-							</items>	
-							<amount>
-								<li>50</li>
-							</amount>
-							<result>VCE_MonsterGirlCheese</result>	
-							<yield>25</yield>
-							<useQualityIncreasing>true</useQualityIncreasing>
-							<awfulQualityAgeDaysThreshold>10</awfulQualityAgeDaysThreshold>
-								<poorQualityAgeDaysThreshold>15</poorQualityAgeDaysThreshold>
-								<normalQualityAgeDaysThreshold>25</normalQualityAgeDaysThreshold>
-								<goodQualityAgeDaysThreshold>35</goodQualityAgeDaysThreshold>
-								<excellentQualityAgeDaysThreshold>40</excellentQualityAgeDaysThreshold>
-								<masterworkQualityAgeDaysThreshold>45</masterworkQualityAgeDaysThreshold>
-								<legendaryQualityAgeDaysThreshold>75</legendaryQualityAgeDaysThreshold>
-						</ItemProcessor.CombinationDef>
-					</value>
-				</li>
-				
-				<!-- Impmother Milk -->
-				<li Class="PatchOperationAdd"> 
-					<success>Always</success>
-					<xpath>/Defs</xpath>
-					<value>
-						<ItemProcessor.CombinationDef>
-							<defName>VCE_ImpmotherMilkIntoCheese</defName>
-							<building>VCE_CheesePress</building>
-							<items>
-								<li>MMG_ImpmotherMilk</li>
-							</items>	
-							<amount>
-								<li>50</li>
-							</amount>
-							<result>VCE_MonsterGirlCheese</result>	
-							<yield>25</yield>
-							<useQualityIncreasing>true</useQualityIncreasing>
-							<awfulQualityAgeDaysThreshold>10</awfulQualityAgeDaysThreshold>
-								<poorQualityAgeDaysThreshold>15</poorQualityAgeDaysThreshold>
-								<normalQualityAgeDaysThreshold>25</normalQualityAgeDaysThreshold>
-								<goodQualityAgeDaysThreshold>35</goodQualityAgeDaysThreshold>
-								<excellentQualityAgeDaysThreshold>40</excellentQualityAgeDaysThreshold>
-								<masterworkQualityAgeDaysThreshold>45</masterworkQualityAgeDaysThreshold>
-								<legendaryQualityAgeDaysThreshold>75</legendaryQualityAgeDaysThreshold>
-						</ItemProcessor.CombinationDef>
-					</value>
-				</li>
-				
-				<!-- Dragon Milk -->
-				<li Class="PatchOperationAdd"> 
-					<success>Always</success>
-					<xpath>/Defs</xpath>
-					<value>
-						<ItemProcessor.CombinationDef>
-							<defName>VCE_DragongirlMilkIntoCheese</defName>
-							<building>VCE_CheesePress</building>
-							<items>
-								<li>MMG_DragonMilk</li>
-							</items>	
-							<amount>
-								<li>50</li>
-							</amount>
-							<result>VCE_MonsterGirlCheese</result>	
-							<yield>25</yield>
-							<useQualityIncreasing>true</useQualityIncreasing>
-							<awfulQualityAgeDaysThreshold>10</awfulQualityAgeDaysThreshold>
-								<poorQualityAgeDaysThreshold>15</poorQualityAgeDaysThreshold>
-								<normalQualityAgeDaysThreshold>25</normalQualityAgeDaysThreshold>
-								<goodQualityAgeDaysThreshold>35</goodQualityAgeDaysThreshold>
-								<excellentQualityAgeDaysThreshold>40</excellentQualityAgeDaysThreshold>
-								<masterworkQualityAgeDaysThreshold>45</masterworkQualityAgeDaysThreshold>
-								<legendaryQualityAgeDaysThreshold>75</legendaryQualityAgeDaysThreshold>
-						</ItemProcessor.CombinationDef>
-					</value>
-				</li>
-				
-				<!-- Baphomet Milk -->
-				<li Class="PatchOperationAdd"> 
-					<success>Always</success>
-					<xpath>/Defs</xpath>
-					<value>
-						<ItemProcessor.CombinationDef>
-							<defName>VCE_BaphometMilkIntoCheese</defName>
-							<building>VCE_CheesePress</building>
-							<items>
-								<li>MMG_BaphometMilk</li>
-							</items>	
-							<amount>
-								<li>50</li>
-							</amount>
-							<result>VCE_MonsterGirlCheese</result>	
-							<yield>25</yield>
-							<useQualityIncreasing>true</useQualityIncreasing>
-							<awfulQualityAgeDaysThreshold>10</awfulQualityAgeDaysThreshold>
-								<poorQualityAgeDaysThreshold>15</poorQualityAgeDaysThreshold>
-								<normalQualityAgeDaysThreshold>25</normalQualityAgeDaysThreshold>
-								<goodQualityAgeDaysThreshold>35</goodQualityAgeDaysThreshold>
-								<excellentQualityAgeDaysThreshold>40</excellentQualityAgeDaysThreshold>
-								<masterworkQualityAgeDaysThreshold>45</masterworkQualityAgeDaysThreshold>
-								<legendaryQualityAgeDaysThreshold>75</legendaryQualityAgeDaysThreshold>
-						</ItemProcessor.CombinationDef>
-					</value>
-				</li>
-				
 				<!-- Monster Girl Cheese -->
 				<li Class="PatchOperationAdd"> 
 					<success>Always</success>
@@ -259,11 +49,276 @@
 								<li>
 									<compClass>CompQuality</compClass>
 								</li>
-								<li Class="VanillaCookingExpanded.CompProperties_StackByQuality" />
+								<li Class="VEF.Cooking.CompProperties_StackByQuality"/>
+								<li Class="VEF.Cooking.CompProperties_IngestedThoughtFromQuality">
+									<ingestedThought>VCE_AteCheese</ingestedThought>
+								</li>
 							</comps>
 						</ThingDef>
+					</value>
+				</li>
 
+				<!-- Centaur Milk -->
+				<li Class="PatchOperationAdd"> 
+					<success>Always</success>
+					<xpath>/Defs</xpath>
+					<value>
+						<PipeSystem.ProcessDef>
+							<defName>VCE_CentaurMilkIntoCheese</defName>
+							<label>Centaur Milk into cheese</label>
+							<description>Turns 50 centaur milk into 25 cheese.</description>
+							<labelOverride>Turn 50 centaur milk into 25 cheese.</labelOverride>
+							<priorityInBillList>4</priorityInBillList>
+							<useIngredients>true</useIngredients>
+							<spawnOnInteractionCell>true</spawnOnInteractionCell>
+							<ingredients>
+								<li>
+									<thing>MMG_CentaurMilk</thing>
+									<countNeeded>50</countNeeded>
+								</li>
+							</ingredients>
+							<ticksQuality>
+								<li>600000</li>
+								<li>900000</li>
+								<li>1500000</li>
+								<li>2100000</li>
+								<li>2400000</li>
+								<li>2700000</li>
+								<li>4500000</li>
+							</ticksQuality>
+							<results>
+								<li>
+									<thing>VCE_MonsterGirlCheese</thing>
+									<count>25</count>
+								</li>
+							</results>
+							<stopAtQuality>true</stopAtQuality>
+							<allowExtractAtCurrentQuality>true</allowExtractAtCurrentQuality>
+							<autoExtract>false</autoExtract>
+						</PipeSystem.ProcessDef>
 
+				<!-- Cowgirl Milk -->
+						<PipeSystem.ProcessDef>
+							<defName>VCE_CowgirlMilkIntoCheese</defName>
+							<label>Cowgirl Milk into cheese</label>
+							<description>Turns 50 cowgirl milk into 25 cheese.</description>
+							<labelOverride>Turn 50 cowgirl milk into 25 cheese.</labelOverride>
+							<priorityInBillList>4</priorityInBillList>
+							<useIngredients>true</useIngredients>
+							<spawnOnInteractionCell>true</spawnOnInteractionCell>
+							<ingredients>
+								<li>
+									<thing>MMG_CowgirlMilk</thing>
+									<countNeeded>50</countNeeded>
+								</li>
+							</ingredients>
+							<ticksQuality>
+								<li>600000</li>
+								<li>900000</li>
+								<li>1500000</li>
+								<li>2100000</li>
+								<li>2400000</li>
+								<li>2700000</li>
+								<li>4500000</li>
+							</ticksQuality>
+							<results>
+								<li>
+									<thing>VCE_MonsterGirlCheese</thing>
+									<count>25</count>
+								</li>
+							</results>
+							<stopAtQuality>true</stopAtQuality>
+							<allowExtractAtCurrentQuality>true</allowExtractAtCurrentQuality>
+							<autoExtract>false</autoExtract>
+						</PipeSystem.ProcessDef>
+				
+				<!-- Dryad Milk -->
+						<PipeSystem.ProcessDef>
+							<defName>VCE_DryadMilkIntoCheese</defName>
+							<label>Dryad Milk into cheese</label>
+							<description>Turns 50 dryad milk into 25 cheese.</description>
+							<labelOverride>Turn 50 dryad milk into 25 cheese.</labelOverride>
+							<priorityInBillList>4</priorityInBillList>
+							<useIngredients>true</useIngredients>
+							<spawnOnInteractionCell>true</spawnOnInteractionCell>
+							<ingredients>
+								<li>
+									<thing>MMG_DryadMilk</thing>
+									<countNeeded>50</countNeeded>
+								</li>
+							</ingredients>
+							<ticksQuality>
+								<li>600000</li>
+								<li>900000</li>
+								<li>1500000</li>
+								<li>2100000</li>
+								<li>2400000</li>
+								<li>2700000</li>
+								<li>4500000</li>
+							</ticksQuality>
+							<results>
+								<li>
+									<thing>VCE_MonsterGirlCheese</thing>
+									<count>25</count>
+								</li>
+							</results>
+							<stopAtQuality>true</stopAtQuality>
+							<allowExtractAtCurrentQuality>true</allowExtractAtCurrentQuality>
+							<autoExtract>false</autoExtract>
+						</PipeSystem.ProcessDef>
+				
+				<!-- Thrumbogirl Milk -->
+						<PipeSystem.ProcessDef>
+							<defName>VCE_ThumbrogirlMilkIntoCheese</defName>
+							<label>Thrumbogirl Milk into cheese</label>
+							<description>Turns 50 thrumbo milk into 25 cheese.</description>
+							<labelOverride>Turn 50 thrumbo milk into 25 cheese.</labelOverride>
+							<priorityInBillList>4</priorityInBillList>
+							<useIngredients>true</useIngredients>
+							<spawnOnInteractionCell>true</spawnOnInteractionCell>
+							<ingredients>
+								<li>
+									<thing>MMG_ThrumbogirlMilk</thing>
+									<countNeeded>50</countNeeded>
+								</li>
+							</ingredients>
+							<ticksQuality>
+								<li>600000</li>
+								<li>900000</li>
+								<li>1500000</li>
+								<li>2100000</li>
+								<li>2400000</li>
+								<li>2700000</li>
+								<li>4500000</li>
+							</ticksQuality>
+							<results>
+								<li>
+									<thing>VCE_MonsterGirlCheese</thing>
+									<count>25</count>
+								</li>
+							</results>
+							<stopAtQuality>true</stopAtQuality>
+							<allowExtractAtCurrentQuality>true</allowExtractAtCurrentQuality>
+							<autoExtract>false</autoExtract>
+						</PipeSystem.ProcessDef>
+
+				<!-- Impmother Milk -->
+						<PipeSystem.ProcessDef>
+							<defName>VCE_ImpmotherMilkIntoCheese</defName>
+							<label>Impmother Milk into cheese</label>
+							<description>Turns 50 imp milk into 25 cheese.</description>
+							<labelOverride>Turn 50 imp milk into 25 cheese.</labelOverride>
+							<priorityInBillList>4</priorityInBillList>
+							<useIngredients>true</useIngredients>
+							<spawnOnInteractionCell>true</spawnOnInteractionCell>
+							<ingredients>
+								<li>
+									<thing>MMG_ImpmotherMilk</thing>
+									<countNeeded>50</countNeeded>
+								</li>
+							</ingredients>
+							<ticksQuality>
+								<li>600000</li>
+								<li>900000</li>
+								<li>1500000</li>
+								<li>2100000</li>
+								<li>2400000</li>
+								<li>2700000</li>
+								<li>4500000</li>
+							</ticksQuality>
+							<results>
+								<li>
+									<thing>VCE_MonsterGirlCheese</thing>
+									<count>25</count>
+								</li>
+							</results>
+							<stopAtQuality>true</stopAtQuality>
+							<allowExtractAtCurrentQuality>true</allowExtractAtCurrentQuality>
+							<autoExtract>false</autoExtract>
+						</PipeSystem.ProcessDef>
+				
+				<!-- Dragon Milk -->
+						<PipeSystem.ProcessDef>
+							<defName>VCE_DragongirlMilkIntoCheese</defName>
+							<label>Baphomet Milk into cheese</label>
+							<description>Turns 50 dragon milk into 25 cheese.</description>
+							<labelOverride>Turn 50 dragon milk into 25 cheese.</labelOverride>
+							<priorityInBillList>4</priorityInBillList>
+							<useIngredients>true</useIngredients>
+							<spawnOnInteractionCell>true</spawnOnInteractionCell>
+							<ingredients>
+								<li>
+									<thing>MMG_DragonMilk</thing>
+									<countNeeded>50</countNeeded>
+								</li>
+							</ingredients>
+							<ticksQuality>
+								<li>600000</li>
+								<li>900000</li>
+								<li>1500000</li>
+								<li>2100000</li>
+								<li>2400000</li>
+								<li>2700000</li>
+								<li>4500000</li>
+							</ticksQuality>
+							<results>
+								<li>
+									<thing>VCE_MonsterGirlCheese</thing>
+									<count>25</count>
+								</li>
+							</results>
+							<stopAtQuality>true</stopAtQuality>
+							<allowExtractAtCurrentQuality>true</allowExtractAtCurrentQuality>
+							<autoExtract>false</autoExtract>
+						</PipeSystem.ProcessDef>
+				
+				<!-- Baphomet Milk -->
+						<PipeSystem.ProcessDef>
+							<defName>VCE_BaphometMilkIntoCheese</defName>
+							<label>Baphomet Milk into cheese</label>
+							<description>Turns 50 baphomet milk into 25 cheese.</description>
+							<labelOverride>Turn 50 baphomet milk into 25 cheese.</labelOverride>
+							<priorityInBillList>4</priorityInBillList>
+							<useIngredients>true</useIngredients>
+							<spawnOnInteractionCell>true</spawnOnInteractionCell>
+							<ingredients>
+								<li>
+									<thing>MMG_BaphometMilk</thing>
+									<countNeeded>50</countNeeded>
+								</li>
+							</ingredients>
+							<ticksQuality>
+								<li>600000</li>
+								<li>900000</li>
+								<li>1500000</li>
+								<li>2100000</li>
+								<li>2400000</li>
+								<li>2700000</li>
+								<li>4500000</li>
+							</ticksQuality>
+							<results>
+								<li>
+									<thing>VCE_MonsterGirlCheese</thing>
+									<count>25</count>
+								</li>
+							</results>
+							<stopAtQuality>true</stopAtQuality>
+							<allowExtractAtCurrentQuality>true</allowExtractAtCurrentQuality>
+							<autoExtract>false</autoExtract>
+						</PipeSystem.ProcessDef>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName= "VCE_CheesePress"]/comps/li[@Class="PipeSystem.CompProperties_AdvancedResourceProcessor"]/processes</xpath>
+					<value>
+						<li>VCE_CentaurMilkIntoCheese</li>
+						<li>VCE_CowgirlMilkIntoCheese</li>
+						<li>VCE_DryadMilkIntoCheese</li>
+						<li>VCE_ThumbrogirlMilkIntoCheese</li>
+						<li>VCE_ImpmotherMilkIntoCheese</li>
+						<li>VCE_DragongirlMilkIntoCheese</li>
+						<li>VCE_BaphometMilkIntoCheese</li>
 					</value>
 				</li>
 			</operations>
