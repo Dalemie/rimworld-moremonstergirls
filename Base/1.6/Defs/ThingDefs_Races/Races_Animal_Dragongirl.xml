@@ -113,6 +113,11 @@
         <Desert>0.02</Desert>
         <ExtremeDesert>0.00</ExtremeDesert>
         <TemperateSwamp>0.1</TemperateSwamp>
+        <Grasslands MayRequire="Ludeon.RimWorld.Odyssey">0.03</Grasslands>
+        <Glowforest MayRequire="Ludeon.RimWorld.Odyssey">0.01</Glowforest>
+        <LavaField MayRequire="Ludeon.RimWorld.Odyssey">0.0</LavaField>
+        <Scarlands MayRequire="Ludeon.RimWorld.Odyssey">0.00</Scarlands>
+        <GlacialPlain MayRequire="Ludeon.RimWorld.Odyssey">0.00</GlacialPlain>
       </wildBiomes>
       <trainability>Advanced</trainability>
       <specialTrainables>

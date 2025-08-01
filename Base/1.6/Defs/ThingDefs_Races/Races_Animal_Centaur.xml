@@ -129,12 +129,17 @@
         <TropicalRainforest>0.05</TropicalRainforest>
         <TemperateForest>0.05</TemperateForest>
         <BorealForest>0</BorealForest>
-        <AridShrubland>0.4</AridShrubland>
+        <AridShrubland>0.2</AridShrubland>
         <Desert>0.05</Desert>
         <ExtremeDesert>0</ExtremeDesert>
         <TemperateSwamp>0.05</TemperateSwamp>
         <ColdBog>0</ColdBog>
         <TropicalSwamp>0.05</TropicalSwamp>
+        <Grasslands MayRequire="Ludeon.RimWorld.Odyssey">0.1</Grasslands>
+        <Glowforest MayRequire="Ludeon.RimWorld.Odyssey">0.01</Glowforest>
+        <LavaField MayRequire="Ludeon.RimWorld.Odyssey">0.0</LavaField>
+        <Scarlands MayRequire="Ludeon.RimWorld.Odyssey">0.00</Scarlands>
+        <GlacialPlain MayRequire="Ludeon.RimWorld.Odyssey">0.00</GlacialPlain>
       </wildBiomes>
       <lifeStageAges>
         <li>

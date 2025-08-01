@@ -123,6 +123,11 @@
         <AridShrubland>0</AridShrubland>
         <Desert>0</Desert>
         <ExtremeDesert>0</ExtremeDesert>
+        <Grasslands MayRequire="Ludeon.RimWorld.Odyssey">0.0</Grasslands>
+        <Glowforest MayRequire="Ludeon.RimWorld.Odyssey">0.05</Glowforest>
+        <LavaField MayRequire="Ludeon.RimWorld.Odyssey">0.0</LavaField>
+        <Scarlands MayRequire="Ludeon.RimWorld.Odyssey">0.00</Scarlands>
+        <GlacialPlain MayRequire="Ludeon.RimWorld.Odyssey">0.00</GlacialPlain>
       </wildBiomes>
       <lifeStageAges>
         <li>

@@ -47,6 +47,11 @@
         <TemperateSwamp>0</TemperateSwamp>
         <ColdBog>0</ColdBog>
         <TropicalSwamp>0</TropicalSwamp>
+        <Grasslands MayRequire="Ludeon.RimWorld.Odyssey">0.2</Grasslands>
+        <Glowforest MayRequire="Ludeon.RimWorld.Odyssey">0.02</Glowforest>
+        <LavaField MayRequire="Ludeon.RimWorld.Odyssey">0.0</LavaField>
+        <Scarlands MayRequire="Ludeon.RimWorld.Odyssey">0.0</Scarlands>
+        <GlacialPlain MayRequire="Ludeon.RimWorld.Odyssey">0.0</GlacialPlain>
       </wildBiomes>
       <lifeStageAges>
         <li>
