@@ -167,7 +167,7 @@
           </shadowData>
         </bodyGraphicData>
         <femaleGraphicData>
-          <texPath>Things/Pawn/Animal/Demon/MMG_MMG_impmotherbaby</texPath>
+          <texPath>Things/Pawn/Animal/Demon/MMG_impmotherbaby</texPath>
           <drawSize>0.8</drawSize>
           <color>(220,220,220)</color>
           <shadowData>
