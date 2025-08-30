@@ -169,11 +169,11 @@
         <label>kit</label>
         <labelPlural>kits</labelPlural>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Foxgirl/foxgirl_m</texPath>
+          <texPath>Things/Pawn/Animal/Foxgirl/MMG_foxgirl_m</texPath>
           <drawSize>0.6</drawSize>
         </bodyGraphicData>
         <femaleGraphicData>
-          <texPath>Things/Pawn/Animal/Foxgirl/foxgirl_f</texPath>
+          <texPath>Things/Pawn/Animal/Foxgirl/MMG_foxgirl_f</texPath>
           <drawSize>0.6</drawSize>
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
@@ -186,11 +186,11 @@
 		<labelMale>todd</labelMale>
 		<labelFemale>vixen</labelFemale>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Foxgirl/foxgirl_m</texPath>
+          <texPath>Things/Pawn/Animal/Foxgirl/MMG_foxgirl_m</texPath>
           <drawSize>1.1</drawSize>
         </bodyGraphicData>
         <femaleGraphicData>
-          <texPath>Things/Pawn/Animal/Foxgirl/foxgirl_f</texPath>
+          <texPath>Things/Pawn/Animal/Foxgirl/MMG_foxgirl_f</texPath>
           <drawSize>1.05</drawSize>
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
@@ -203,11 +203,11 @@
 		<labelMale>todd</labelMale>
 		<labelFemale>vixen</labelFemale>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Foxgirl/foxgirl_m</texPath>
+          <texPath>Things/Pawn/Animal/Foxgirl/MMG_foxgirl_m</texPath>
           <drawSize>1.5</drawSize>
         </bodyGraphicData>
         <femaleGraphicData>
-          <texPath>Things/Pawn/Animal/Foxgirl/foxgirl_f</texPath>
+          <texPath>Things/Pawn/Animal/Foxgirl/MMG_foxgirl_f</texPath>
           <drawSize>1.45</drawSize>
         </femaleGraphicData>
         <dessicatedBodyGraphicData>

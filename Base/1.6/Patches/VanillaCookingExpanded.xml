@@ -306,8 +306,6 @@
 							<allowExtractAtCurrentQuality>true</allowExtractAtCurrentQuality>
 							<autoExtract>false</autoExtract>
 						</PipeSystem.ProcessDef>
-					</value>
-				</li>
 				
 				<!-- Foxgirl Milk -->
 						<PipeSystem.ProcessDef>
