@@ -21,6 +21,7 @@ namespace monstergirlsbase
         public static ThingDef MMG_ImpmotherMilk;
         public static ThingDef MMG_DragonMilk;
         public static ThingDef MMG_BaphometMilk;
+        public static ThingDef MMG_FoxgirlMilk;
         public static ThingDef MMG_ThrumbogirlMilk;
     }
 
@@ -48,6 +49,7 @@ namespace monstergirlsbase
                 DefDatabase<ThingDef>.GetNamed("MMG_Dragongirl").GetCompProperties<CompProperties_Milkable>().milkDef = MilkDefOf.MMG_DragonMilk;
                 DefDatabase<ThingDef>.GetNamed("MMG_Dryad").GetCompProperties<CompProperties_Milkable>().milkDef = MilkDefOf.MMG_DryadMilk;
                 DefDatabase<ThingDef>.GetNamed("MMG_Baphomet").GetCompProperties<CompProperties_Milkable>().milkDef = MilkDefOf.MMG_BaphometMilk;
+                DefDatabase<ThingDef>.GetNamed("MMG_Foxgirl").GetCompProperties<CompProperties_Milkable>().milkDef = MilkDefOf.MMG_FoxgirlMilk;
                 DefDatabase<ThingDef>.GetNamed("MMG_Thrumbomorph").GetCompProperties<CompProperties_Milkable>().milkDef = MilkDefOf.MMG_ThrumbogirlMilk;
             }
             else
@@ -58,6 +60,7 @@ namespace monstergirlsbase
                 DefDatabase<ThingDef>.GetNamed("MMG_Dragongirl").GetCompProperties<CompProperties_Milkable>().milkDef = MilkDefOf.Milk;
                 DefDatabase<ThingDef>.GetNamed("MMG_Dryad").GetCompProperties<CompProperties_Milkable>().milkDef = MilkDefOf.Milk;
                 DefDatabase<ThingDef>.GetNamed("MMG_Baphomet").GetCompProperties<CompProperties_Milkable>().milkDef = MilkDefOf.Milk;
+                DefDatabase<ThingDef>.GetNamed("MMG_Foxgirl").GetCompProperties<CompProperties_Milkable>().milkDef = MilkDefOf.Milk;
                 DefDatabase<ThingDef>.GetNamed("MMG_Thrumbomorph").GetCompProperties<CompProperties_Milkable>().milkDef = MilkDefOf.Milk;
             }
         }

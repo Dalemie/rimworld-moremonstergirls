@@ -22,6 +22,7 @@
 							<li>MMG_Impmother</li>
 							<li>MMG_Thrumbomorph</li>
 							<li>MMG_Baphomet</li>
+							<li>MMG_Foxgirl</li>
                         </pawnKindDefs>
                         <subNodes>
                             <li Class="monstergirls.ThinkNode_ConditionalPawnMatchesAnyDef">
@@ -37,6 +38,7 @@
 									<li>MMG_Impmother</li>
 									<li>MMG_Thrumbomorph</li>
 									<li>MMG_Baphomet</li>
+									<li>MMG_Foxgirl</li>
                                 </defs>
                                 <subNodes>
                                     <li Class="monstergirls.JobGiver_GenericWorkGiver">

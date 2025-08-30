@@ -240,7 +240,7 @@
 				<!-- Dragon Milk -->
 						<PipeSystem.ProcessDef>
 							<defName>VCE_DragongirlMilkIntoCheese</defName>
-							<label>Baphomet Milk into cheese</label>
+							<label>Dragongirl Milk into cheese</label>
 							<description>Turns 50 dragon milk into 25 cheese.</description>
 							<labelOverride>Turn 50 dragon milk into 25 cheese.</labelOverride>
 							<priorityInBillList>4</priorityInBillList>
@@ -308,6 +308,43 @@
 						</PipeSystem.ProcessDef>
 					</value>
 				</li>
+				
+				<!-- Foxgirl Milk -->
+						<PipeSystem.ProcessDef>
+							<defName>VCE_FoxgirlMilkIntoCheese</defName>
+							<label>Foxgirl Milk into cheese</label>
+							<description>Turns 50 foxgirl milk into 25 cheese.</description>
+							<labelOverride>Turn 50 foxgirl milk into 25 cheese.</labelOverride>
+							<priorityInBillList>4</priorityInBillList>
+							<useIngredients>true</useIngredients>
+							<spawnOnInteractionCell>true</spawnOnInteractionCell>
+							<ingredients>
+								<li>
+									<thing>MMG_FoxgirlMilk</thing>
+									<countNeeded>50</countNeeded>
+								</li>
+							</ingredients>
+							<ticksQuality>
+								<li>600000</li>
+								<li>900000</li>
+								<li>1500000</li>
+								<li>2100000</li>
+								<li>2400000</li>
+								<li>2700000</li>
+								<li>4500000</li>
+							</ticksQuality>
+							<results>
+								<li>
+									<thing>VCE_MonsterGirlCheese</thing>
+									<count>25</count>
+								</li>
+							</results>
+							<stopAtQuality>true</stopAtQuality>
+							<allowExtractAtCurrentQuality>true</allowExtractAtCurrentQuality>
+							<autoExtract>false</autoExtract>
+						</PipeSystem.ProcessDef>
+					</value>
+				</li>
 
 				<li Class="PatchOperationAdd">
 					<xpath>Defs/ThingDef[defName= "VCE_CheesePress"]/comps/li[@Class="PipeSystem.CompProperties_AdvancedResourceProcessor"]/processes</xpath>
@@ -319,6 +356,7 @@
 						<li>VCE_ImpmotherMilkIntoCheese</li>
 						<li>VCE_DragongirlMilkIntoCheese</li>
 						<li>VCE_BaphometMilkIntoCheese</li>
+						<li>VCE_FoxgirlMilkIntoCheese</li>
 					</value>
 				</li>
 			</operations>

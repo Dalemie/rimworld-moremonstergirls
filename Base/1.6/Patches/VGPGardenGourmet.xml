@@ -17,6 +17,7 @@
 						<li>MMG_ImpmotherMilk</li>
 						<li>MMG_DragonMilk</li>
 						<li>MMG_BaphometMilk</li>
+						<li>MMG_FoxgirlMilk</li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
@@ -29,6 +30,7 @@
 						<li>MMG_ImpmotherMilk</li>
 						<li>MMG_DragonMilk</li>
 						<li>MMG_BaphometMilk</li>
+						<li>MMG_FoxgirlMilk</li>
 					</value>
 				</li>
 			</operations>
