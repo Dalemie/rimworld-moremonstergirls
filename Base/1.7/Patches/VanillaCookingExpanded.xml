@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Cooking Expanded</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<!-- Monster Girl Cheese -->
+				<li Class="PatchOperationAdd"> 
+					<success>Always</success>
+					<xpath>/Defs</xpath>
+					<value>
+						<ThingDef ParentName="MealBase">
+							<defName>VCE_MonsterGirlCheese</defName>
+							<label>monster girl cheese</label>
+							<description>A delicious cheese extracted from milk created by monster girl. What a mythical taste!</description>
+							<graphicData>
+								<texPath>Things/Item/Cheese/MMG_Cheese</texPath>
+								<graphicClass>Graphic_StackCount</graphicClass>
+							</graphicData>
+							<tradeability>Sellable</tradeability>
+							<stackLimit>75</stackLimit>
+							<statBases>
+								<MarketValue>10</MarketValue>
+								<Nutrition>0.15</Nutrition>
+
+							</statBases>
+							<thingCategories>
+								<li>VCE_Cheese</li>
+							</thingCategories>
+							<ingestible>
+								<preferability>MealLavish</preferability>
+								<ingestEffect>EatMeat</ingestEffect>
+								<ingestSound>Meal_Eat</ingestSound>
+								<maxNumToIngestAtOnce>7</maxNumToIngestAtOnce>
+
+
+							</ingestible>
+							<comps>
+								<li Class="CompProperties_Rottable">
+									<daysToRotStart>80</daysToRotStart>
+									<rotDestroys>true</rotDestroys>
+								</li>
+								<li>
+									<compClass>CompQuality</compClass>
+								</li>
+								<li Class="VEF.Cooking.CompProperties_StackByQuality"/>
+								<li Class="VEF.Cooking.CompProperties_IngestedThoughtFromQuality">
+									<ingestedThought>VCE_AteCheese</ingestedThought>
+								</li>
+							</comps>
+						</ThingDef>
+					</value>
+				</li>
+
+				<!-- Centaur Milk -->
+				<li Class="PatchOperationAdd"> 
+					<success>Always</success>
+					<xpath>/Defs</xpath>
+					<value>
+						<PipeSystem.ProcessDef>
+							<defName>VCE_CentaurMilkIntoCheese</defName>
+							<label>Centaur Milk into cheese</label>
+							<description>Turns 50 centaur milk into 25 cheese.</description>
+							<labelOverride>Turn 50 centaur milk into 25 cheese.</labelOverride>
+							<priorityInBillList>4</priorityInBillList>
+							<useIngredients>true</useIngredients>
+							<spawnOnInteractionCell>true</spawnOnInteractionCell>
+							<ingredients>
+								<li>
+									<thing>MMG_CentaurMilk</thing>
+									<countNeeded>50</countNeeded>
+								</li>
+							</ingredients>
+							<ticksQuality>
+								<li>600000</li>
+								<li>900000</li>
+								<li>1500000</li>
+								<li>2100000</li>
+								<li>2400000</li>
+								<li>2700000</li>
+								<li>4500000</li>
+							</ticksQuality>
+							<results>
+								<li>
+									<thing>VCE_MonsterGirlCheese</thing>
+									<count>25</count>
+								</li>
+							</results>
+							<stopAtQuality>true</stopAtQuality>
+							<allowExtractAtCurrentQuality>true</allowExtractAtCurrentQuality>
+							<autoExtract>false</autoExtract>
+						</PipeSystem.ProcessDef>
+
+				<!-- Cowgirl Milk -->
+						<PipeSystem.ProcessDef>
+							<defName>VCE_CowgirlMilkIntoCheese</defName>
+							<label>Cowgirl Milk into cheese</label>
+							<description>Turns 50 cowgirl milk into 25 cheese.</description>
+							<labelOverride>Turn 50 cowgirl milk into 25 cheese.</labelOverride>
+							<priorityInBillList>4</priorityInBillList>
+							<useIngredients>true</useIngredients>
+							<spawnOnInteractionCell>true</spawnOnInteractionCell>
+							<ingredients>
+								<li>
+									<thing>MMG_CowgirlMilk</thing>
+									<countNeeded>50</countNeeded>
+								</li>
+							</ingredients>
+							<ticksQuality>
+								<li>600000</li>
+								<li>900000</li>
+								<li>1500000</li>
+								<li>2100000</li>
+								<li>2400000</li>
+								<li>2700000</li>
+								<li>4500000</li>
+							</ticksQuality>
+							<results>
+								<li>
+									<thing>VCE_MonsterGirlCheese</thing>
+									<count>25</count>
+								</li>
+							</results>
+							<stopAtQuality>true</stopAtQuality>
+							<allowExtractAtCurrentQuality>true</allowExtractAtCurrentQuality>
+							<autoExtract>false</autoExtract>
+						</PipeSystem.ProcessDef>
+				
+				<!-- Dryad Milk -->
+						<PipeSystem.ProcessDef>
+							<defName>VCE_DryadMilkIntoCheese</defName>
+							<label>Dryad Milk into cheese</label>
+							<description>Turns 50 dryad milk into 25 cheese.</description>
+							<labelOverride>Turn 50 dryad milk into 25 cheese.</labelOverride>
+							<priorityInBillList>4</priorityInBillList>
+							<useIngredients>true</useIngredients>
+							<spawnOnInteractionCell>true</spawnOnInteractionCell>
+							<ingredients>
+								<li>
+									<thing>MMG_DryadMilk</thing>
+									<countNeeded>50</countNeeded>
+								</li>
+							</ingredients>
+							<ticksQuality>
+								<li>600000</li>
+								<li>900000</li>
+								<li>1500000</li>
+								<li>2100000</li>
+								<li>2400000</li>
+								<li>2700000</li>
+								<li>4500000</li>
+							</ticksQuality>
+							<results>
+								<li>
+									<thing>VCE_MonsterGirlCheese</thing>
+									<count>25</count>
+								</li>
+							</results>
+							<stopAtQuality>true</stopAtQuality>
+							<allowExtractAtCurrentQuality>true</allowExtractAtCurrentQuality>
+							<autoExtract>false</autoExtract>
+						</PipeSystem.ProcessDef>
+				
+				<!-- Thrumbogirl Milk -->
+						<PipeSystem.ProcessDef>
+							<defName>VCE_ThumbrogirlMilkIntoCheese</defName>
+							<label>Thrumbogirl Milk into cheese</label>
+							<description>Turns 50 thrumbo milk into 25 cheese.</description>
+							<labelOverride>Turn 50 thrumbo milk into 25 cheese.</labelOverride>
+							<priorityInBillList>4</priorityInBillList>
+							<useIngredients>true</useIngredients>
+							<spawnOnInteractionCell>true</spawnOnInteractionCell>
+							<ingredients>
+								<li>
+									<thing>MMG_ThrumbogirlMilk</thing>
+									<countNeeded>50</countNeeded>
+								</li>
+							</ingredients>
+							<ticksQuality>
+								<li>600000</li>
+								<li>900000</li>
+								<li>1500000</li>
+								<li>2100000</li>
+								<li>2400000</li>
+								<li>2700000</li>
+								<li>4500000</li>
+							</ticksQuality>
+							<results>
+								<li>
+									<thing>VCE_MonsterGirlCheese</thing>
+									<count>25</count>
+								</li>
+							</results>
+							<stopAtQuality>true</stopAtQuality>
+							<allowExtractAtCurrentQuality>true</allowExtractAtCurrentQuality>
+							<autoExtract>false</autoExtract>
+						</PipeSystem.ProcessDef>
+
+				<!-- Impmother Milk -->
+						<PipeSystem.ProcessDef>
+							<defName>VCE_ImpmotherMilkIntoCheese</defName>
+							<label>Impmother Milk into cheese</label>
+							<description>Turns 50 imp milk into 25 cheese.</description>
+							<labelOverride>Turn 50 imp milk into 25 cheese.</labelOverride>
+							<priorityInBillList>4</priorityInBillList>
+							<useIngredients>true</useIngredients>
+							<spawnOnInteractionCell>true</spawnOnInteractionCell>
+							<ingredients>
+								<li>
+									<thing>MMG_ImpmotherMilk</thing>
+									<countNeeded>50</countNeeded>
+								</li>
+							</ingredients>
+							<ticksQuality>
+								<li>600000</li>
+								<li>900000</li>
+								<li>1500000</li>
+								<li>2100000</li>
+								<li>2400000</li>
+								<li>2700000</li>
+								<li>4500000</li>
+							</ticksQuality>
+							<results>
+								<li>
+									<thing>VCE_MonsterGirlCheese</thing>
+									<count>25</count>
+								</li>
+							</results>
+							<stopAtQuality>true</stopAtQuality>
+							<allowExtractAtCurrentQuality>true</allowExtractAtCurrentQuality>
+							<autoExtract>false</autoExtract>
+						</PipeSystem.ProcessDef>
+				
+				<!-- Dragon Milk -->
+						<PipeSystem.ProcessDef>
+							<defName>VCE_DragongirlMilkIntoCheese</defName>
+							<label>Dragongirl Milk into cheese</label>
+							<description>Turns 50 dragon milk into 25 cheese.</description>
+							<labelOverride>Turn 50 dragon milk into 25 cheese.</labelOverride>
+							<priorityInBillList>4</priorityInBillList>
+							<useIngredients>true</useIngredients>
+							<spawnOnInteractionCell>true</spawnOnInteractionCell>
+							<ingredients>
+								<li>
+									<thing>MMG_DragonMilk</thing>
+									<countNeeded>50</countNeeded>
+								</li>
+							</ingredients>
+							<ticksQuality>
+								<li>600000</li>
+								<li>900000</li>
+								<li>1500000</li>
+								<li>2100000</li>
+								<li>2400000</li>
+								<li>2700000</li>
+								<li>4500000</li>
+							</ticksQuality>
+							<results>
+								<li>
+									<thing>VCE_MonsterGirlCheese</thing>
+									<count>25</count>
+								</li>
+							</results>
+							<stopAtQuality>true</stopAtQuality>
+							<allowExtractAtCurrentQuality>true</allowExtractAtCurrentQuality>
+							<autoExtract>false</autoExtract>
+						</PipeSystem.ProcessDef>
+				
+				<!-- Baphomet Milk -->
+						<PipeSystem.ProcessDef>
+							<defName>VCE_BaphometMilkIntoCheese</defName>
+							<label>Baphomet Milk into cheese</label>
+							<description>Turns 50 baphomet milk into 25 cheese.</description>
+							<labelOverride>Turn 50 baphomet milk into 25 cheese.</labelOverride>
+							<priorityInBillList>4</priorityInBillList>
+							<useIngredients>true</useIngredients>
+							<spawnOnInteractionCell>true</spawnOnInteractionCell>
+							<ingredients>
+								<li>
+									<thing>MMG_BaphometMilk</thing>
+									<countNeeded>50</countNeeded>
+								</li>
+							</ingredients>
+							<ticksQuality>
+								<li>600000</li>
+								<li>900000</li>
+								<li>1500000</li>
+								<li>2100000</li>
+								<li>2400000</li>
+								<li>2700000</li>
+								<li>4500000</li>
+							</ticksQuality>
+							<results>
+								<li>
+									<thing>VCE_MonsterGirlCheese</thing>
+									<count>25</count>
+								</li>
+							</results>
+							<stopAtQuality>true</stopAtQuality>
+							<allowExtractAtCurrentQuality>true</allowExtractAtCurrentQuality>
+							<autoExtract>false</autoExtract>
+						</PipeSystem.ProcessDef>
+				
+				<!-- Foxgirl Milk -->
+						<PipeSystem.ProcessDef>
+							<defName>VCE_FoxgirlMilkIntoCheese</defName>
+							<label>Foxgirl Milk into cheese</label>
+							<description>Turns 50 foxgirl milk into 25 cheese.</description>
+							<labelOverride>Turn 50 foxgirl milk into 25 cheese.</labelOverride>
+							<priorityInBillList>4</priorityInBillList>
+							<useIngredients>true</useIngredients>
+							<spawnOnInteractionCell>true</spawnOnInteractionCell>
+							<ingredients>
+								<li>
+									<thing>MMG_FoxgirlMilk</thing>
+									<countNeeded>50</countNeeded>
+								</li>
+							</ingredients>
+							<ticksQuality>
+								<li>600000</li>
+								<li>900000</li>
+								<li>1500000</li>
+								<li>2100000</li>
+								<li>2400000</li>
+								<li>2700000</li>
+								<li>4500000</li>
+							</ticksQuality>
+							<results>
+								<li>
+									<thing>VCE_MonsterGirlCheese</thing>
+									<count>25</count>
+								</li>
+							</results>
+							<stopAtQuality>true</stopAtQuality>
+							<allowExtractAtCurrentQuality>true</allowExtractAtCurrentQuality>
+							<autoExtract>false</autoExtract>
+						</PipeSystem.ProcessDef>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName= "VCE_CheesePress"]/comps/li[@Class="PipeSystem.CompProperties_AdvancedResourceProcessor"]/processes</xpath>
+					<value>
+						<li>VCE_CentaurMilkIntoCheese</li>
+						<li>VCE_CowgirlMilkIntoCheese</li>
+						<li>VCE_DryadMilkIntoCheese</li>
+						<li>VCE_ThumbrogirlMilkIntoCheese</li>
+						<li>VCE_ImpmotherMilkIntoCheese</li>
+						<li>VCE_DragongirlMilkIntoCheese</li>
+						<li>VCE_BaphometMilkIntoCheese</li>
+						<li>VCE_FoxgirlMilkIntoCheese</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+
+</Patch>
+

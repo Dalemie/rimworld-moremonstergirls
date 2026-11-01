@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!-- Centaur -->
+	<Operation Class="PatchOperationRemove"> 
+		<xpath>/Defs/ThingDef[defName="MMG_Centaur"]/race/roamMtbDays</xpath>
+	</Operation>
+
+	<!-- Cowgirl -->
+	<Operation Class="PatchOperationRemove"> 
+		<xpath>/Defs/ThingDef[defName="MMG_Cowgirl"]/race/roamMtbDays</xpath>
+	</Operation>
+	
+	<!-- Dryad -->
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="MMG_Dryad"]/race/roamMtbDays</xpath>
+	</Operation>
+</Patch>
+
