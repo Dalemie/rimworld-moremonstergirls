@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>monstergirls</RootNamespace>
+    <TargetFramework>net10.0</TargetFramework>
+    <AssemblyName>$(MSBuildProjectName)base</AssemblyName>
+    <AssemblyTitle>monstergirlsbase</AssemblyTitle>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>..\..\1.7\Assemblies\</OutputPath>
+	<GenerateDependencyFile>false</GenerateDependencyFile>
+	<DebugType>embedded</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+	<OutputPath>..\..\1.7\Assemblies\</OutputPath>
+	<GenerateDependencyFile>false</GenerateDependencyFile>
+	<DebugType>embedded</DebugType>
+  </PropertyGroup>
+	
+  <PropertyGroup>
+	<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+	<AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+	<Version>1.7.0.0</Version>
+	<AssemblyVersion>$(Version)</AssemblyVersion>
+	<FileVersion>$(Version)</FileVersion>
+  </PropertyGroup>
+	
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Assembly-CSharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityStubs">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\UnityStubs.dll</HintPath>
+	  <Private>False</Private>
+    </Reference>
+    <Reference Include="Waylith">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Waylith.dll</HintPath>
+	  <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+
+</Project>
